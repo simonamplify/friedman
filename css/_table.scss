@@ -1,0 +1,56 @@
+.table {
+    //// Add .table class to apply table container styles
+    margin: auto;
+    display: block;
+    border-top: dotted 1px $grey;
+    .tableRow {
+        //// Add .tableRow to apply table row styles
+        display: flex;
+        align-content: flex-start;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        border-bottom: dotted 1px $grey;
+        @media (max-width:767px) {
+            flex-wrap: wrap;
+            padding: 5px 0;
+        }
+        &:nth-child(odd) {
+            background-color: $lgrey;
+        }
+        .tableCell {
+            //// Add .tableCell to apply table cell styles within a table row
+            padding: 10px 15px;
+            flex-basis: 0;
+            flex-grow: 1;
+            &.cellGrow2 {
+                //// Combine with .tableCell class for cell width to double (if possible)
+                flex-grow: 2;
+            }
+            &.cellGrow3 {
+                //// Combine with .tableCell class for cell width to treble (if possible)
+                flex-grow: 3;
+            }
+            &.cellGrow4 {
+                //// Combine with .tableCell class for cell width to quadruple (if possible)
+                flex-grow: 4;
+            }
+            @media (max-width:767px) {
+                //// Set table cell to full width on mobile
+                flex-basis: auto;
+                width: 100%;
+                text-align: left!important;
+                padding: 5px 15px;
+            }
+        }
+        &.tableHeader {
+            //// Combine with .tableRow class on first div to apply table header row styles
+            // Table header cells are hidden on mobile because the content stacks
+            background-color: $primary1;
+            .tableCell {
+                color: $white;
+            }
+        }
+    }
+}

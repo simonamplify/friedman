@@ -1,0 +1,255 @@
+////////////////////////////////////////////
+// Header
+////////////////////////////////////////////
+header {
+    //font-family: 'Agency FB', sans-serif;
+    .et_pb_menu {
+        .et_pb_menu__logo {
+            position: relative;
+            img {
+                @include ease2();
+                &:hover {
+                    filter: brightness(1.3);
+                }
+            }
+        }
+        @media (max-width:980px) {
+            .et_pb_menu__logo-wrap {
+                //padding-left: 5%;
+            }
+            .et_pb_menu__wrap {
+                //padding-right: 5%;
+            }
+        }
+        &.faMenu{
+            .et-menu-nav {
+                ul.et-menu {
+                    li.menu-item {
+                        a {
+                            position: relative;
+                            ////font-family: 'Agency FB', sans-serif;
+                            @include ease2();
+                            z-index: 1;
+                            &:hover, &:focus {
+                                background-color: transparent;
+                                opacity: 1;
+                                color: $white!important;
+                            }
+                        }
+                        .sub-menu {
+                            //width: 320px;
+                            width: auto;
+                            display: flex;
+                            flex-direction: column;
+                            right: 0;
+                            left: unset;
+                            li.menu-item {
+                                float: left;
+                                a {
+                                    padding: 0;
+                                    margin: 6px 20px;
+                                    //display: inline-block;
+                                    display: block;
+                                    width: auto;
+                                    min-width: 200px;
+                                    white-space: nowrap;
+                                    text-align: left;
+                                    &::before {
+                                        bottom: 4px;
+                                        transform: translateY(0);
+                                    }
+                                }
+                                &.menu-item-has-children {
+                                    > a {
+                                        position: relative;
+                                        &::after {
+                                            @include vertCenter; 
+                                            right: -25px;
+                                            line-height: 0;
+                                            transition: all 0.2s ease-in-out;
+                                        }
+                                        
+                                    }
+                                    &:hover {
+                                        > a {
+                                            &::after {
+                                                transform: rotate(180deg);
+                                            }
+                                        }
+                                    }
+                                }
+                                .sub-menu {
+                                    right: unset;
+                                    left: 20%;
+                                    top: 100%;
+                                }
+                            }
+                        }
+                        &.current-menu-item, &.current-menu-ancestor, &.current-menu-parent {
+                            > a {
+                                color: $white!important;
+                            }
+                        }
+                        &.twoCol {
+                            > .sub-menu {
+                                width: 640px;
+                                display: flex;
+                                flex-direction: row;
+                                flex-wrap: wrap;
+                                align-content: stretch;
+                                justify-content: flex-start;
+                                align-items: stretch;
+                                > li {
+                                    width: 50%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .et_mobile_nav_menu {
+                .mobile_nav {
+                    .et_divi_100_custom_hamburger_menu__icon {
+                        margin-bottom: 0;
+                        padding-left: 0;
+                        padding-right: 0;
+                    }
+                    ul.et_mobile_menu {
+                        box-shadow: none;
+                        padding-left: 0;
+                        padding-right: 0;
+                        @media (hover: none) {
+                            max-height: 600px;
+                            max-height: 85vh;
+                            max-height: calc(100vh - 80px);
+                            overflow-y: scroll;
+                        }
+                        li.menu-item {
+                            text-align: left;
+                            a {
+                                //font-family: 'Agency FB', sans-serif;
+                                border: none;
+                                padding: 0;
+                                margin: 10px 5%;
+                                width: auto;
+                                display: inline-block;
+                                position: relative;
+                                @include ease2();
+                                z-index: 1;
+                                text-align: left;
+                                &:hover, &:active, &:focus {
+                                    background-color: transparent;
+                                    opacity: 1;
+                                }
+                            }
+                            &.menu-item-has-children {
+                                > ul.sub-menu {
+                                    padding-left: 20px;
+                                }
+                                > a {
+                                    background-color: transparent;
+                                    position: relative;
+                                    font-weight: normal;
+                                    &::after {
+                                        font-family: 'ETmodules'; 
+                                        text-align: center; 
+                                        speak: none; 
+                                        font-weight: normal; 
+                                        font-variant: normal; 
+                                        text-transform: none; 
+                                        -webkit-font-smoothing: antialiased; 
+                                        font-size: 16px; 
+                                        content: '\33'; 
+                                        @include vertCenter; 
+                                        right: -25px;
+                                        line-height: 0;
+                                        transform-origin: center;
+                                        transition: all 0.2s ease-in-out;
+                                    }
+                                }
+                                ul.sub-menu {
+                                    display: none !important; 
+                                    visibility: hidden !important;  
+                                }
+                                &.visible {
+                                    > a {
+                                        &::after {
+                                            transform: rotate(180deg);
+                                        }
+                                    }
+                                    > {
+                                        ul.sub-menu {
+                                            display: block !important; 
+                                            visibility: visible !important;
+                                        }
+                                    }
+                                }
+                            }
+                            &.contact {
+                                margin-left: 5%;
+                                margin-right: 5%;
+                                a {
+                                    margin-top: 10px;
+                                    padding: 5px 5%;
+                                    border: solid 2px;
+                                    display: inline-block;
+                                } 
+                            }
+                            &.current-menu-item, &.current-menu-ancestor, &.current-menu-parent {
+                                > a {
+                                    color: $white!important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .menuSearch {
+        display: none;
+        .dgwt-wcas-search-form {
+            .dgwt-wcas-search-input {
+                border-radius: 100px;
+                @include ease2;
+                &::placeholder {
+                    color: $grey;
+                    font-style: normal;
+                }
+                &:focus {
+                    border-color: $grey;
+                }
+            }
+        }
+    }
+    .menuSearchBtn {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
+        background: $black;
+        color: $white;
+        padding: 2px 10px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: normal;
+        font-size: 16px;
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+        cursor: pointer;
+        @include ease2();
+        @include boxShadow();
+        right: 0;
+        .material-icons {
+            font-size: 20px;
+            padding-right: 5px;
+        }
+        @media (hover: hover) { 
+            &:hover {
+                background: $white;
+                color: $black;
+            }
+        }
+    }
+}

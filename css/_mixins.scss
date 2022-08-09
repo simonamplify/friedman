@@ -1,0 +1,56 @@
+////////////////////////////////////////////
+// Mixins
+////////////////////////////////////////////
+@mixin ease5 {
+    transition: all 0.5s ease-in-out;
+}
+@mixin ease2 {
+    transition: all 0.2s ease-in-out;
+}
+@mixin vertCenter {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+@mixin horCenter {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+@mixin absCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@mixin fixedCenter {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@mixin boxShadow {
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.05);
+}
+@mixin textTwoCol {
+    @media (min-width: 768px) {
+        column-count: 2;
+        column-gap: 10%;
+        p {
+            -webkit-column-break-inside: avoid;
+            page-break-inside: avoid;
+                break-inside: avoid;
+        }
+    }
+}
+@mixin textThreeCol {
+    @media (min-width: 768px) {
+        column-count: 3;
+        column-gap: 10%;
+        p {
+            -webkit-column-break-inside: avoid;
+            page-break-inside: avoid;
+                break-inside: avoid;
+        }
+    }
+}

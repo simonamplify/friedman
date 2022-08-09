@@ -1,0 +1,133 @@
+////////////////////////////////////////////
+// Footer
+////////////////////////////////////////////
+footer {
+    background-color: $black;
+    //background-image: url(/wp-content/uploads/2021/10/scratch-bg.png)!important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    h4 {
+        font-weight: 400;
+    }
+    a {
+        color: $grey;
+        @include ease2();
+        &:hover {
+            color: $white;
+        }
+    }
+    .widget_nav_menu {
+        margin-bottom: 0;
+        @media (max-width:980px) {
+            margin-bottom: 50px;
+            &:nth-child(3), &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        @media (max-width:980px) {
+            &:nth-child(3) {
+                margin-bottom: 50px;
+            }
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        ul {
+            li {
+                margin-bottom: 5px;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+    .et_pb_newsletter {
+        .et_pb_newsletter_form {
+            .input {
+                @include ease2();
+                &:focus {
+                    backdrop-filter: blur(4px);
+                }
+            }
+            .et_pb_newsletter_button_wrap {
+                .et_pb_newsletter_button {
+                    padding: 0em 1em !important;
+                    &:hover {
+                        padding: 0em 1em !important;
+                    }
+                }
+            }
+        }
+    }
+    .contactDetails{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-content: stretch;
+        align-items: stretch;
+        color: $white;
+        .contactItem {
+            padding: 0 25px 20px 30px;
+            position: relative;
+            i {
+                color: $primary1;
+                position: absolute;
+                left: 0;
+                top: 5px;
+            }
+        }
+        strong {
+            color: $white;
+            font-weight: normal;
+        }
+    }
+    .footerBar {
+        //font-family: 'agency fb', sans-serif;
+        letter-spacing: 0.5px;
+        a {
+            color: $grey;
+            text-decoration: none;
+            transition: color 0.4s linear;
+            &:hover {
+                color: $white;
+            }
+        }
+        .amplify {
+            .et_pb_text_inner {
+                display: inline-block;
+            }
+            a {
+                padding-right: 37px;
+                position: relative;
+                &::after  {
+                    content: "";
+                    right: 0;
+                    display: block;
+                    height: 30px;
+                    width: 32px;
+                    @include vertCenter();
+                    background: url(/wp-content/uploads/2022/08/amplify-creative-glyph-animated.svg) no-repeat;
+                    background-size: contain;
+                }
+            }
+        }
+    }
+    
+    .et_pb_social_media_follow {
+        &.faSocialFooter {
+            .et_pb_social_icon {
+                margin-bottom: 20px;
+                .icon {
+                    margin-right: 20px;
+                }
+                &:last-child {
+                    .icon {
+                        margin-right: 0;
+                    }
+                }
+            }
+        } 
+     }
+}
