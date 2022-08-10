@@ -57,8 +57,8 @@ body #page-container header .et_pb_menu .et_pb_menu__logo img {
 }
 
 body #page-container header .et_pb_menu .et_pb_menu__logo img:hover {
-  -webkit-filter: brightness(1.3);
-          filter: brightness(1.3);
+  -webkit-filter: brightness(100);
+          filter: brightness(100);
 }
 
 body #page-container header .et_pb_menu.faMenu .et-menu-nav ul.et-menu li.menu-item a {
@@ -72,6 +72,25 @@ body #page-container header .et_pb_menu.faMenu .et-menu-nav ul.et-menu li.menu-i
   background-color: transparent;
   opacity: 1;
   color: #ffffff !important;
+}
+
+body #page-container header .et_pb_menu.faMenu .et-menu-nav ul.et-menu li.menu-item.menu-item-has-children > a {
+  position: relative;
+}
+
+body #page-container header .et_pb_menu.faMenu .et-menu-nav ul.et-menu li.menu-item.menu-item-has-children > a::after {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  line-height: 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+body #page-container header .et_pb_menu.faMenu .et-menu-nav ul.et-menu li.menu-item.menu-item-has-children:hover > a::after {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 
 body #page-container header .et_pb_menu.faMenu .et-menu-nav ul.et-menu li.menu-item .sub-menu {
@@ -449,9 +468,10 @@ body #page-container #et-main-area .et_pb_text.et_pb_bg_layout_dark strong {
 
 body #page-container #et-main-area .et_pb_button_module_wrapper .et_pb_button, body #page-container #et-main-area .et_pb_button_module_wrapper .et_button_no_icon.et_button_icon_visible.et_button_left .et_pb_button, body #page-container #et-main-area .et_button_no_icon .et_pb_button, body #page-container #et-main-area .et_pb_contact_submit {
   padding: 0.5em 1.5em 0.3em 1.5em !important;
-  /*&:hover {
-                    padding: 0em 1em !important;
-                }*/
+}
+
+body #page-container #et-main-area .et_pb_button_module_wrapper .et_pb_button:hover, body #page-container #et-main-area .et_pb_button_module_wrapper .et_button_no_icon.et_button_icon_visible.et_button_left .et_pb_button:hover, body #page-container #et-main-area .et_button_no_icon .et_pb_button:hover, body #page-container #et-main-area .et_pb_contact_submit:hover {
+  padding: 0.5em 1.5em 0.3em 1.5em !important;
 }
 
 body #page-container #et-main-area .socialIcons {
@@ -545,9 +565,10 @@ body #page-container #et-main-area #main-content .cwp_et_pb_layout_slider_standa
 
 body #page-container #et-main-area #main-content .cwp_et_pb_layout_slider_standard .swiper-container .swiper-wrapper .swiper-slide .et_pb_button {
   padding: 0.5em 1.5em 0.3em 1.5em !important;
-  /*&:hover {
-                                        padding: 0em 1em !important;
-                                    }*/
+}
+
+body #page-container #et-main-area #main-content .cwp_et_pb_layout_slider_standard .swiper-container .swiper-wrapper .swiper-slide .et_pb_button:hover {
+  padding: 0.5em 1.5em 0.3em 1.5em !important;
 }
 
 body #page-container #et-main-area #main-content .cwp_et_pb_layout_slider_standard .swiper-container .swiper-wrapper .swiper-slide.swiper-slide-active .et_pb_section .et_pb_column {
@@ -1300,9 +1321,10 @@ body #page-container #et-main-area footer .et_pb_social_media_follow.faSocialFoo
 
 body #page-container .et_pb_login .et_pb_button {
   padding: 0.5em 1.5em 0.3em 1.5em !important;
-  /*&:hover {
-                    padding: 0em 1em !important;
-                }*/
+}
+
+body #page-container .et_pb_login .et_pb_button:hover {
+  padding: 0.5em 1.5em 0.3em 1.5em !important;
 }
 
 body #page-container .et_pb_login .et_pb_forgot_password {
