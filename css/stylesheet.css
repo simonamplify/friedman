@@ -44,6 +44,8 @@ body .et_pb_button_module_wrapper .et_pb_button:hover, body .et_pb_button_module
 
 body #page-container {
   font-weight: 300;
+  -webkit-animation: bodyFadeIn 1.5s;
+          animation: bodyFadeIn 1.5s;
 }
 
 body #page-container header .et_pb_menu .et_pb_menu__logo {
@@ -343,11 +345,6 @@ body #page-container header .menuSearchBtn .material-icons {
     background: #ffffff;
     color: #000000;
   }
-}
-
-body #page-container #et-main-area {
-  -webkit-animation: bodyFadeIn 2s;
-          animation: bodyFadeIn 2s;
 }
 
 @-webkit-keyframes bodyFadeIn {

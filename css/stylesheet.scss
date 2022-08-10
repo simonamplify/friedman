@@ -54,16 +54,16 @@ body {
     #page-container {
         @import 'header';
         font-weight: 300;
-        #et-main-area {
-            animation: bodyFadeIn 2s;
-            @keyframes bodyFadeIn {
-                0% {
-                    opacity: 0;
-                }
-                100% {
-                    opacity: 1;
-                }
+        animation: bodyFadeIn 1.5s;
+        @keyframes bodyFadeIn {
+            0% {
+                opacity: 0;
             }
+            100% {
+                opacity: 1;
+            }
+        }
+        #et-main-area {
             .et_pb_text {
                 &.twoCol {
                     .et_pb_text_inner {
