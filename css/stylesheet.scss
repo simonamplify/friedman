@@ -32,25 +32,18 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    //font-weight: 300;
-    h1, h2, h3, h4, h5, h6 {
-        //font-family: 'agency fb', sans-serif;
-    }
-    h4, h5, h6 {
-        letter-spacing: 1px;
-    }
+    letter-spacing: .02rem;
     .subHeader {
         h2 {
             padding-bottom: 0;
         }
     }
-    .et_pb_button_module_wrapper .et_pb_button, .et_pb_button_module_wrapper .et_button_no_icon.et_button_icon_visible.et_button_left .et_pb_button, .et_button_no_icon .et_pb_button {
-        //font-family: 'agency fb', sans-serif;
+    /*.et_pb_button_module_wrapper .et_pb_button, .et_pb_button_module_wrapper .et_button_no_icon.et_button_icon_visible.et_button_left .et_pb_button, .et_button_no_icon .et_pb_button {
         padding: 0em 1em !important;
         &:hover {
             padding: 0em 1em !important;
         }
-    }
+    }*/
     #page-container {
         @import 'header';
         font-weight: 300;
@@ -137,13 +130,12 @@ body {
                     }
                 }
             }
-            .et_pb_button_module_wrapper .et_pb_button, .et_pb_button_module_wrapper .et_button_no_icon.et_button_icon_visible.et_button_left .et_pb_button, .et_button_no_icon .et_pb_button, .et_pb_contact_submit {
-                //font-family: 'agency fb', sans-serif;
+            /*.et_pb_button_module_wrapper .et_pb_button, .et_pb_button_module_wrapper .et_button_no_icon.et_button_icon_visible.et_button_left .et_pb_button, .et_button_no_icon .et_pb_button, .et_pb_contact_submit {
                 padding: 0em 1em !important;
                 &:hover {
                     padding: 0em 1em !important;
                 }
-            }
+            }*/
             .socialIcons {
                 img {
                     height: 40px;

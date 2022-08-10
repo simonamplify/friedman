@@ -26,20 +26,18 @@ html {
   scroll-behavior: smooth;
 }
 
-body h4, body h5, body h6 {
-  letter-spacing: 1px;
+body {
+  letter-spacing: .02rem;
+  /*.et_pb_button_module_wrapper .et_pb_button, .et_pb_button_module_wrapper .et_button_no_icon.et_button_icon_visible.et_button_left .et_pb_button, .et_button_no_icon .et_pb_button {
+        padding: 0em 1em !important;
+        &:hover {
+            padding: 0em 1em !important;
+        }
+    }*/
 }
 
 body .subHeader h2 {
   padding-bottom: 0;
-}
-
-body .et_pb_button_module_wrapper .et_pb_button, body .et_pb_button_module_wrapper .et_button_no_icon.et_button_icon_visible.et_button_left .et_pb_button, body .et_button_no_icon .et_pb_button {
-  padding: 0em 1em !important;
-}
-
-body .et_pb_button_module_wrapper .et_pb_button:hover, body .et_pb_button_module_wrapper .et_button_no_icon.et_button_icon_visible.et_button_left .et_pb_button:hover, body .et_button_no_icon .et_pb_button:hover {
-  padding: 0em 1em !important;
 }
 
 body #page-container {
@@ -365,6 +363,15 @@ body #page-container header .menuSearchBtn .material-icons {
   }
 }
 
+body #page-container #et-main-area {
+  /*.et_pb_button_module_wrapper .et_pb_button, .et_pb_button_module_wrapper .et_button_no_icon.et_button_icon_visible.et_button_left .et_pb_button, .et_button_no_icon .et_pb_button, .et_pb_contact_submit {
+                padding: 0em 1em !important;
+                &:hover {
+                    padding: 0em 1em !important;
+                }
+            }*/
+}
+
 @media (min-width: 768px) {
   body #page-container #et-main-area .et_pb_text.twoCol .et_pb_text_inner {
     -webkit-column-count: 2;
@@ -447,14 +454,6 @@ body #page-container #et-main-area .et_pb_text ol li ul li::before {
 
 body #page-container #et-main-area .et_pb_text.et_pb_bg_layout_dark strong {
   color: #ffffff;
-}
-
-body #page-container #et-main-area .et_pb_button_module_wrapper .et_pb_button, body #page-container #et-main-area .et_pb_button_module_wrapper .et_button_no_icon.et_button_icon_visible.et_button_left .et_pb_button, body #page-container #et-main-area .et_button_no_icon .et_pb_button, body #page-container #et-main-area .et_pb_contact_submit {
-  padding: 0em 1em !important;
-}
-
-body #page-container #et-main-area .et_pb_button_module_wrapper .et_pb_button:hover, body #page-container #et-main-area .et_pb_button_module_wrapper .et_button_no_icon.et_button_icon_visible.et_button_left .et_pb_button:hover, body #page-container #et-main-area .et_button_no_icon .et_pb_button:hover, body #page-container #et-main-area .et_pb_contact_submit:hover {
-  padding: 0em 1em !important;
 }
 
 body #page-container #et-main-area .socialIcons {
@@ -1329,21 +1328,22 @@ body .et_pb_scroll_top:hover {
   visibility: hidden !important;
 }
 
+.woocommerce-page #page-container #et-main-area #main-content {
+  /*input[type=submit], .button, .et_pb_button {
+                    font-family: 'Agency FB', sans-serif!important;
+                    padding: 0em 1em !important;
+                    font-weight: 700!important;
+                    font-size: 22px!important;
+                    background: transparent!important;
+                    &:hover {
+                        padding: 0em 1em !important;
+                        background: $black!important;
+                    }
+                }*/
+}
+
 .woocommerce-page #page-container #et-main-area #main-content > .container {
   width: 90%;
-}
-
-.woocommerce-page #page-container #et-main-area #main-content input[type=submit], .woocommerce-page #page-container #et-main-area #main-content .button, .woocommerce-page #page-container #et-main-area #main-content .et_pb_button {
-  font-family: "Agency FB", sans-serif !important;
-  padding: 0em 1em !important;
-  font-weight: 700 !important;
-  font-size: 22px !important;
-  background: transparent !important;
-}
-
-.woocommerce-page #page-container #et-main-area #main-content input[type=submit]:hover, .woocommerce-page #page-container #et-main-area #main-content .button:hover, .woocommerce-page #page-container #et-main-area #main-content .et_pb_button:hover {
-  padding: 0em 1em !important;
-  background: #000000 !important;
 }
 
 .woocommerce-page #page-container #et-main-area #main-content .et_pb_wc_breadcrumb a {
@@ -1533,29 +1533,22 @@ body .et_pb_scroll_top:hover {
 .woocommerce-page #page-container #et-main-area #main-content .woocommerce-message, .woocommerce-page #page-container #et-main-area #main-content .woocommerce-info {
   padding-left: 30px !important;
   padding-right: 30px !important;
-}
-
-.woocommerce-page #page-container #et-main-area #main-content .woocommerce-message .button, .woocommerce-page #page-container #et-main-area #main-content .woocommerce-info .button {
-  -webkit-box-ordinal-group: 3;
-      -ms-flex-order: 2;
-          order: 2;
-  font-family: "Agency FB", sans-serif !important;
-  padding: 0em 1em !important;
-  font-weight: 700 !important;
-  color: #ffffff !important;
-  border: solid 2px #ffffff !important;
-}
-
-@media (max-width: 767px) {
-  .woocommerce-page #page-container #et-main-area #main-content .woocommerce-message .button, .woocommerce-page #page-container #et-main-area #main-content .woocommerce-info .button {
-    margin-top: 15px;
-  }
-}
-
-.woocommerce-page #page-container #et-main-area #main-content .woocommerce-message .button:hover, .woocommerce-page #page-container #et-main-area #main-content .woocommerce-info .button:hover {
-  padding: 0em 1em !important;
-  color: #000000 !important;
-  background-color: #ffffff !important;
+  /*.button  {
+                        order: 2;
+                        font-family: 'Agency FB', sans-serif!important;
+                        padding: 0em 1em !important;
+                        font-weight: 700!important;
+                        color: $white!important;
+                        border: solid 2px $white!important;
+                        @media (max-width:767px) {
+                            margin-top: 15px;
+                        }
+                        &:hover {
+                            padding: 0em 1em !important;
+                            color: $black!important;
+                            background-color: $white!important;
+                        }
+                    }*/
 }
 
 .woocommerce-page #page-container #et-main-area #main-content .woocommerce-message .showcoupon, .woocommerce-page #page-container #et-main-area #main-content .woocommerce-info .showcoupon {
