@@ -340,8 +340,8 @@ body #page-container header .menuSearchBtn {
   color: #ffffff;
   padding: 2px 10px;
   text-transform: uppercase;
-  font-weight: normal;
-  font-size: 16px;
+  font-weight: 500;
+  font-size: 14px;
   border-bottom-right-radius: 8px;
   border-bottom-left-radius: 8px;
   cursor: pointer;
@@ -359,8 +359,8 @@ body #page-container header .menuSearchBtn .material-icons {
 
 @media (hover: hover) {
   body #page-container header .menuSearchBtn:hover {
-    background: #ffffff;
-    color: #000000;
+    background: #bea668;
+    color: #ffffff;
   }
 }
 
