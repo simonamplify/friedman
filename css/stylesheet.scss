@@ -656,7 +656,7 @@ body {
             @import 'footer';
         }
         .et_pb_login {
-            .et_pb_button_module_wrapper .et_pb_button, .et_pb_button_module_wrapper .et_button_no_icon.et_button_icon_visible.et_button_left .et_pb_button, .et_button_no_icon .et_pb_button, .et_pb_contact_submit {
+            .et_pb_button {
                 padding: .5em 1em .3em 1em !important;
                 /*&:hover {
                     padding: 0em 1em !important;
