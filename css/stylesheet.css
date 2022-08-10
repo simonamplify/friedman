@@ -35,7 +35,7 @@ body .subHeader h2 {
 }
 
 body .et_pb_button_module_wrapper .et_pb_button, body .et_pb_button_module_wrapper .et_button_no_icon.et_button_icon_visible.et_button_left .et_pb_button, body .et_button_no_icon .et_pb_button {
-  padding: .45em 1em .3em 1em !important;
+  padding: .5em 1em .3em 1em !important;
   /*&:hover {
             padding: 0em 1em !important;
         }*/
@@ -320,7 +320,6 @@ body #page-container header .menuSearchBtn {
   color: #ffffff;
   padding: 2px 10px;
   text-transform: uppercase;
-  letter-spacing: 2px;
   font-weight: normal;
   font-size: 16px;
   border-bottom-right-radius: 8px;
@@ -448,7 +447,7 @@ body #page-container #et-main-area .et_pb_text.et_pb_bg_layout_dark strong {
 }
 
 body #page-container #et-main-area .et_pb_button_module_wrapper .et_pb_button, body #page-container #et-main-area .et_pb_button_module_wrapper .et_button_no_icon.et_button_icon_visible.et_button_left .et_pb_button, body #page-container #et-main-area .et_button_no_icon .et_pb_button, body #page-container #et-main-area .et_pb_contact_submit {
-  padding: .45em 1em .3em 1em !important;
+  padding: .5em 1em .3em 1em !important;
   /*&:hover {
                     padding: 0em 1em !important;
                 }*/
@@ -544,7 +543,7 @@ body #page-container #et-main-area #main-content .cwp_et_pb_layout_slider_standa
 }
 
 body #page-container #et-main-area #main-content .cwp_et_pb_layout_slider_standard .swiper-container .swiper-wrapper .swiper-slide .et_pb_button {
-  padding: .45em 1em .3em 1em !important;
+  padding: .5em 1em .3em 1em !important;
   /*&:hover {
                                         padding: 0em 1em !important;
                                     }*/
@@ -1252,10 +1251,6 @@ body #page-container #et-main-area footer .contactDetails strong {
   font-weight: normal;
 }
 
-body #page-container #et-main-area footer .footerBar {
-  letter-spacing: 0.5px;
-}
-
 body #page-container #et-main-area footer .footerBar a {
   color: #c6c6c6;
   text-decoration: none;
@@ -1302,6 +1297,13 @@ body #page-container #et-main-area footer .et_pb_social_media_follow.faSocialFoo
   margin-right: 0;
 }
 
+body #page-container .et_pb_login .et_pb_button_module_wrapper .et_pb_button, body #page-container .et_pb_login .et_pb_button_module_wrapper .et_button_no_icon.et_button_icon_visible.et_button_left .et_pb_button, body #page-container .et_pb_login .et_button_no_icon .et_pb_button, body #page-container .et_pb_login .et_pb_contact_submit {
+  padding: .5em 1em .3em 1em !important;
+  /*&:hover {
+                    padding: 0em 1em !important;
+                }*/
+}
+
 body #page-container .et_pb_login .et_pb_forgot_password {
   text-align: center;
 }
@@ -1330,7 +1332,7 @@ body .et_pb_scroll_top:hover {
 }
 
 .woocommerce-page #page-container #et-main-area #main-content input[type=submit], .woocommerce-page #page-container #et-main-area #main-content .button, .woocommerce-page #page-container #et-main-area #main-content .et_pb_button {
-  padding: .45em 1em .3em 1em !important;
+  padding: .5em 1em .3em 1em !important;
   /*&:hover {
                         padding: 0em 1em !important;
                         background: $black!important;
@@ -1530,7 +1532,7 @@ body .et_pb_scroll_top:hover {
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2;
-  padding: .45em 1em .3em 1em !important;
+  padding: .5em 1em .3em 1em !important;
   /*&:hover {
                             padding: 0em 1em !important;
                             color: $black!important;
