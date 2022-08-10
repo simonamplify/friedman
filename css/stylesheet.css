@@ -280,27 +280,27 @@ body #page-container header .menuSearch .dgwt-wcas-search-form .dgwt-wcas-search
 }
 
 body #page-container header .menuSearch .dgwt-wcas-search-form .dgwt-wcas-search-input::-webkit-input-placeholder {
-  color: #949494;
+  color: #c6c6c6;
   font-style: normal;
 }
 
 body #page-container header .menuSearch .dgwt-wcas-search-form .dgwt-wcas-search-input:-ms-input-placeholder {
-  color: #949494;
+  color: #c6c6c6;
   font-style: normal;
 }
 
 body #page-container header .menuSearch .dgwt-wcas-search-form .dgwt-wcas-search-input::-ms-input-placeholder {
-  color: #949494;
+  color: #c6c6c6;
   font-style: normal;
 }
 
 body #page-container header .menuSearch .dgwt-wcas-search-form .dgwt-wcas-search-input::placeholder {
-  color: #949494;
+  color: #c6c6c6;
   font-style: normal;
 }
 
 body #page-container header .menuSearch .dgwt-wcas-search-form .dgwt-wcas-search-input:focus {
-  border-color: #949494;
+  border-color: #c6c6c6;
 }
 
 body #page-container header .menuSearchBtn {
@@ -933,7 +933,7 @@ body #page-container #et-main-area #main-content #artists .searchWrapper .search
           appearance: none;
   display: block;
   margin: auto;
-  border: solid 1px #949494;
+  border: solid 1px #c6c6c6;
   width: 100%;
   font-size: 18px;
   line-height: 30px;
@@ -952,7 +952,7 @@ body #page-container #et-main-area #main-content #artists .searchWrapper .clear 
   right: 30px;
   display: none;
   line-height: 0;
-  color: #949494;
+  color: #c6c6c6;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
@@ -1157,7 +1157,7 @@ body #page-container #et-main-area footer h4 {
 }
 
 body #page-container #et-main-area footer a {
-  color: #949494;
+  color: #c6c6c6;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
@@ -1253,7 +1253,7 @@ body #page-container #et-main-area footer .contactDetails strong {
 }
 
 body #page-container #et-main-area footer .footerBar a {
-  color: #949494;
+  color: #c6c6c6;
   text-decoration: none;
   -webkit-transition: color 0.4s linear;
   transition: color 0.4s linear;
@@ -1594,7 +1594,7 @@ body .et_pb_scroll_top:hover {
   font-size: 18px;
   font-weight: 300;
   border-radius: 0;
-  border-color: #949494;
+  border-color: #c6c6c6;
   color: #000000;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -1638,7 +1638,7 @@ body .et_pb_scroll_top:hover {
 }
 
 .woocommerce-page #page-container #et-main-area #main-content form .select2 .selection .select2-selection {
-  border-color: #949494;
+  border-color: #c6c6c6;
   border-radius: 0;
   height: 50px;
   line-height: 20px;
@@ -1656,12 +1656,12 @@ body .et_pb_scroll_top:hover {
 }
 
 .woocommerce-page #page-container #et-main-area #main-content form .select2 .selection .select2-selection .select2-selection__arrow b {
-  border-color: #949494 transparent transparent transparent;
+  border-color: #c6c6c6 transparent transparent transparent;
   border-width: 5px 4px 0 4px;
 }
 
 .woocommerce-page #page-container #et-main-area #main-content form .select2.select2-container--open .selection .select2-selection .select2-selection__arrow b {
-  border-color: transparent transparent #949494 transparent;
+  border-color: transparent transparent #c6c6c6 transparent;
   border-width: 0 4px 5px 4px;
 }
 
@@ -1671,7 +1671,7 @@ body .et_pb_scroll_top:hover {
   border-radius: 0;
   padding: 0;
   line-height: 40px;
-  border: solid 1px #949494 !important;
+  border: solid 1px #c6c6c6 !important;
   color: #64646c !important;
   font-size: 18px !important;
   font-weight: 300 !important;
@@ -1693,7 +1693,7 @@ body .et_pb_scroll_top:hover {
   position: relative;
   margin: 0 10px 0 0;
   cursor: pointer;
-  border: 1px solid #949494;
+  border: 1px solid #c6c6c6;
   background: #ffffff;
   -webkit-transition: background .3s, border-color .3s;
   transition: background .3s, border-color .3s;
@@ -1728,7 +1728,7 @@ body .et_pb_scroll_top:hover {
 
 .woocommerce-page #page-container #et-main-area #main-content input[type='checkbox']:disabled,
 .woocommerce-page #page-container #et-main-area #main-content input[type='radio']:disabled {
-  background: #949494;
+  background: #c6c6c6;
   cursor: not-allowed;
   opacity: .9;
 }
@@ -1736,7 +1736,7 @@ body .et_pb_scroll_top:hover {
 .woocommerce-page #page-container #et-main-area #main-content input[type='checkbox']:disabled:checked,
 .woocommerce-page #page-container #et-main-area #main-content input[type='radio']:disabled:checked {
   background: #c4d0dc;
-  border-color: #949494;
+  border-color: #c6c6c6;
 }
 
 .woocommerce-page #page-container #et-main-area #main-content input[type='checkbox']:disabled + label,
@@ -1815,7 +1815,7 @@ body .et_pb_scroll_top:hover {
   border-radius: 50%;
   width: 24px;
   height: 24px;
-  background: #949494;
+  background: #c6c6c6;
   -webkit-transform: translateX(0);
           transform: translateX(0);
 }
@@ -1928,7 +1928,7 @@ body .et_pb_scroll_top:hover {
   border-radius: 50%;
   width: 24px;
   height: 24px;
-  background: #949494;
+  background: #c6c6c6;
   -webkit-transform: translateX(0);
           transform: translateX(0);
   opacity: 1;
@@ -2235,7 +2235,7 @@ body .et_pb_scroll_top:hover {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0 auto;
-  border: 1px solid #949494;
+  border: 1px solid #c6c6c6;
   -webkit-box-shadow: none;
   box-shadow: none;
   border-radius: 200px !important;
@@ -2290,7 +2290,7 @@ body .et_pb_scroll_top:hover {
 
 .select2-container .select2-dropdown {
   border-radius: 0 !important;
-  border-color: #949494 !important;
+  border-color: #c6c6c6 !important;
 }
 
 .select2-container .select2-dropdown .select2-search {
@@ -2298,7 +2298,7 @@ body .et_pb_scroll_top:hover {
 }
 
 .select2-container .select2-dropdown .select2-search .select2-search__field {
-  border-color: #949494 !important;
+  border-color: #c6c6c6 !important;
   line-height: 1.8em !important;
   padding: 5px 10px !important;
 }
