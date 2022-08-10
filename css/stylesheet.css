@@ -83,6 +83,7 @@ body #page-container header .et_pb_menu.faMenu .et-menu-nav ul.et-menu li.menu-i
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+  top: calc(50% - 3px) !important;
   line-height: 0;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -135,6 +136,7 @@ body #page-container header .et_pb_menu.faMenu .et-menu-nav ul.et-menu li.menu-i
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+  top: calc(50% - 3px) !important;
   right: -25px;
   line-height: 0;
   -webkit-transition: all 0.2s ease-in-out;
@@ -249,6 +251,7 @@ body #page-container header .et_pb_menu.faMenu .et_mobile_nav_menu .mobile_nav u
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+  top: calc(50% - 3px) !important;
   right: -25px;
   line-height: 0;
   -webkit-transform-origin: center;

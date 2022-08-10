@@ -32,6 +32,7 @@ header {
                                 position: relative;
                                 &::after {
                                     @include vertCenter; 
+                                    top: calc(50% - 3px) !important;
                                     line-height: 0;
                                     transition: all 0.2s ease-in-out;
                                 }
@@ -73,6 +74,7 @@ header {
                                         position: relative;
                                         &::after {
                                             @include vertCenter; 
+                                            top: calc(50% - 3px) !important;
                                             right: -25px;
                                             line-height: 0;
                                             transition: all 0.2s ease-in-out;
@@ -136,7 +138,6 @@ header {
                         li.menu-item {
                             text-align: left;
                             a {
-                                //font-family: 'Agency FB', sans-serif;
                                 border: none;
                                 padding: 0;
                                 margin: 10px 5%;
@@ -170,6 +171,7 @@ header {
                                         font-size: 16px; 
                                         content: '\33'; 
                                         @include vertCenter; 
+                                        top: calc(50% - 3px) !important;
                                         right: -25px;
                                         line-height: 0;
                                         transform-origin: center;
