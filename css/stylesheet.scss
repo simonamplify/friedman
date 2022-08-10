@@ -13,8 +13,8 @@
 STYLES
 =========================== */
 // CHANGE HIGHLIGHT COLOUR
-::-moz-selection { background: $black; color: $primary1; }
-::selection { background: $black; color: $primary1; }
+::-moz-selection { background: $primary1; color: $white; }
+::selection { background: $primary1; color: $white; }
 
 // CHANGE GLOBAL ROW MAX WIDTH
 #top-header > .container,
@@ -32,7 +32,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    font-weight: 300;
+    //font-weight: 300;
     h1, h2, h3, h4, h5, h6 {
         //font-family: 'agency fb', sans-serif;
     }
@@ -422,6 +422,11 @@ body {
                                 opacity: 1;
                             }
                         }
+                    }
+                }
+                .et_pb_login {
+                    .et_pb_forgot_password {
+                        text-align: center;
                     }
                 }
                 .et_pb_contact_form_container {

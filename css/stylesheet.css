@@ -2,13 +2,13 @@
 STYLES
 =========================== */
 ::-moz-selection {
-  background: #000000;
-  color: #f6e4bd;
+  background: #bea668;
+  color: #ffffff;
 }
 
 ::selection {
-  background: #000000;
-  color: #f6e4bd;
+  background: #bea668;
+  color: #ffffff;
 }
 
 #top-header > .container,
@@ -24,10 +24,6 @@ body.et-db #et-boc .et-l .et_pb_row {
 
 html {
   scroll-behavior: smooth;
-}
-
-body {
-  font-weight: 300;
 }
 
 body h4, body h5, body h6 {
@@ -808,6 +804,10 @@ body #page-container #et-main-area #main-content .imgSignPosts .et_pb_column:hov
   opacity: 1;
 }
 
+body #page-container #et-main-area #main-content .et_pb_login .et_pb_forgot_password {
+  text-align: center;
+}
+
 body #page-container #et-main-area #main-content .et_pb_contact_form_container {
   color: #000000;
   font-weight: 400;
@@ -1252,7 +1252,7 @@ body #page-container #et-main-area footer .contactDetails .contactItem {
 }
 
 body #page-container #et-main-area footer .contactDetails .contactItem i {
-  color: #f6e4bd;
+  color: #bea668;
   position: absolute;
   left: 0;
   top: 5px;
@@ -1315,7 +1315,7 @@ body #page-container #et-main-area footer .et_pb_social_media_follow.faSocialFoo
 
 body .et_pb_scroll_top {
   border-radius: 0 !important;
-  background: #f6e4bd !important;
+  background: #bea668 !important;
   -webkit-transition: opacity 0.2s linear;
   transition: opacity 0.2s linear;
 }
