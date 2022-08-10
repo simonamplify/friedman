@@ -804,10 +804,6 @@ body #page-container #et-main-area #main-content .imgSignPosts .et_pb_column:hov
   opacity: 1;
 }
 
-body #page-container #et-main-area #main-content .et_pb_login .et_pb_forgot_password {
-  text-align: center;
-}
-
 body #page-container #et-main-area #main-content .et_pb_contact_form_container {
   color: #000000;
   font-weight: 400;
@@ -1311,6 +1307,10 @@ body #page-container #et-main-area footer .et_pb_social_media_follow.faSocialFoo
 
 body #page-container #et-main-area footer .et_pb_social_media_follow.faSocialFooter .et_pb_social_icon:last-child .icon {
   margin-right: 0;
+}
+
+body #page-container .et_pb_login .et_pb_forgot_password {
+  text-align: center;
 }
 
 body .et_pb_scroll_top {

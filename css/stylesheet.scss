@@ -424,11 +424,6 @@ body {
                         }
                     }
                 }
-                .et_pb_login {
-                    .et_pb_forgot_password {
-                        text-align: center;
-                    }
-                }
                 .et_pb_contact_form_container {
                     color: $black;
                     font-weight: 400;
@@ -668,6 +663,11 @@ body {
                 }
             }
             @import 'footer';
+        }
+        .et_pb_login {
+            .et_pb_forgot_password {
+                text-align: center;
+            }
         }
     }
     .et_pb_scroll_top {
