@@ -47,20 +47,6 @@ body #page-container {
           animation: bodyFadeIn 1.5s;
 }
 
-body #page-container header .et_pb_menu .et_pb_menu__logo {
-  position: relative;
-}
-
-body #page-container header .et_pb_menu .et_pb_menu__logo img {
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-}
-
-body #page-container header .et_pb_menu .et_pb_menu__logo img:hover {
-  -webkit-filter: brightness(100);
-          filter: brightness(100);
-}
-
 body #page-container header .et_pb_menu.faMenu .et-menu-nav ul.et-menu li.menu-item a {
   position: relative;
   -webkit-transition: all 0.2s ease-in-out;
@@ -397,16 +383,42 @@ body #page-container header .menuSearchBtn .material-icons {
 }
 
 body #page-container #et-main-area .et_pb_text a {
-  text-decoration: underline;
-  -webkit-transition: -webkit-text-decoration 0.4s linear;
-  transition: -webkit-text-decoration 0.4s linear;
-  transition: text-decoration 0.4s linear;
-  transition: text-decoration 0.4s linear, -webkit-text-decoration 0.4s linear;
+  text-decoration: none;
+  position: relative;
   cursor: pointer;
 }
 
-body #page-container #et-main-area .et_pb_text a:hover {
-  text-decoration: none;
+body #page-container #et-main-area .et_pb_text a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -.2rem;
+  right: 100%;
+  border-bottom: 1px solid #bea668;
+}
+
+body #page-container #et-main-area .et_pb_text a::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  left: 100%;
+  bottom: -.2rem;
+  border-bottom: 1px solid #bea668;
+  -webkit-transition: left .15s ease-out;
+  transition: left .15s ease-out;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+  -webkit-transition-delay: .15s;
+          transition-delay: .15s;
+}
+
+body #page-container #et-main-area .et_pb_text a:hover::before {
+  -webkit-transition: right .15s ease-out;
+  transition: right .15s ease-out;
+}
+
+body #page-container #et-main-area .et_pb_text a:hover::after {
+  left: 0;
 }
 
 body #page-container #et-main-area .et_pb_text ul li {

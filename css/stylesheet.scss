@@ -67,11 +67,39 @@ body {
                     }
                 }
                 a {
-                    text-decoration: underline;
-                    transition: text-decoration 0.4s linear;
+                    text-decoration: none;
+                    position: relative;
                     cursor: pointer;
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        left: 0;
+                        bottom: -.2rem;
+                        right: 100%;
+                        border-bottom: 1px solid $primary1;
+                    }
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        right: 0;
+                        left: 100%;
+                        bottom: -.2rem;
+                        border-bottom: 1px solid $primary1;
+                        -webkit-transition: left .15s ease-out;
+                        -o-transition: left .15s ease-out;
+                        transition: left .15s ease-out;
+                        transition-delay: 0s;
+                        transition-delay: .15s;
+                    }
                     &:hover {
-                        text-decoration: none;
+                        &::before {
+                            -webkit-transition: right .15s ease-out;
+                            -o-transition: right .15s ease-out;
+                            transition: right .15s ease-out;
+                        }
+                        &::after {
+                            left: 0;
+                        }
                     }
                 }
                 ul {

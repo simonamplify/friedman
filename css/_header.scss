@@ -2,17 +2,7 @@
 // Header
 ////////////////////////////////////////////
 header {
-    //font-family: 'Agency FB', sans-serif;
     .et_pb_menu {
-        .et_pb_menu__logo {
-            position: relative;
-            img {
-                @include ease2();
-                &:hover {
-                    filter: brightness(100);
-                }
-            }
-        }
         &.faMenu{
             .et-menu-nav {
                 ul.et-menu {
