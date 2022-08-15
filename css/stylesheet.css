@@ -959,14 +959,12 @@ body #page-container #et-main-area #main-content #artist-list li a:hover {
 body #page-container #et-main-area #main-content #artists .searchWrapper {
   background: #f6f9fb;
   padding: 10px;
-  border-radius: 200px;
   position: relative;
 }
 
 body #page-container #et-main-area #main-content #artists .searchWrapper .search {
   padding: 15px 60px 15px 30px !important;
   height: auto;
-  border-radius: 100px;
   min-height: 0;
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -1190,10 +1188,6 @@ body #page-container #et-main-area footer {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-}
-
-body #page-container #et-main-area footer h4 {
-  font-weight: 400;
 }
 
 body #page-container #et-main-area footer a {

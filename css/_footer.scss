@@ -7,9 +7,6 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    h4 {
-        font-weight: 400;
-    }
     a {
         color: $grey;
         @include ease2();
