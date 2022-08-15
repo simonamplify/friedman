@@ -1906,6 +1906,48 @@ body .et_pb_scroll_top:hover {
   color: #000000;
 }
 
+.woocommerce-page #page-container #et-main-area a {
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+}
+
+.woocommerce-page #page-container #et-main-area a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -.2rem;
+  right: 100%;
+  border-bottom: 1px solid #bea668;
+}
+
+.woocommerce-page #page-container #et-main-area a::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  left: 100%;
+  bottom: -.2rem;
+  border-bottom: 1px solid #bea668;
+  -webkit-transition: left .15s ease-out;
+  transition: left .15s ease-out;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+  -webkit-transition-delay: .15s;
+          transition-delay: .15s;
+}
+
+.woocommerce-page #page-container #et-main-area a:hover::before {
+  content: "";
+  right: 0;
+  -webkit-transition: right .15s ease-out;
+  transition: right .15s ease-out;
+}
+
+.woocommerce-page #page-container #et-main-area a:hover::after {
+  content: "";
+  left: 0;
+}
+
 .woocommerce-page.woocommerce-checkout #page-container #et-main-area #main-content .woocommerce .woocommerce-form-coupon {
   border-radius: 0;
   border: none;
