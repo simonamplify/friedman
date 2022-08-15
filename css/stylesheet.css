@@ -413,11 +413,14 @@ body #page-container #et-main-area .et_pb_text a::after {
 }
 
 body #page-container #et-main-area .et_pb_text a:hover::before {
+  content: "";
+  right: 0;
   -webkit-transition: right .15s ease-out;
   transition: right .15s ease-out;
 }
 
 body #page-container #et-main-area .et_pb_text a:hover::after {
+  content: "";
   left: 0;
 }
 

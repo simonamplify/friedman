@@ -93,11 +93,14 @@ body {
                     }
                     &:hover {
                         &::before {
+                            content: "";
+                            right: 0;
                             -webkit-transition: right .15s ease-out;
                             -o-transition: right .15s ease-out;
                             transition: right .15s ease-out;
                         }
                         &::after {
+                            content: "";
                             left: 0;
                         }
                     }
