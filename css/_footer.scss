@@ -85,6 +85,12 @@ footer {
             color: $grey;
             text-decoration: none;
             transition: color 0.4s linear;
+            &::before {
+                content: none;
+            }
+            &::after {
+                content: none;
+            }
             &:hover {
                 color: $white;
             }
