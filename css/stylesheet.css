@@ -2149,19 +2149,6 @@ body .et_pb_scroll_top:hover {
   color: #ffffff;
 }
 
-.woocommerce-page.woocommerce-account #page-container #et-main-area #main-content .woocommerce .woocommerce-MyAccount-content a:not(.woocommerce-Button) {
-  text-decoration: underline;
-  -webkit-transition: -webkit-text-decoration 0.4s linear;
-  transition: -webkit-text-decoration 0.4s linear;
-  transition: text-decoration 0.4s linear;
-  transition: text-decoration 0.4s linear, -webkit-text-decoration 0.4s linear;
-  cursor: pointer;
-}
-
-.woocommerce-page.woocommerce-account #page-container #et-main-area #main-content .woocommerce .woocommerce-MyAccount-content a:not(.woocommerce-Button):hover {
-  text-decoration: none;
-}
-
 .woocommerce-page.woocommerce-account #page-container #et-main-area #main-content .woocommerce #customer_login h2 {
   font-size: 43px;
 }

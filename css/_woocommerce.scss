@@ -408,7 +408,7 @@
                 }
             }   
             // links
-            a:not(.button, .et_pb_button) {
+            a:not(.button, .et_pb_button, .woocommerce-Button) {
                 text-decoration: none;
                 position: relative;
                 cursor: pointer;
@@ -645,16 +645,6 @@
                                             color: $white;
                                         }
                                     }
-                                }
-                            }
-                        }
-                        .woocommerce-MyAccount-content {
-                            a:not(.woocommerce-Button) {
-                                text-decoration: underline;
-                                transition: text-decoration 0.4s linear;
-                                cursor: pointer;
-                                &:hover {
-                                    text-decoration: none;
                                 }
                             }
                         }
