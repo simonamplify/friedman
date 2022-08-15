@@ -70,6 +70,7 @@ body {
                     text-decoration: none;
                     position: relative;
                     cursor: pointer;
+                    white-space: nowrap;
                     &::before {
                         content: "";
                         position: absolute;

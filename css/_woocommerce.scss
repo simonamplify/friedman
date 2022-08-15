@@ -21,6 +21,12 @@
                 .et_pb_wc_breadcrumb  {
                     a {
                         transition: color 0.2s ease;
+                        &::before {
+                            content: none;
+                        }
+                        &::after {
+                            content: none;
+                        }
                         &:hover {
                             color: $black!important;
                         }
@@ -28,16 +34,16 @@
                 }
                 .subHeader {
                     a {
-                        text-decoration:none!important;
-                        &:hover {
-                            text-decoration:none!important;
+                        &::before {
+                            content: none;
+                        }
+                        &::after {
+                            content: none;
                         }
                     }
                 }
                 .onsale {
-                    font-family: 'Agency FB';
                     padding: 3px 18px!important;
-                    border-radius: 100px!important;
                 }
                 .pswp {
                     .pswp__caption {
@@ -631,15 +637,21 @@
                                         margin-bottom: 0;
                                     }
                                     a {
-                                        //font-family: 'agency fb', sans-serif;
+                                        font-family: 'Josefin Sans',Helvetica,Arial,Lucida,sans-serif;
                                         text-transform: uppercase;
-                                        font-size: 20px;
+                                        font-size: 17px;
                                         color: $black;
                                         background-color: $lgrey;
                                         letter-spacing: 2px;
-                                        padding: 10px 25px;
+                                        padding: 12px 25px 10px 25px;
                                         font-weight: 600;
                                         @include ease2();
+                                        &::before {
+                                            content: none;
+                                        }
+                                        &::after {
+                                            content: none;
+                                        }
                                         &:hover {
                                             background-color: $black;
                                             color: $white;
@@ -656,6 +668,7 @@
                                 text-decoration: underline;
                                 transition: text-decoration 0.4s linear;
                                 cursor: pointer;
+                                white-space: nowrap;
                                 &:hover {
                                     text-decoration: none;
                                 }
@@ -694,10 +707,10 @@
                 justify-content: flex-start;
                 align-items: flex-start;
                 .widgettitle {
-                    font-weight: 300!important;
+                    font-weight: 600!important;
                     text-transform: uppercase!important;
                     font-size: 20px!important;
-                    letter-spacing: 3px!important;
+                    letter-spacing: -1px!important;
                 }
                 .menu-product-category-menu-container {
                     #menu-product-category-menu {
@@ -719,7 +732,6 @@
                                 padding: 0 15px;
                                 transition: color 0.4s ease-in-out, background-color 0.4s ease-in-out;
                                 border: solid 2px $black;
-                                border-radius: 100px;
                                 color: $black;
                                 font-size: 16px;
                                 line-height: 1.8em;

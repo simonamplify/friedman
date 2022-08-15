@@ -386,6 +386,7 @@ body #page-container #et-main-area .et_pb_text a {
   text-decoration: none;
   position: relative;
   cursor: pointer;
+  white-space: nowrap;
 }
 
 body #page-container #et-main-area .et_pb_text a::before {
@@ -1385,22 +1386,28 @@ body .et_pb_scroll_top:hover {
   transition: color 0.2s ease;
 }
 
+.woocommerce-page #page-container #et-main-area #main-content .et_pb_wc_breadcrumb a::before {
+  content: none;
+}
+
+.woocommerce-page #page-container #et-main-area #main-content .et_pb_wc_breadcrumb a::after {
+  content: none;
+}
+
 .woocommerce-page #page-container #et-main-area #main-content .et_pb_wc_breadcrumb a:hover {
   color: #000000 !important;
 }
 
-.woocommerce-page #page-container #et-main-area #main-content .subHeader a {
-  text-decoration: none !important;
+.woocommerce-page #page-container #et-main-area #main-content .subHeader a::before {
+  content: none;
 }
 
-.woocommerce-page #page-container #et-main-area #main-content .subHeader a:hover {
-  text-decoration: none !important;
+.woocommerce-page #page-container #et-main-area #main-content .subHeader a::after {
+  content: none;
 }
 
 .woocommerce-page #page-container #et-main-area #main-content .onsale {
-  font-family: 'Agency FB';
   padding: 3px 18px !important;
-  border-radius: 100px !important;
 }
 
 .woocommerce-page #page-container #et-main-area #main-content .pswp .pswp__caption {
@@ -2133,15 +2140,24 @@ body .et_pb_scroll_top:hover {
 }
 
 .woocommerce-page.woocommerce-account #page-container #et-main-area #main-content .woocommerce .woocommerce-MyAccount-navigation ul li a {
+  font-family: 'Josefin Sans',Helvetica,Arial,Lucida,sans-serif;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 17px;
   color: #000000;
   background-color: #f6f9fb;
   letter-spacing: 2px;
-  padding: 10px 25px;
+  padding: 12px 25px 10px 25px;
   font-weight: 600;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+}
+
+.woocommerce-page.woocommerce-account #page-container #et-main-area #main-content .woocommerce .woocommerce-MyAccount-navigation ul li a::before {
+  content: none;
+}
+
+.woocommerce-page.woocommerce-account #page-container #et-main-area #main-content .woocommerce .woocommerce-MyAccount-navigation ul li a::after {
+  content: none;
 }
 
 .woocommerce-page.woocommerce-account #page-container #et-main-area #main-content .woocommerce .woocommerce-MyAccount-navigation ul li a:hover {
@@ -2160,6 +2176,7 @@ body .et_pb_scroll_top:hover {
   transition: text-decoration 0.4s linear;
   transition: text-decoration 0.4s linear, -webkit-text-decoration 0.4s linear;
   cursor: pointer;
+  white-space: nowrap;
 }
 
 .woocommerce-page.woocommerce-account #page-container #et-main-area #main-content .woocommerce #customer_login a:hover {
@@ -2194,10 +2211,10 @@ body .et_pb_scroll_top:hover {
 }
 
 .woocommerce-page .et_pb_widget_area.shopBar .widget_nav_menu .widgettitle {
-  font-weight: 300 !important;
+  font-weight: 600 !important;
   text-transform: uppercase !important;
   font-size: 20px !important;
-  letter-spacing: 3px !important;
+  letter-spacing: -1px !important;
 }
 
 .woocommerce-page .et_pb_widget_area.shopBar .widget_nav_menu .menu-product-category-menu-container #menu-product-category-menu {
@@ -2238,7 +2255,6 @@ body .et_pb_scroll_top:hover {
   -webkit-transition: color 0.4s ease-in-out, background-color 0.4s ease-in-out;
   transition: color 0.4s ease-in-out, background-color 0.4s ease-in-out;
   border: solid 2px #000000;
-  border-radius: 100px;
   color: #000000;
   font-size: 16px;
   line-height: 1.8em;
