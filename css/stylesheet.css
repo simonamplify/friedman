@@ -1317,6 +1317,7 @@ body #page-container #et-main-area footer .footerBar .amplify a {
 
 body #page-container #et-main-area footer .footerBar .amplify a::after {
   content: "" !important;
+  white-space: normal;
   right: 0;
   display: block;
   height: 30px;

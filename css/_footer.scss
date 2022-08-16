@@ -105,13 +105,22 @@ footer {
                 position: relative;
                 &::after  {
                     content: ""!important;
+                    white-space: normal;
                     right: 0;
+                    left: unset;
+                    bottom: unset;
+                    border-bottom: none
                     display: block;
                     height: 30px;
                     width: 32px;
                     @include vertCenter();
                     background: url(/wp-content/uploads/2022/08/amplify-creative-glyph-animated.svg) no-repeat;
                     background-size: contain;
+                }
+                &:hover {
+                    &::after  {
+                        left: unset;
+                    }
                 }
             }
         }
