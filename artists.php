@@ -18,19 +18,19 @@ if($artist_query->have_posts() ) : while ( $artist_query->have_posts() ) : $arti
         if( get_field('website_url') || get_field('facebook_url') || get_field('twitter_url') || get_field('instagram_url') ):
             echo '<div class="artistLinks">';
                 if( get_field('website_url') ):
-                    echo '<a href="'; the_field('website_url'); echo '" target="_blank"><img src="/wp-content/uploads/2021/10/link-icon.svg" alt="Website icon"></a>';
+                    echo '<a href="'; the_field('website_url'); echo '" target="_blank"><img src="/wp-content/uploads/2022/08/link-icon.svg" alt="Website icon"></a>';
                 endif;     
                 if( get_field('facebook_url') ):
-                    echo '<a href="'; the_field('facebook_url'); echo '" target="_blank"><img src="/wp-content/uploads/2021/10/facebook-icon.svg" alt="Facebook icon"></a>';
+                    echo '<a href="'; the_field('facebook_url'); echo '" target="_blank"><img src="/wp-content/uploads/2022/08/facebook-icon.svg" alt="Facebook icon"></a>';
                 endif; 
                 if( get_field('twitter_url') ):
-                    echo '<a href="'; the_field('twitter_url'); echo '" target="_blank"><img src="/wp-content/uploads/2021/10/twitter-icon.svg" alt="Twitter icon"></a>';
+                    echo '<a href="'; the_field('twitter_url'); echo '" target="_blank"><img src="/wp-content/uploads/2022/08/twitter-icon.svg" alt="Twitter icon"></a>';
                 endif; 
                 if( get_field('instagram_url') ):
-                    echo '<a href="'; the_field('instagram_url'); echo '" target="_blank"><img src="/wp-content/uploads/2021/10/instagram-icon.svg" alt="Instagram icon"></a>';
+                    echo '<a href="'; the_field('instagram_url'); echo '" target="_blank"><img src="/wp-content/uploads/2022/08/instagram-icon.svg" alt="Instagram icon"></a>';
                 endif;
                 if( get_field('youtube_url') ):
-                    echo '<a href="'; the_field('youtube_url'); echo '" target="_blank"><img src="/wp-content/uploads/2021/10/youtube-icon.svg" alt="Youtube icon"></a>';
+                    echo '<a href="'; the_field('youtube_url'); echo '" target="_blank"><img src="/wp-content/uploads/2022/08/youtube-icon.svg" alt="Youtube icon"></a>';
                 endif;
             echo '</div>'; 
         endif; 

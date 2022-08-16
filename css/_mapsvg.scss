@@ -156,6 +156,7 @@
                         width: 25px;
                         line-height: 25px;
                         height: 25px;
+                        letter-spacing: 0;
                         @include ease2();
                         &:hover {
                             color: $primary1;

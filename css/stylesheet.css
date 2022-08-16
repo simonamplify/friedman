@@ -758,6 +758,7 @@ body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-wrap .map
   width: 25px;
   line-height: 25px;
   height: 25px;
+  letter-spacing: 0;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
@@ -1366,7 +1367,7 @@ body #page-container #et-main-area #main-content #artists ul.artists li.artist .
 }
 
 body #page-container #et-main-area #main-content #artists ul.artists li.artist .artistDetails .artistName {
-  font-size: 30px;
+  font-size: 20px;
   padding-bottom: 5px;
 }
 
@@ -1390,12 +1391,11 @@ body #page-container #et-main-area #main-content #artists .artistModal {
   max-height: 80vh;
   overflow-y: scroll;
   overflow-x: hidden;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-
-body #page-container #et-main-area #main-content #artists .artistModal::-webkit-scrollbar {
-  display: none;
+  /*&::-webkit-scrollbar {
+                            display: none;
+                        }
+                        -ms-overflow-style: none;
+                        scrollbar-width: none;*/
 }
 
 @media (max-width: 767px) {
@@ -1406,9 +1406,8 @@ body #page-container #et-main-area #main-content #artists .artistModal::-webkit-
 
 body #page-container #et-main-area #main-content #artists .artistModal .excerpt {
   color: #64646c;
-  font-size: 18px;
   margin-bottom: 15px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 body #page-container #et-main-area #main-content #artists .artistModal .artistLinks {
@@ -1477,6 +1476,8 @@ body #page-container #et-main-area #main-content #artists .artistOverlay {
 }
 
 body #page-container #et-main-area footer {
+  z-index: 0;
+  position: relative;
   background-color: #000000;
   background-size: cover;
   background-repeat: no-repeat;
