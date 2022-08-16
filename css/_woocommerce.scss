@@ -21,6 +21,7 @@
                 .et_pb_wc_breadcrumb  {
                     a {
                         transition: color 0.2s ease;
+                        white-space: normal;
                         &::before {
                             content: none;
                         }
@@ -34,6 +35,7 @@
                 }
                 .subHeader {
                     a {
+                        white-space: normal;
                         &::before {
                             content: none;
                         }

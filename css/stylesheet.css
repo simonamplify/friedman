@@ -1194,6 +1194,15 @@ body #page-container #et-main-area footer a {
   color: #c6c6c6;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+  white-space: normal;
+}
+
+body #page-container #et-main-area footer a::before {
+  content: none !important;
+}
+
+body #page-container #et-main-area footer a::after {
+  content: none !important;
 }
 
 body #page-container #et-main-area footer a:hover {
@@ -1293,14 +1302,6 @@ body #page-container #et-main-area footer .footerBar a {
   transition: color 0.4s linear;
 }
 
-body #page-container #et-main-area footer .footerBar a::before {
-  content: none;
-}
-
-body #page-container #et-main-area footer .footerBar a::after {
-  content: none;
-}
-
 body #page-container #et-main-area footer .footerBar a:hover {
   color: #ffffff;
 }
@@ -1386,6 +1387,7 @@ body .et_pb_scroll_top:hover {
 .woocommerce-page #page-container #et-main-area #main-content .et_pb_wc_breadcrumb a {
   -webkit-transition: color 0.2s ease;
   transition: color 0.2s ease;
+  white-space: normal;
 }
 
 .woocommerce-page #page-container #et-main-area #main-content .et_pb_wc_breadcrumb a::before {
@@ -1398,6 +1400,10 @@ body .et_pb_scroll_top:hover {
 
 .woocommerce-page #page-container #et-main-area #main-content .et_pb_wc_breadcrumb a:hover {
   color: #000000 !important;
+}
+
+.woocommerce-page #page-container #et-main-area #main-content .subHeader a {
+  white-space: normal;
 }
 
 .woocommerce-page #page-container #et-main-area #main-content .subHeader a::before {

@@ -10,6 +10,13 @@ footer {
     a {
         color: $grey;
         @include ease2();
+        white-space: normal;
+        &::before {
+            content: none!important;
+        }
+        &::after {
+            content: none!important;
+        }
         &:hover {
             color: $white;
         }
@@ -85,12 +92,6 @@ footer {
             color: $grey;
             text-decoration: none;
             transition: color 0.4s linear;
-            &::before {
-                content: none;
-            }
-            &::after {
-                content: none;
-            }
             &:hover {
                 color: $white;
             }
