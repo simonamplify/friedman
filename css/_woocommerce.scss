@@ -640,9 +640,9 @@
                                         font-family: 'Josefin Sans',Helvetica,Arial,Lucida,sans-serif;
                                         text-transform: uppercase;
                                         font-size: 17px;
-                                        color: $black;
-                                        background-color: $lgrey;
-                                        letter-spacing: 2px;
+                                        color: $white;
+                                        background-color: $black;
+                                        letter-spacing: -1px;
                                         padding: 12px 25px 10px 25px;
                                         font-weight: 600;
                                         @include ease2();
@@ -653,7 +653,13 @@
                                             content: none;
                                         }
                                         &:hover {
-                                            background-color: $black;
+                                            background-color: $primary1;
+                                            color: $white;
+                                        }
+                                    }
+                                    &.is-active {
+                                        a {
+                                            background-color: $primary1;
                                             color: $white;
                                         }
                                     }

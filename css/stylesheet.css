@@ -2145,9 +2145,9 @@ body .et_pb_scroll_top:hover {
   font-family: 'Josefin Sans',Helvetica,Arial,Lucida,sans-serif;
   text-transform: uppercase;
   font-size: 17px;
-  color: #000000;
-  background-color: #f6f9fb;
-  letter-spacing: 2px;
+  color: #ffffff;
+  background-color: #000000;
+  letter-spacing: -1px;
   padding: 12px 25px 10px 25px;
   font-weight: 600;
   -webkit-transition: all 0.2s ease-in-out;
@@ -2163,7 +2163,12 @@ body .et_pb_scroll_top:hover {
 }
 
 .woocommerce-page.woocommerce-account #page-container #et-main-area #main-content .woocommerce .woocommerce-MyAccount-navigation ul li a:hover {
-  background-color: #000000;
+  background-color: #bea668;
+  color: #ffffff;
+}
+
+.woocommerce-page.woocommerce-account #page-container #et-main-area #main-content .woocommerce .woocommerce-MyAccount-navigation ul li.is-active a {
+  background-color: #bea668;
   color: #ffffff;
 }
 
