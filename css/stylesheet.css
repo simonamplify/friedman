@@ -1319,6 +1319,9 @@ body #page-container #et-main-area footer .footerBar .amplify a::after {
   content: "" !important;
   white-space: normal;
   right: 0;
+  left: unset;
+  bottom: unset;
+  border-bottom: none;
   display: block;
   height: 30px;
   width: 32px;
@@ -1328,6 +1331,10 @@ body #page-container #et-main-area footer .footerBar .amplify a::after {
           transform: translateY(-50%);
   background: url(/wp-content/uploads/2022/08/amplify-creative-glyph-animated.svg) no-repeat;
   background-size: contain;
+}
+
+body #page-container #et-main-area footer .footerBar .amplify a:hover::after {
+  left: unset;
 }
 
 body #page-container #et-main-area footer .et_pb_social_media_follow.faSocialFooter .et_pb_social_icon {
