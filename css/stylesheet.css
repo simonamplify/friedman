@@ -695,7 +695,7 @@ body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-wrap .map
 body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-wrap .mapsvg-sidebar .mapsvg-directory .mapsvg-controller-view .mapsvg-controller-view-wrap .mapsvg-controller-view-content .mapsvg-directory-item {
   font-family: 'Josefin Sans',Helvetica,Arial,Lucida,sans-serif;
   text-transform: uppercase;
-  font-size: 17px;
+  font-size: 16px;
   letter-spacing: -1px;
   font-weight: bold;
   padding: 10px 20px 5px 20px;
@@ -802,7 +802,7 @@ body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-wrap .map
   padding-left: 34px;
   line-height: 1.5em;
   margin-bottom: 15px;
-  color: #64646c;
+  color: #000000;
 }
 
 body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-wrap .mapsvg-details-container .mapsvg-controller-view-wrap .mapsvg-controller-view-content .location span, body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-wrap .mapsvg-details-container .mapsvg-controller-view-wrap .mapsvg-controller-view-content .phone span, body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-wrap .mapsvg-details-container .mapsvg-controller-view-wrap .mapsvg-controller-view-content .email span, body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-wrap .mapsvg-details-container .mapsvg-controller-view-wrap .mapsvg-controller-view-content .website span {
@@ -812,10 +812,10 @@ body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-wrap .map
 }
 
 body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-wrap .mapsvg-details-container .mapsvg-controller-view-wrap .mapsvg-controller-view-content .location a, body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-wrap .mapsvg-details-container .mapsvg-controller-view-wrap .mapsvg-controller-view-content .phone a, body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-wrap .mapsvg-details-container .mapsvg-controller-view-wrap .mapsvg-controller-view-content .email a, body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-wrap .mapsvg-details-container .mapsvg-controller-view-wrap .mapsvg-controller-view-content .website a {
-  color: #000000 body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-wrap .mapsvg-details-container .mapsvg-controller-view-wrap .mapsvg-controller-view-content .location a, body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-wrap .mapsvg-details-container .mapsvg-controller-view-wrap .mapsvg-controller-view-content .phone a, body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-wrap .mapsvg-details-container .mapsvg-controller-view-wrap .mapsvg-controller-view-content .email a, body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-wrap .mapsvg-details-container .mapsvg-controller-view-wrap .mapsvg-controller-view-content .website a;
+  color: #000000;
 }
 
-body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-wrap .mapsvg-details-container .mapsvg-controller-view-wrap .mapsvg-controller-view-content .location a :hover, body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-wrap .mapsvg-details-container .mapsvg-controller-view-wrap .mapsvg-controller-view-content .phone a :hover, body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-wrap .mapsvg-details-container .mapsvg-controller-view-wrap .mapsvg-controller-view-content .email a :hover, body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-wrap .mapsvg-details-container .mapsvg-controller-view-wrap .mapsvg-controller-view-content .website a :hover {
+body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-wrap .mapsvg-details-container .mapsvg-controller-view-wrap .mapsvg-controller-view-content .location a:hover, body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-wrap .mapsvg-details-container .mapsvg-controller-view-wrap .mapsvg-controller-view-content .phone a:hover, body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-wrap .mapsvg-details-container .mapsvg-controller-view-wrap .mapsvg-controller-view-content .email a:hover, body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-wrap .mapsvg-details-container .mapsvg-controller-view-wrap .mapsvg-controller-view-content .website a:hover {
   color: #bea668;
 }
 
