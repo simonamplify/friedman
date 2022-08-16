@@ -70,11 +70,15 @@
 			$('.artistModal.'+artistHash).fadeIn(500);
 			$('#artists .artistOverlay').fadeIn(500);
 		});
-		$('#artists .closeArtist, #et-main-area').on('click', function(event) {
+		$('#artists .closeArtist').on('click', function(event) {
 			var artistHash = $(this).attr('href').substring(1);
 			$('.artistModal.'+artistHash).fadeOut(500);
 			$('#artists .artistOverlay').fadeOut(500);
 		});
 		$('#artists .artist .artistDetails .artistContent a').attr('target', '_blank');
+        $('#et-main-area').on('click', function(event) {
+			$('.artistModal').fadeOut(500);
+			$('#artists .artistOverlay').fadeOut(500);
+		});
 	});
 })(jQuery)
