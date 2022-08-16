@@ -104,7 +104,7 @@ footer {
                 padding-right: 37px;
                 position: relative;
                 &::after  {
-                    content: "";
+                    content: ""!important;
                     right: 0;
                     display: block;
                     height: 30px;

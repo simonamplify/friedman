@@ -1316,7 +1316,7 @@ body #page-container #et-main-area footer .footerBar .amplify a {
 }
 
 body #page-container #et-main-area footer .footerBar .amplify a::after {
-  content: "";
+  content: "" !important;
   right: 0;
   display: block;
   height: 30px;
