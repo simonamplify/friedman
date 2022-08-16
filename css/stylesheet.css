@@ -591,9 +591,9 @@ body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-header .m
 }
 
 body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-header .mapsvg-filters-wrap .mapsvg-controller-view .mapsvg-controller-view-wrap .mapsvg-controller-view-content .mapsvg-form-builder .mapsvg-data-form-view .form-group .mapsvg-directory-search-wrap-margin {
-  background: #f6f9fb;
+  background: #f0f0f0;
   padding: 10px;
-  border-radius: 200px;
+  border-radius: 0;
   position: relative;
   height: auto;
 }
@@ -602,7 +602,7 @@ body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-header .m
   position: relative;
   padding: 15px 60px 15px 30px !important;
   height: auto;
-  border-radius: 100px;
+  border-radius: 0;
   min-height: 0;
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -635,6 +635,7 @@ body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-header .m
 body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-header .mapsvg-filters-wrap .mapsvg-controller-view .mapsvg-controller-view-wrap .mapsvg-controller-view-content .mapsvg-form-builder .mapsvg-data-form-view .form-group .mapsvg-directory-search-wrap-margin .mapsvg-directory-search:focus, body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-header .mapsvg-filters-wrap .mapsvg-controller-view .mapsvg-controller-view-wrap .mapsvg-controller-view-content .mapsvg-form-builder .mapsvg-data-form-view .form-group .mapsvg-directory-search-wrap-margin .mapsvg-directory-search:active {
   border-color: #64646c !important;
   color: #000000 !important;
+  border-color: #000000 !important;
 }
 
 body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-header .mapsvg-filters-wrap .mapsvg-controller-view .mapsvg-controller-view-wrap .mapsvg-controller-view-content .mapsvg-form-builder .mapsvg-data-form-view .form-group.mapsvg-filters-reset-container {
@@ -679,7 +680,7 @@ body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-wrap {
 }
 
 body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-wrap .mapsvg-sidebar .mapsvg-directory {
-  background-color: #f6f9fb !important;
+  background-color: #f0f0f0 !important;
 }
 
 @media (max-width: 767px) {
@@ -765,7 +766,7 @@ body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-wrap .map
   -webkit-transform: scale(0.4);
           transform: scale(0.4);
   top: 10px;
-  left: 10px;
+  right: 10px;
 }
 
 body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-wrap .mapsvg-details-container .mapsvg-controller-view .mapsvg-controller-view-toolbar .mapsvg-popover-close.mapsvg-details-close:hover::after, body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-wrap .mapsvg-details-container .mapsvg-controller-view .mapsvg-controller-view-toolbar .mapsvg-popover-close.mapsvg-details-close:hover::before {
@@ -1239,7 +1240,7 @@ body #page-container #et-main-area #main-content #artist-list li a:hover {
 }
 
 body #page-container #et-main-area #main-content #artists .searchWrapper {
-  background: #f6f9fb;
+  background: #f0f0f0;
   padding: 10px;
   position: relative;
 }
@@ -1845,7 +1846,7 @@ body .et_pb_scroll_top:hover {
 }
 
 .woocommerce-page #page-container #et-main-area #main-content table.shop_attributes tr:nth-child(even) th {
-  background-color: #f6f9fb;
+  background-color: #f0f0f0;
 }
 
 .woocommerce-page #page-container #et-main-area #main-content #respond form .input.text, .woocommerce-page #page-container #et-main-area #main-content #respond form input.title, .woocommerce-page #page-container #et-main-area #main-content #respond form input[type=email], .woocommerce-page #page-container #et-main-area #main-content #respond form input[type=password], .woocommerce-page #page-container #et-main-area #main-content #respond form input[type=tel], .woocommerce-page #page-container #et-main-area #main-content #respond form input[type=text], .woocommerce-page #page-container #et-main-area #main-content #respond form select, .woocommerce-page #page-container #et-main-area #main-content #respond form textarea {
@@ -2256,7 +2257,7 @@ body .et_pb_scroll_top:hover {
 .woocommerce-page.woocommerce-checkout #page-container #et-main-area #main-content .woocommerce .woocommerce-form-coupon {
   border-radius: 0;
   border: none;
-  background-color: #f6f9fb;
+  background-color: #f0f0f0;
 }
 
 .woocommerce-page.woocommerce-checkout #page-container #et-main-area #main-content .woocommerce .woocommerce-form-coupon .form-row-last {
@@ -2280,7 +2281,7 @@ body .et_pb_scroll_top:hover {
 .woocommerce-page.woocommerce-checkout #page-container #et-main-area #main-content .woocommerce .woocommerce-checkout .woocommerce-checkout-payment {
   border: none;
   border-radius: 0;
-  background-color: #f6f9fb;
+  background-color: #f0f0f0;
 }
 
 .woocommerce-page.woocommerce-checkout #page-container #et-main-area #main-content .woocommerce .woocommerce-checkout .woocommerce-checkout-payment a {
@@ -2356,8 +2357,8 @@ body .et_pb_scroll_top:hover {
   border-radius: 0;
   font-weight: 400 !important;
   font-size: 18px !important;
-  background-color: #f6f9fb !important;
-  border: 1px solid #f6f9fb !important;
+  background-color: #f0f0f0 !important;
+  border: 1px solid #f0f0f0 !important;
   color: #000000 !important;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -2632,7 +2633,7 @@ body .et_pb_scroll_top:hover {
   appearance: none;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  background-color: #f6f9fb;
+  background-color: #f0f0f0;
   background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 68.09 39.24'%3e%3cdefs%3e%3cstyle%3e.cls-1%7bfill:%23c6c6c6;%7d%3c/style%3e%3c/defs%3e%3cpath class='cls-1' d='M55.7,3.47,38.38,20.13a6.25,6.25,0,0,1-8.67,0L12.4,3.47,10.6,1.75A6.25,6.25,0,0,0,6.27,0h0A6.25,6.25,0,0,0,1.93,10.76L12.4,20.83,29.71,37.49a6.25,6.25,0,0,0,8.67,0L55.7,20.83,66.16,10.76A6.25,6.25,0,0,0,61.83,0h0a6.27,6.27,0,0,0-4.34,1.75Z'/%3e%3c/svg%3e");
   background-repeat: no-repeat, repeat;
   background-position: right 15px top 50%, 0 0;

@@ -19,14 +19,14 @@
                                     .mapsvg-directory-search-wrap-margin {
                                         background: $lgrey;
                                         padding: 10px;
-                                        border-radius: 200px;
+                                        border-radius: 0;
                                         position: relative;
                                         height: auto;
                                         .mapsvg-directory-search {
                                             position: relative;
                                             padding: 15px 60px 15px 30px !important;
                                             height: auto;
-                                            border-radius: 100px;
+                                            border-radius: 0;
                                             min-height: 0;
                                             appearance: none;
                                             display: block;
@@ -42,6 +42,7 @@
                                             &:focus, &:active {
                                                 border-color: $drk!important;
                                                 color: $black!important;
+                                                border-color: $black!important;
                                             }
                                         }
                                     }
@@ -164,7 +165,7 @@
                     .mapsvg-popover-close.mapsvg-details-close {
                         transform: scale(.4);
                         top: 10px;
-                        left: 10px;
+                        right: 10px;
                         &:hover::after, &:hover::before {
                             background: $black;
                             opacity: 1;
