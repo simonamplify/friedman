@@ -609,11 +609,13 @@ body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-header .m
           appearance: none;
   display: block;
   margin: auto;
-  border: solid 2px #000000;
+  border: solid 2px #c6c6c6;
   width: 100%;
   font-size: 16px !important;
   font-weight: 400 !important;
   line-height: 30px !important;
+  -webkit-transition: border 0.2s linear;
+  transition: border 0.2s linear;
 }
 
 body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-header .mapsvg-filters-wrap .mapsvg-controller-view .mapsvg-controller-view-wrap .mapsvg-controller-view-content .mapsvg-form-builder .mapsvg-data-form-view .form-group .mapsvg-directory-search-wrap-margin .mapsvg-directory-search::-webkit-input-placeholder {

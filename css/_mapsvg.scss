@@ -31,11 +31,12 @@
                                             appearance: none;
                                             display: block;
                                             margin: auto;
-                                            border: solid 2px $black;
+                                            border: solid 2px $grey;
                                             width: 100%;
                                             font-size: 16px!important;
                                             font-weight: 400!important;
                                             line-height: 30px!important;
+                                            transition: border 0.2s linear;
                                             &::placeholder {
                                                 color: $drk;
                                             }
