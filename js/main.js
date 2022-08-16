@@ -77,10 +77,10 @@
 		});
 		$('#artists .artist .artistDetails .artistContent a').attr('target', '_blank');
         $('#et-main-area').on('click', function(event) {
-            if ($(('.artistModal').css('display')=='block') {
+            if ($('.artistModal').css('display')=='block') {
 			    $('.artistModal').fadeOut(500);
             }
-            if ($(('#artists .artistOverlay').css('display')=='block') {
+            if ($('#artists .artistOverlay').css('display')=='block') {
 			    $('#artists .artistOverlay').fadeOut(500);
             }
 		});
