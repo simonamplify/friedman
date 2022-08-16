@@ -13,6 +13,7 @@ $artist_query = new WP_Query( $args );
 if($artist_query->have_posts() ) : while ( $artist_query->have_posts() ) : $artist_query->the_post();
 
     echo '<div class="artistModal artist-'; the_ID(); echo '">'; 
+        echo '<div class="modalImg">'; the_post_thumbnail(); echo '</div>';
         the_title('<h4>', '</h4>');
         echo '<div class="excerpt">'; the_excerpt(); echo '</div>';
         if( get_field('website_url') || get_field('facebook_url') || get_field('twitter_url') || get_field('instagram_url') ):

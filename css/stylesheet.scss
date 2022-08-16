@@ -629,10 +629,19 @@ body {
                         @media (max-width: 767px) {
                             width: 98%;
                         }
+                        h4 {
+                            text-align: center;
+                        }
+                        .modalImg {
+                            width: 100%;
+                            text-align: center;
+                            margin-bottom: 30px;
+                        }
                         .excerpt {
                             color: $drk;
                             margin-bottom: 15px;
                             font-weight: 600;
+                            text-align: center;
                         }
                         .artistLinks {
                             margin-bottom: 15px;
@@ -640,7 +649,7 @@ body {
                             flex-wrap: nowrap;
                             flex-direction: row;
                             align-content: center;
-                            justify-content: flex-start;
+                            justify-content: center;
                             align-items: center;
                             img {
                                 height: 20px;

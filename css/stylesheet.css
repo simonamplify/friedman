@@ -1404,10 +1404,21 @@ body #page-container #et-main-area #main-content #artists .artistModal {
   }
 }
 
+body #page-container #et-main-area #main-content #artists .artistModal h4 {
+  text-align: center;
+}
+
+body #page-container #et-main-area #main-content #artists .artistModal .modalImg {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
 body #page-container #et-main-area #main-content #artists .artistModal .excerpt {
   color: #64646c;
   margin-bottom: 15px;
   font-weight: 600;
+  text-align: center;
 }
 
 body #page-container #et-main-area #main-content #artists .artistModal .artistLinks {
@@ -1423,9 +1434,9 @@ body #page-container #et-main-area #main-content #artists .artistModal .artistLi
           flex-direction: row;
   -ms-flex-line-pack: center;
       align-content: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
