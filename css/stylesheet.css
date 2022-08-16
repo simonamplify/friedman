@@ -635,6 +635,7 @@ body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-header .m
 body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-header .mapsvg-filters-wrap .mapsvg-controller-view .mapsvg-controller-view-wrap .mapsvg-controller-view-content .mapsvg-form-builder .mapsvg-data-form-view .form-group .mapsvg-directory-search-wrap-margin .mapsvg-directory-search:focus, body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-header .mapsvg-filters-wrap .mapsvg-controller-view .mapsvg-controller-view-wrap .mapsvg-controller-view-content .mapsvg-form-builder .mapsvg-data-form-view .form-group .mapsvg-directory-search-wrap-margin .mapsvg-directory-search:active {
   border-color: #64646c !important;
   color: #000000 !important;
+  border: solid 2px #000000 !important;
   border-color: #000000 !important;
 }
 
@@ -670,7 +671,7 @@ body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-header .m
 }
 
 body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-wrap {
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 @media (max-width: 768px) {
@@ -749,7 +750,14 @@ body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-wrap .map
 body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-wrap .mapsvg-map-container .mapsvg .mapsvg-layers-wrap .mapsvg-marker-cluster {
   background: #000000;
   color: #ffffff;
-  border-color: rgba(255, 255, 255, 0.3);
+  -webkit-box-shadow: 0px 0px 0px 4px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 0px 4px rgba(0, 0, 0, 0.2);
+  -webkit-backdrop-filter: blur(6px);
+          backdrop-filter: blur(6px);
+  border: none;
+  width: 25px;
+  line-height: 25px;
+  height: 25px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
@@ -813,6 +821,8 @@ body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-wrap .map
 
 body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-wrap .mapsvg-details-container .mapsvg-controller-view-wrap .mapsvg-controller-view-content .location a, body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-wrap .mapsvg-details-container .mapsvg-controller-view-wrap .mapsvg-controller-view-content .phone a, body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-wrap .mapsvg-details-container .mapsvg-controller-view-wrap .mapsvg-controller-view-content .email a, body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-wrap .mapsvg-details-container .mapsvg-controller-view-wrap .mapsvg-controller-view-content .website a {
   color: #000000;
+  -webkit-transition: color 0.2s linear;
+  transition: color 0.2s linear;
 }
 
 body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-wrap .mapsvg-details-container .mapsvg-controller-view-wrap .mapsvg-controller-view-content .location a:hover, body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-wrap .mapsvg-details-container .mapsvg-controller-view-wrap .mapsvg-controller-view-content .phone a:hover, body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-wrap .mapsvg-details-container .mapsvg-controller-view-wrap .mapsvg-controller-view-content .email a:hover, body #page-container #et-main-area #main-content #mapsvg-map-1 .mapsvg-wrap .mapsvg-details-container .mapsvg-controller-view-wrap .mapsvg-controller-view-content .website a:hover {

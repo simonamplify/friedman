@@ -42,6 +42,7 @@
                                             &:focus, &:active {
                                                 border-color: $drk!important;
                                                 color: $black!important;
+                                                border: solid 2px $black!important;
                                                 border-color: $black!important;
                                             }
                                         }
@@ -75,7 +76,7 @@
         }
     }
     .mapsvg-wrap {
-        padding-top: 50px;
+        padding-top: 20px;
         @media (max-width:768px) {
             padding-top: 20px;
         }
@@ -149,7 +150,12 @@
                     .mapsvg-marker-cluster {
                         background: $black;
                         color: $white;
-                        border-color: rgba(255,255,255,0.3);
+                        box-shadow: 0px 0px 0px 4px rgba(0, 0, 0, 0.2);
+                        backdrop-filter: blur(6px);
+                        border: none;
+                        width: 25px;
+                        line-height: 25px;
+                        height: 25px;
                         @include ease2();
                         &:hover {
                             color: $primary1;
@@ -204,6 +210,7 @@
                         }
                         a {
                             color: $black;
+                            transition: color 0.2s linear;
                             &:hover {
                                 color: $primary1;
                             }
