@@ -70,7 +70,7 @@
 			$('.artistModal.'+artistHash).fadeIn(500);
 			$('#artists .artistOverlay').fadeIn(500);
 		});
-		$('#artists .closeArtist').on('click', function(event) {
+		$('#artists .closeArtist, .et-main-area').on('click', function(event) {
 			var artistHash = $(this).attr('href').substring(1);
 			$('.artistModal.'+artistHash).fadeOut(500);
 			$('#artists .artistOverlay').fadeOut(500);

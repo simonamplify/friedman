@@ -1458,7 +1458,7 @@ body #page-container #et-main-area #main-content #artists .artistModal .closeArt
   top: -1px;
   right: -1px;
   line-height: 0;
-  padding: 5px;
+  padding: 4px;
   border: solid 1px #000000;
   color: #ffffff;
   background: #000000;
@@ -1467,8 +1467,7 @@ body #page-container #et-main-area #main-content #artists .artistModal .closeArt
 }
 
 body #page-container #et-main-area #main-content #artists .artistModal .closeArtist:hover {
-  background: transparent;
-  color: #000000;
+  color: #bea668;
 }
 
 body #page-container #et-main-area #main-content #artists .artistOverlay {
