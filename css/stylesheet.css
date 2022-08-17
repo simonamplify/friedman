@@ -373,6 +373,10 @@ body #page-container header .menuSearchBtn .material-icons {
   }
 }
 
+body #page-container #et-main-area .et_pb_row.fwRow {
+  width: 100% !important;
+}
+
 @media (min-width: 768px) {
   body #page-container #et-main-area .et_pb_text.twoCol .et_pb_text_inner {
     -webkit-column-count: 2;
@@ -2062,8 +2066,8 @@ body .et_pb_scroll_top:hover {
   border-radius: 0;
   padding: 0;
   line-height: 44px;
-  border: solid 1px #c6c6c6 !important;
-  color: #64646c !important;
+  border: solid 1px #64646c !important;
+  color: #c6c6c6 !important;
   font-size: 18px !important;
   background-color: transparent !important;
 }

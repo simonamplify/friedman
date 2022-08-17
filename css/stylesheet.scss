@@ -56,6 +56,9 @@ body {
             }
         }
         #et-main-area {
+            .et_pb_row.fwRow {
+                width: 100%!important;
+            }
             .et_pb_text {
                 &.twoCol {
                     .et_pb_text_inner {
