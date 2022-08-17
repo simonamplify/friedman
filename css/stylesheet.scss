@@ -58,6 +58,7 @@ body {
         #et-main-area {
             .et_pb_row.fwRow {
                 width: 100%!important;
+                max-width: none!important;
             }
             .et_pb_text {
                 &.twoCol {

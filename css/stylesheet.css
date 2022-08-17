@@ -375,6 +375,7 @@ body #page-container header .menuSearchBtn .material-icons {
 
 body #page-container #et-main-area .et_pb_row.fwRow {
   width: 100% !important;
+  max-width: none !important;
 }
 
 @media (min-width: 768px) {
