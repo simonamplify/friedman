@@ -29,7 +29,7 @@
                             content: none;
                         }
                         &:hover {
-                            color: $black!important;
+                            color: $white!important;
                         }
                     }
                 }
@@ -250,17 +250,16 @@
                 .quantity {
                     .qty {
                         width: 3em;
-                        height: 40px;
+                        height: 44px;
                         border-radius: 0;
                         padding: 0;
-                        line-height:40px;
+                        line-height:44px;
                         border: solid 1px $grey!important;
                         color: $drk!important;
                         font-size: 18px!important;
-                        font-weight: 300!important;
-                        background-color: $white!important;
+                        background-color: transparent!important;
                         &:focus {
-                            color: $black!important;
+                            color: $white!important;
                         }
                     }
                 }

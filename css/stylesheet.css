@@ -338,6 +338,9 @@ body #page-container header .menuSearchBtn {
   -webkit-box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.05);
           box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.05);
   right: 0;
+  border-left: solid 1px #64646c;
+  border-right: solid 1px #64646c;
+  border-bottom: solid 1px #64646c;
 }
 
 body #page-container header .menuSearchBtn .material-icons {
@@ -1570,8 +1573,8 @@ body #page-container #et-main-area footer .et_pb_newsletter .et_pb_newsletter_fo
 }
 
 body #page-container #et-main-area footer .et_pb_newsletter .et_pb_newsletter_form .input:focus {
-  -webkit-backdrop-filter: blur(4px);
-          backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
 }
 
 body #page-container #et-main-area footer .et_pb_newsletter .et_pb_newsletter_form .et_pb_newsletter_button_wrap .et_pb_newsletter_button {
@@ -1732,7 +1735,7 @@ body .et_pb_scroll_top:hover {
 }
 
 .woocommerce-page #page-container #et-main-area #main-content .et_pb_wc_breadcrumb a:hover {
-  color: #000000 !important;
+  color: #ffffff !important;
 }
 
 .woocommerce-page #page-container #et-main-area #main-content .subHeader a {
@@ -2055,19 +2058,18 @@ body .et_pb_scroll_top:hover {
 
 .woocommerce-page #page-container #et-main-area #main-content .quantity .qty {
   width: 3em;
-  height: 40px;
+  height: 44px;
   border-radius: 0;
   padding: 0;
-  line-height: 40px;
+  line-height: 44px;
   border: solid 1px #c6c6c6 !important;
   color: #64646c !important;
   font-size: 18px !important;
-  font-weight: 300 !important;
-  background-color: #ffffff !important;
+  background-color: transparent !important;
 }
 
 .woocommerce-page #page-container #et-main-area #main-content .quantity .qty:focus {
-  color: #000000 !important;
+  color: #ffffff !important;
 }
 
 .woocommerce-page #page-container #et-main-area #main-content input[type='checkbox'],
