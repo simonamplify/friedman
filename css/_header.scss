@@ -43,6 +43,7 @@ header {
                             flex-direction: column;
                             right: 0;
                             left: unset;
+                            backdrop-filter: blur(4px);
                             li.menu-item {
                                 float: left;
                                 a {
@@ -119,6 +120,7 @@ header {
                         box-shadow: none;
                         padding-left: 0;
                         padding-right: 0;
+                        backdrop-filter: blur(4px);
                         @media (hover: none) {
                             max-height: 600px;
                             max-height: 85vh;
@@ -251,6 +253,9 @@ header {
             &:hover {
                 background: $primary1;
                 color: $white;
+                border-left: solid 1px $primary1;
+                border-right: solid 1px $primary1;
+                border-bottom: solid 1px $primary1;
             }
         }
     }
