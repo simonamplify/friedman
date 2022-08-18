@@ -322,14 +322,36 @@ body {
                     }
                     &.productCarousel {
                         .swiper-container {
-                            /*@media (min-width:768px) {
+                            @media (min-width:768px) {
                                 overflow: visible;
-                            }*/
+                            }
                             .swiper-wrapper {
-                                padding: 50px 0;
+                                //padding: 50px 0;
                                 .swiper-slide {
                                     .as_slide_image_wrapper {
                                         align-self: center;
+                                        &::before {
+                                            content: "";
+                                            display: block;
+                                            position: absolute;
+                                            width: 400px;
+                                            height: 400px;
+                                            width: 100%;
+                                            height: auto;
+                                            max-height: 400px;
+                                            max-width: 400px;
+                                            top: 60%;
+                                            left: 50%;
+                                            transform: translate(-50%,-50%);
+                                            background: #111;
+                                            z-index: -1;
+                                            border-radius: 100%;
+                                            opacity: 0.3;
+                                            background: -moz-radial-gradient(center, ellipse cover, rgba(190,166,104,1) 0%, rgba(0,0,0,1) 90%);
+                                            background: -webkit-radial-gradient(center, ellipse cover, rgba(190,166,104,1) 0%,rgba(0,0,0,1) 90%);
+                                            background: radial-gradient(ellipse at center, rgba(190,166,104,1) 0%,rgba(0,0,0,1) 90%);
+                                            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bea668', endColorstr='#000000',GradientType=1 );
+                                        }
                                     }
                                     /*@media (min-width:768px) {
                                         .as_slide_image_wrapper {
