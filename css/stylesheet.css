@@ -2591,6 +2591,10 @@ body .et_pb_scroll_top:hover {
   border: solid 1px #f2f2f2;
 }
 
+.woocommerce-page.single-product #page-container #et-main-area #main-content .et_pb_text.et_pb_bg_layout_dark strong {
+  color: #ffffff;
+}
+
 .woocommerce-page .et_pb_widget_area.shopBar .widget_nav_menu {
   margin: 0 !important;
   width: 100% !important;

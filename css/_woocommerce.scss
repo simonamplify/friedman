@@ -696,6 +696,13 @@
                             border: solid 1px #f2f2f2;
                         }
                     }
+                    .et_pb_text { 
+                        &.et_pb_bg_layout_dark {
+                            strong {
+                                color: $white;
+                            }
+                        }
+                    }
                 }
             }
         }
