@@ -1100,11 +1100,11 @@ body #page-container #et-main-area #main-content .cwp_et_pb_layout_slider_standa
       align-self: center;
 }
 
-body #page-container #et-main-area #main-content .cwp_et_pb_layout_slider_standard.productCarousel .swiper-container .swiper-wrapper .swiper-slide.swiper-slide-active {
+body #page-container #et-main-area #main-content .cwp_et_pb_layout_slider_standard.productCarousel .swiper-container .swiper-wrapper .swiper-slide.swiper-slide-active + .swiper-slide {
   position: relative;
 }
 
-body #page-container #et-main-area #main-content .cwp_et_pb_layout_slider_standard.productCarousel .swiper-container .swiper-wrapper .swiper-slide.swiper-slide-active::before {
+body #page-container #et-main-area #main-content .cwp_et_pb_layout_slider_standard.productCarousel .swiper-container .swiper-wrapper .swiper-slide.swiper-slide-active + .swiper-slide::before {
   content: "";
   display: block;
   position: absolute;
@@ -1122,8 +1122,28 @@ body #page-container #et-main-area #main-content .cwp_et_pb_layout_slider_standa
   z-index: -1;
   border-radius: 100%;
   opacity: 0.5;
-  background: radial-gradient(ellipse at center, #bea668 0%, black 90%);
+  background: radial-gradient(ellipse at center, #bea668 0%, black 75%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bea668', endColorstr='#000000',GradientType=1 );
+  -webkit-animation: glowFade 1s;
+          animation: glowFade 1s;
+}
+
+@-webkit-keyframes glowFade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes glowFade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @media (min-width: 768px) {

@@ -331,7 +331,7 @@ body {
                                     .as_slide_image_wrapper {
                                         align-self: center;
                                     }
-                                    &.swiper-slide-active {
+                                    &.swiper-slide-active + .swiper-slide {
                                         position: relative;
                                         &::before {
                                             content: "";
@@ -350,10 +350,19 @@ body {
                                             z-index: -1;
                                             border-radius: 100%;
                                             opacity: 0.5;
-                                            background: -moz-radial-gradient(center, ellipse cover, rgba(190,166,104,1) 0%, rgba(0,0,0,1) 70%);
-                                            background: -webkit-radial-gradient(center, ellipse cover, rgba(190,166,104,1) 0%,rgba(0,0,0,1) 70%);
-                                            background: radial-gradient(ellipse at center, rgba(190,166,104,1) 0%,rgba(0,0,0,1) 90%);
+                                            background: -moz-radial-gradient(center, ellipse cover, rgba(190,166,104,1) 0%, rgba(0,0,0,1) 75%);
+                                            background: -webkit-radial-gradient(center, ellipse cover, rgba(190,166,104,1) 0%,rgba(0,0,0,1) 75%);
+                                            background: radial-gradient(ellipse at center, rgba(190,166,104,1) 0%,rgba(0,0,0,1) 75%);
                                             filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bea668', endColorstr='#000000',GradientType=1 );
+                                            animation: glowFade 1s;
+                                            @keyframes glowFade {
+                                                0% {
+                                                    opacity: 0;
+                                                }
+                                                100% {
+                                                    opacity: 1;
+                                                }
+                                            }
                                         }
                                     }
                                     /*@media (min-width:768px) {
