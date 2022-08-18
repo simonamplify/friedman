@@ -1752,7 +1752,8 @@ body .et_pb_scroll_top:hover {
   opacity: 0.7;
 }
 
-.mfp-wrap.mfp-ready {
+.mfp-wrap .mfp-container.mfp-image-holder .mfp-content .mfp-figure figure {
+  background: #000000;
   -webkit-animation: lbFade 0.6s;
           animation: lbFade 0.6s;
 }
@@ -1773,10 +1774,6 @@ body .et_pb_scroll_top:hover {
   100% {
     opacity: 1;
   }
-}
-
-.mfp-wrap .mfp-container.mfp-image-holder .mfp-content .mfp-figure figure {
-  background: #000000;
 }
 
 .mfp-wrap .mfp-container.mfp-image-holder .mfp-content .mfp-figure figure figcaption {
