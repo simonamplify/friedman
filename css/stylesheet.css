@@ -1120,7 +1120,7 @@ body #page-container #et-main-area #main-content .cwp_et_pb_layout_slider_standa
           transform: translate(-50%, -50%);
   background: #111;
   z-index: -1;
-  border-radius: 100%;
+  opacity: 0.5;
   background: radial-gradient(ellipse at center, #bea668 0%, black 75%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bea668', endColorstr='#000000',GradientType=1 );
   -webkit-animation: glowFade 1s;
