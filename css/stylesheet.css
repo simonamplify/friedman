@@ -1100,14 +1100,18 @@ body #page-container #et-main-area #main-content .cwp_et_pb_layout_slider_standa
       align-self: center;
 }
 
-body #page-container #et-main-area #main-content .cwp_et_pb_layout_slider_standard.productCarousel .swiper-container .swiper-wrapper .swiper-slide .as_slide_image_wrapper::before {
+body #page-container #et-main-area #main-content .cwp_et_pb_layout_slider_standard.productCarousel .swiper-container .swiper-wrapper .swiper-slide.swiper-slide-active {
+  position: relative;
+}
+
+body #page-container #et-main-area #main-content .cwp_et_pb_layout_slider_standard.productCarousel .swiper-container .swiper-wrapper .swiper-slide.swiper-slide-active::before {
   content: "";
   display: block;
   position: absolute;
   width: 400px;
   height: 400px;
   width: 100%;
-  height: auto;
+  height: 100%;
   max-height: 400px;
   max-width: 400px;
   top: 60%;
@@ -1117,7 +1121,7 @@ body #page-container #et-main-area #main-content .cwp_et_pb_layout_slider_standa
   background: #111;
   z-index: -1;
   border-radius: 100%;
-  opacity: 0.3;
+  opacity: 0.5;
   background: radial-gradient(ellipse at center, #bea668 0%, black 90%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bea668', endColorstr='#000000',GradientType=1 );
 }
