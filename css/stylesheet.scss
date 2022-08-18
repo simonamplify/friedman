@@ -751,6 +751,17 @@ body {
     }
 }
 .mfp-wrap {
+    .mfp-ready {
+        animation: lbFade 0.6s;
+        @keyframes lbFade {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    }
     .mfp-container {
         &.mfp-image-holder {
             .mfp-content {

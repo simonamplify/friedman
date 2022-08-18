@@ -1752,6 +1752,29 @@ body .et_pb_scroll_top:hover {
   opacity: 0.7;
 }
 
+.mfp-wrap .mfp-ready {
+  -webkit-animation: lbFade 0.6s;
+          animation: lbFade 0.6s;
+}
+
+@-webkit-keyframes lbFade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes lbFade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .mfp-wrap .mfp-container.mfp-image-holder .mfp-content .mfp-figure figure {
   background: #000000;
 }
