@@ -92,7 +92,7 @@
                     justify-content: center;
                     .productManual {
                         &::before, &::after {
-                            content: "";
+                            content: none;
                         }
                         display: flex;
                         flex-direction: row;

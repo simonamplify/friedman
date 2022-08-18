@@ -1922,7 +1922,7 @@ body .et_pb_scroll_top:hover {
 }
 
 .woocommerce-page #page-container #et-main-area #main-content .manuals .productManual::before, .woocommerce-page #page-container #et-main-area #main-content .manuals .productManual::after {
-  content: "";
+  content: none;
 }
 
 .woocommerce-page #page-container #et-main-area #main-content .manuals .productManual .material-icons {
