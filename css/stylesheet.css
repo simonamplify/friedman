@@ -1752,6 +1752,10 @@ body .et_pb_scroll_top:hover {
   opacity: 0.7;
 }
 
+.mfp-wrap .mfp-container.mfp-image-holder .mfp-content .mfp-figure figure img {
+  background: #000000;
+}
+
 .mfp-wrap .mfp-container.mfp-image-holder .mfp-content .mfp-figure figure figcaption {
   display: none;
 }

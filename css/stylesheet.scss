@@ -756,6 +756,9 @@ body {
             .mfp-content {
                 .mfp-figure {
                     figure {
+                        img {
+                            background: $black;
+                        }
                         figcaption {
                             display: none;
                         }
