@@ -1917,8 +1917,6 @@ body .et_pb_scroll_top:hover {
           align-items: center;
   margin-right: 20px;
   color: #bea668;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
 }
 
 .woocommerce-page #page-container #et-main-area #main-content .manuals .productManual::before, .woocommerce-page #page-container #et-main-area #main-content .manuals .productManual::after {
@@ -1975,7 +1973,9 @@ body .et_pb_scroll_top:hover {
 }
 
 .woocommerce-page #page-container #et-main-area #main-content .software .productSoftware .material-icons {
-  margin-right: 3px;
+  margin-right: 7px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .woocommerce-page #page-container #et-main-area #main-content .software .productSoftware:hover .softwareLabel {

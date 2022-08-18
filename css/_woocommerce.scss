@@ -101,7 +101,6 @@
                         align-items: center;
                         margin-right: 20px;
                         color: $primary1;
-                        @include ease2();
                         .material-icons {
                             margin-right: 3px;
                         }
@@ -129,7 +128,8 @@
                         margin-right: 15px;
                         @include ease2();
                         .material-icons {
-                            margin-right: 3px;
+                            margin-right: 7px;
+                            @include ease2();
                         }
                         &:hover {
                             .softwareLabel {
