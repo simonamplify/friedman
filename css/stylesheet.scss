@@ -322,16 +322,16 @@ body {
                     }
                     &.productCarousel {
                         .swiper-container {
-                            @media (min-width:768px) {
+                            /*@media (min-width:768px) {
                                 overflow: visible;
-                            }
+                            }*/
                             .swiper-wrapper {
                                 padding: 50px 0;
                                 .swiper-slide {
                                     .as_slide_image_wrapper {
                                         align-self: center;
                                     }
-                                    @media (min-width:768px) {
+                                    /*@media (min-width:768px) {
                                         .as_slide_image_wrapper {
                                             -webkit-transform: scale(0.8);
                                             transform: scale(0.8);
@@ -382,7 +382,7 @@ body {
                                                 transform: translateY(0) scale(1);
                                             }
                                         }   
-                                    }
+                                    }*/
                                 }
                             }
                         }
