@@ -91,19 +91,23 @@
                     align-items: center;
                     justify-content: center;
                     .productManual {
+                        &::before, &::after {
+                            content: "";
+                        }
                         display: flex;
                         flex-direction: row;
                         flex-wrap: nowrap;
                         align-content: center;
                         align-items: center;
-                        margin-right: 15px;
+                        margin-right: 20px;
+                        color: $primary1;
                         @include ease2();
                         .material-icons {
                             margin-right: 3px;
                         }
                         &:hover {
                             .manualLabel {
-                                text-decoration: underline;
+                                color: $white;
                             }
                         }
                     }

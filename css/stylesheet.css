@@ -1763,7 +1763,7 @@ body .et_pb_scroll_top:hover {
   opacity: 0.7;
 }
 
-.mfp-wrap .mfp-container.mfp-image-holder .mfp-content .mfp-figure {
+.mfp-wrap .mfp-container.mfp-image-holder .mfp-content .mfp-figure figure {
   background: #000000;
   -webkit-animation: lbFade 0.6s;
           animation: lbFade 0.6s;
@@ -1915,9 +1915,14 @@ body .et_pb_scroll_top:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-right: 15px;
+  margin-right: 20px;
+  color: #bea668;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+}
+
+.woocommerce-page #page-container #et-main-area #main-content .manuals .productManual::before, .woocommerce-page #page-container #et-main-area #main-content .manuals .productManual::after {
+  content: "";
 }
 
 .woocommerce-page #page-container #et-main-area #main-content .manuals .productManual .material-icons {
@@ -1925,7 +1930,7 @@ body .et_pb_scroll_top:hover {
 }
 
 .woocommerce-page #page-container #et-main-area #main-content .manuals .productManual:hover .manualLabel {
-  text-decoration: underline;
+  color: #ffffff;
 }
 
 .woocommerce-page #page-container #et-main-area #main-content .software {
