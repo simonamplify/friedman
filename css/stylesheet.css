@@ -1915,7 +1915,7 @@ body .et_pb_scroll_top:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-right: 20px;
+  gap: 30px;
   color: #bea668;
 }
 
