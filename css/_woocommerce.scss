@@ -46,6 +46,7 @@
                 }
                 .onsale {
                     padding: 5px 18px 0 18px!important;
+                    white-space: nowrap;
                 }
                 .pswp {
                     .pswp__caption {
@@ -54,7 +55,6 @@
                 }
                 .et_pb_wc_description {
                     h2 {
-                        font-weight: 300;
                         text-transform: uppercase;
                         font-size: 24px;
                         color: $black!important;
@@ -174,7 +174,6 @@
                     }
                     .input.text, input.title, input[type=email], input[type=password], input[type=tel], input[type=text], select, textarea {
                         font-size: 18px;
-                        font-weight: 300;
                         border-radius: 0;
                         border-color: $grey;
                         color: $black;
@@ -769,7 +768,6 @@
     } 
     .woocommerce {
         .woocommerce-result-count {
-            font-weight: 300;
             color: $drk;
         }
         .products  {
@@ -778,8 +776,6 @@
         select {
             display: block;
             font-size: 14px!important;
-            font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif!important;
-            font-weight: 300!important;
             color: $drk!important;
             line-height: 1.8em;
             padding: 3px 33px 3px 20px;
@@ -791,7 +787,6 @@
             border: 1px solid $grey;
             -webkit-box-shadow: none;
                 box-shadow: none;
-            border-radius: 200px!important;
             -moz-appearance: none;
             -webkit-appearance: none;
             appearance: none;
@@ -818,7 +813,6 @@
             background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 68.09 39.24'%3e%3cdefs%3e%3cstyle%3e.cls-1%7bfill:%23c6c6c6;%7d%3c/style%3e%3c/defs%3e%3cpath class='cls-1' d='M12.4,35.77,29.71,19.11a6.25,6.25,0,0,1,8.67,0L55.7,35.77l1.79,1.72a6.27,6.27,0,0,0,4.34,1.75h0a6.25,6.25,0,0,0,4.33-10.76L55.7,18.41,38.38,1.75a6.25,6.25,0,0,0-8.67,0L12.4,18.41,1.93,28.48A6.25,6.25,0,0,0,6.27,39.24h0a6.25,6.25,0,0,0,4.33-1.75Z' transform='translate(0)'/%3e%3c/svg%3e");
         }
         select option {
-            font-weight: 300;
             font-size: 16px;
         }
         select:disabled, select[aria-disabled=true] {

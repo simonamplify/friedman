@@ -1839,6 +1839,7 @@ body .et_pb_scroll_top:hover {
 
 .woocommerce-page #page-container #et-main-area #main-content .onsale {
   padding: 5px 18px 0 18px !important;
+  white-space: nowrap;
 }
 
 .woocommerce-page #page-container #et-main-area #main-content .pswp .pswp__caption {
@@ -1846,7 +1847,6 @@ body .et_pb_scroll_top:hover {
 }
 
 .woocommerce-page #page-container #et-main-area #main-content .et_pb_wc_description h2 {
-  font-weight: 300;
   text-transform: uppercase;
   font-size: 24px;
   color: #000000 !important;
@@ -2026,7 +2026,6 @@ body .et_pb_scroll_top:hover {
 
 .woocommerce-page #page-container #et-main-area #main-content form .input.text, .woocommerce-page #page-container #et-main-area #main-content form input.title, .woocommerce-page #page-container #et-main-area #main-content form input[type=email], .woocommerce-page #page-container #et-main-area #main-content form input[type=password], .woocommerce-page #page-container #et-main-area #main-content form input[type=tel], .woocommerce-page #page-container #et-main-area #main-content form input[type=text], .woocommerce-page #page-container #et-main-area #main-content form select, .woocommerce-page #page-container #et-main-area #main-content form textarea {
   font-size: 18px;
-  font-weight: 300;
   border-radius: 0;
   border-color: #c6c6c6;
   color: #000000;
@@ -2694,7 +2693,6 @@ body .et_pb_scroll_top:hover {
 }
 
 .et_pb_shop .woocommerce .woocommerce-result-count {
-  font-weight: 300;
   color: #64646c;
 }
 
@@ -2705,8 +2703,6 @@ body .et_pb_scroll_top:hover {
 .et_pb_shop .woocommerce select {
   display: block;
   font-size: 14px !important;
-  font-family: "Roboto", Helvetica, Arial, Lucida, sans-serif !important;
-  font-weight: 300 !important;
   color: #64646c !important;
   line-height: 1.8em;
   padding: 3px 33px 3px 20px;
@@ -2718,7 +2714,6 @@ body .et_pb_scroll_top:hover {
   border: 1px solid #c6c6c6;
   -webkit-box-shadow: none;
   box-shadow: none;
-  border-radius: 200px !important;
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
@@ -2751,7 +2746,6 @@ body .et_pb_scroll_top:hover {
 }
 
 .et_pb_shop .woocommerce select option {
-  font-weight: 300;
   font-size: 16px;
 }
 
