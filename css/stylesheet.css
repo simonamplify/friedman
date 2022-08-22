@@ -1838,7 +1838,7 @@ body .et_pb_scroll_top:hover {
 }
 
 .woocommerce-page #page-container #et-main-area #main-content .onsale {
-  padding: 3px 18px !important;
+  padding: 5px 18px 0 18px !important;
 }
 
 .woocommerce-page #page-container #et-main-area #main-content .pswp .pswp__caption {
@@ -1917,6 +1917,8 @@ body .et_pb_scroll_top:hover {
           align-items: center;
   gap: 30px;
   color: #bea668;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .woocommerce-page #page-container #et-main-area #main-content .manuals .productManual::before, .woocommerce-page #page-container #et-main-area #main-content .manuals .productManual::after {
@@ -1929,57 +1931,6 @@ body .et_pb_scroll_top:hover {
 
 .woocommerce-page #page-container #et-main-area #main-content .manuals .productManual:hover .manualLabel {
   color: #ffffff;
-}
-
-.woocommerce-page #page-container #et-main-area #main-content .software {
-  margin-top: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.woocommerce-page #page-container #et-main-area #main-content .software .productSoftware {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-right: 15px;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-}
-
-.woocommerce-page #page-container #et-main-area #main-content .software .productSoftware .material-icons {
-  margin-right: 7px;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-}
-
-.woocommerce-page #page-container #et-main-area #main-content .software .productSoftware:hover .softwareLabel {
-  text-decoration: underline;
 }
 
 .woocommerce-page #page-container #et-main-area #main-content table.shop_attributes tr:nth-child(even) th {
