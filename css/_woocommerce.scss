@@ -536,6 +536,8 @@
                                     }
                                     .product-remove {
                                         a.remove {
+                                            line-height: 0.9;
+                                            border-radius: 0;
                                             color: $black!important;
                                             @include ease2();
                                             &:hover {
@@ -545,30 +547,38 @@
                                         }
                                     }
                                 }
-                                .coupon {
-                                    #coupon_code {
-                                        height: 45px;
-                                        line-height: 45px;
-                                        padding: 6px 15px;
-                                        margin-right: 10px;
-                                        border-radius: 0;
-                                        font-weight: 400!important;
-                                        font-size: 18px!important;
-                                        background-color: $lgrey!important;
-                                        border: 1px solid $lgrey!important;
-                                        color: $black!important;
-                                        @include ease2();
-                                        &::placeholder {
-                                            color: $drk;
+                                .actions {
+                                    .coupon {
+                                        #coupon_code {
+                                            height: 45px;
+                                            line-height: 45px;
+                                            padding: 6px 15px;
+                                            margin-right: 10px;
+                                            border-radius: 0;
+                                            font-weight: 400!important;
+                                            font-size: 18px!important;
+                                            background-color: $lgrey!important;
+                                            border: 1px solid $lgrey!important;
+                                            color: $black!important;
+                                            @include ease2();
+                                            &::placeholder {
+                                                color: $drk;
+                                            }
+                                            @media (max-width:768px) {
+                                                background-color: $white!important;
+                                                border: solid 1px #ebebeb;
+                                                width: 100%;
+                                                margin-bottom: 10px;
+                                            }
+                                            &:focus {
+                                                border-color: $black!important;
+                                            }
                                         }
+                                        
                                         @media (max-width:768px) {
-                                            background-color: $white!important;
-                                            border: solid 1px #ebebeb;
-                                            width: 100%;
-                                            margin-bottom: 10px;
-                                        }
-                                        &:focus {
-                                            border-color: $black!important;
+                                            .button {
+                                                width: 100%;
+                                            }
                                         }
                                     }
                                     .button:disabled, .button:disabled[disabled] {
@@ -584,11 +594,6 @@
                                         letter-spacing: -1px;
                                         opacity: 0.5;
                                         color: $white;
-                                    }
-                                    @media (max-width:768px) {
-                                        .button {
-                                            width: 100%;
-                                        }
                                     }
                                 }
                             }
