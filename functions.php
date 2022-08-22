@@ -76,4 +76,9 @@ function manuals() {
     return ob_get_clean(); 
 }
 add_shortcode('manuals', 'manuals');
+// Change sale badge text to
+add_filter('woocommerce_sale_flash', 'change_sale_text');
+function change_sale_text() {
+    return '<span class="onsale">On Sale</span>';
+ }
 ?>
