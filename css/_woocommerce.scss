@@ -445,6 +445,11 @@
                             border-radius: 0;
                             border: none;
                             background-color: $lgrey;
+                            #coupon_code {
+                                height: 45px;
+                                line-height: 45px;
+                                background-color: $white;
+                            }
                             .form-row-last {
                                 float: left;
                                 @media (min-width:768px) {
@@ -452,7 +457,7 @@
                                 }
                             }
                             .button {
-                                margin-top: 7px;
+                                margin-top: 0;
                             }
                         }
                         .woocommerce-checkout {

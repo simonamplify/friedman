@@ -2348,6 +2348,12 @@ body .et_pb_scroll_top:hover {
   background-color: #f0f0f0;
 }
 
+.woocommerce-page.woocommerce-checkout #page-container #et-main-area #main-content .woocommerce .woocommerce-form-coupon #coupon_code {
+  height: 45px;
+  line-height: 45px;
+  background-color: #ffffff;
+}
+
 .woocommerce-page.woocommerce-checkout #page-container #et-main-area #main-content .woocommerce .woocommerce-form-coupon .form-row-last {
   float: left;
 }
@@ -2359,7 +2365,7 @@ body .et_pb_scroll_top:hover {
 }
 
 .woocommerce-page.woocommerce-checkout #page-container #et-main-area #main-content .woocommerce .woocommerce-form-coupon .button {
-  margin-top: 7px;
+  margin-top: 0;
 }
 
 .woocommerce-page.woocommerce-checkout #page-container #et-main-area #main-content .woocommerce .woocommerce-checkout #customer_details {
