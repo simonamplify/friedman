@@ -76,11 +76,4 @@ function manuals() {
     return ob_get_clean(); 
 }
 add_shortcode('manuals', 'manuals');
-// Create acf Software shortcode
-function software() {
-    ob_start();
-    get_template_part( 'software' );
-    return ob_get_clean(); 
-}
-add_shortcode('software', 'software');
 ?>

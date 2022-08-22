@@ -44,9 +44,6 @@
                         }
                     }
                 }
-                .onsale {
-                    padding: 3px 18px!important;
-                }
                 .pswp {
                     .pswp__caption {
                         visibility: hidden;
@@ -101,39 +98,13 @@
                         align-items: center;
                         gap: 30px;
                         color: $primary1;
+                        @include ease2();
                         .material-icons {
                             margin-right: 3px;
                         }
                         &:hover {
                             .manualLabel {
                                 color: $white;
-                            }
-                        }
-                    }
-                }
-                .software {
-                    margin-top: 30px;
-                    display: flex;
-                    flex-direction: row;
-                    flex-wrap: wrap;
-                    align-content: center;
-                    align-items: center;
-                    justify-content: center;
-                    .productSoftware {
-                        display: flex;
-                        flex-direction: row;
-                        flex-wrap: nowrap;
-                        align-content: center;
-                        align-items: center;
-                        margin-right: 15px;
-                        @include ease2();
-                        .material-icons {
-                            margin-right: 7px;
-                            @include ease2();
-                        }
-                        &:hover {
-                            .softwareLabel {
-                                text-decoration: underline;
                             }
                         }
                     }
