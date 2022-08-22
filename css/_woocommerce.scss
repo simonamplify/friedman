@@ -142,7 +142,8 @@
                         }
                         &:hover {
                             padding: 0.5em 1.5em 0.3em 1.5em !important;
-                            //color: $black!important;
+                            color: $white!important;
+                            opacity: 0.7;
                             //background-color: $white!important;
                         }
                     }
@@ -528,12 +529,17 @@
                         .woocommerce-cart-form {
                             .woocommerce-cart-form__contents {
                                 .woocommerce-cart-form__cart-item {
+                                    a {
+                                        &::before, &::after {
+                                            content: none;
+                                        }
+                                    }
                                     .product-remove {
                                         a.remove {
-                                            color: $red!important;
+                                            color: $black!important;
                                             @include ease2();
                                             &:hover {
-                                                background: $red;
+                                                background: $black;
                                                 color: $white!important
                                             }
                                         }
@@ -541,7 +547,8 @@
                                 }
                                 .coupon {
                                     #coupon_code {
-                                        height: 42px;
+                                        height: 45px;
+                                        line-height: 45px;
                                         padding: 6px 15px;
                                         margin-right: 10px;
                                         border-radius: 0;
@@ -563,6 +570,20 @@
                                         &:focus {
                                             border-color: $black!important;
                                         }
+                                    }
+                                    .button:disabled, .button:disabled[disabled] {
+                                        padding: 0.5em 1.5em 0.3em 1.5em !important;
+                                        font-size: 16px;
+                                        background-color: $primary1;
+                                        border-color: $primary1;
+                                        border-radius: 0px;
+                                        font-weight: bold;
+                                        font-style: normal;
+                                        text-transform: uppercase;
+                                        text-decoration: none;
+                                        letter-spacing: -1px;
+                                        opacity: 0.5;
+                                        color: $white;
                                     }
                                     @media (max-width:768px) {
                                         .button {
@@ -699,7 +720,7 @@
                 justify-content: flex-start;
                 align-items: flex-start;
                 .widgettitle {
-                    font-weight: 600!important;
+                    font-weight: bold!important;
                     text-transform: uppercase!important;
                     font-size: 20px!important;
                     letter-spacing: -1px!important;
