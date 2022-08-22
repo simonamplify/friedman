@@ -90,6 +90,7 @@
                     align-content: center;
                     align-items: center;
                     justify-content: center;
+                    gap: 30px;
                     .productManual {
                         &::before, &::after {
                             content: none;
@@ -99,11 +100,11 @@
                         flex-wrap: nowrap;
                         align-content: center;
                         align-items: center;
-                        gap: 30px;
+                        
                         color: $primary1;
                         @include ease2();
                         .material-icons {
-                            margin-right: 3px;
+                            margin-right: 5px;
                         }
                         &:hover {
                             .manualLabel {

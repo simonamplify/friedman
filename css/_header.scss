@@ -213,7 +213,7 @@ header {
         display: none;
         .dgwt-wcas-search-form {
             .dgwt-wcas-search-input {
-                border-radius: 100px;
+                border-radius: 0;
                 @include ease2;
                 &::placeholder {
                     color: $grey;

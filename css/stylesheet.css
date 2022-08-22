@@ -286,7 +286,7 @@ body #page-container header .menuSearch {
 }
 
 body #page-container header .menuSearch .dgwt-wcas-search-form .dgwt-wcas-search-input {
-  border-radius: 100px;
+  border-radius: 0;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
@@ -1630,21 +1630,21 @@ body #page-container #et-main-area footer .widget_nav_menu ul li:last-child {
   margin-bottom: 0;
 }
 
-body #page-container #et-main-area footer .et_pb_newsletter .et_pb_newsletter_form .input {
+body #page-container #et-main-area footer .et_pb_newsletter .et_pb_newsletter_form .et_pb_newsletter_fields .input {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 
-body #page-container #et-main-area footer .et_pb_newsletter .et_pb_newsletter_form .input:focus {
+body #page-container #et-main-area footer .et_pb_newsletter .et_pb_newsletter_form .et_pb_newsletter_fields .input:focus {
   -webkit-backdrop-filter: blur(2px);
           backdrop-filter: blur(2px);
 }
 
-body #page-container #et-main-area footer .et_pb_newsletter .et_pb_newsletter_form .et_pb_newsletter_button_wrap .et_pb_newsletter_button {
+body #page-container #et-main-area footer .et_pb_newsletter .et_pb_newsletter_form .et_pb_newsletter_fields .et_pb_newsletter_button_wrap .et_pb_newsletter_button {
   padding: 0.5em 1.5em 0.3em 1.5em !important;
 }
 
-body #page-container #et-main-area footer .et_pb_newsletter .et_pb_newsletter_form .et_pb_newsletter_button_wrap .et_pb_newsletter_button:hover {
+body #page-container #et-main-area footer .et_pb_newsletter .et_pb_newsletter_form .et_pb_newsletter_fields .et_pb_newsletter_button_wrap .et_pb_newsletter_button:hover {
   padding: 0.5em 1.5em 0.3em 1.5em !important;
 }
 
@@ -1898,6 +1898,7 @@ body .et_pb_scroll_top:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  gap: 30px;
 }
 
 .woocommerce-page #page-container #et-main-area #main-content .manuals .productManual {
@@ -1915,7 +1916,6 @@ body .et_pb_scroll_top:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 30px;
   color: #bea668;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -1926,7 +1926,7 @@ body .et_pb_scroll_top:hover {
 }
 
 .woocommerce-page #page-container #et-main-area #main-content .manuals .productManual .material-icons {
-  margin-right: 3px;
+  margin-right: 5px;
 }
 
 .woocommerce-page #page-container #et-main-area #main-content .manuals .productManual:hover .manualLabel {

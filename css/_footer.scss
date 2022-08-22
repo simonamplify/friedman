@@ -63,17 +63,19 @@ footer {
     }
     .et_pb_newsletter {
         .et_pb_newsletter_form {
-            .input {
-                @include ease2();
-                &:focus {
-                    backdrop-filter: blur(2px);
+            .et_pb_newsletter_fields {
+                .input {
+                    @include ease2();
+                    &:focus {
+                        backdrop-filter: blur(2px);
+                    }
                 }
-            }
-            .et_pb_newsletter_button_wrap {
-                .et_pb_newsletter_button {
-                    padding: 0.5em 1.5em 0.3em 1.5em !important;
-                    &:hover {
+                .et_pb_newsletter_button_wrap {
+                    .et_pb_newsletter_button {
                         padding: 0.5em 1.5em 0.3em 1.5em !important;
+                        &:hover {
+                            padding: 0.5em 1.5em 0.3em 1.5em !important;
+                        }
                     }
                 }
             }
