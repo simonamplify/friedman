@@ -909,24 +909,36 @@ body #page-container #et-main-area #main-content .cwp_et_pb_layout_slider_standa
 @-webkit-keyframes textAnimate {
   0% {
     opacity: 0;
+    -webkit-transform: translateY(-25%);
+            transform: translateY(-25%);
   }
   50% {
     opacity: 0;
+    -webkit-transform: translateY(-25%);
+            transform: translateY(-25%);
   }
   100% {
     opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
   }
 }
 
 @keyframes textAnimate {
   0% {
     opacity: 0;
+    -webkit-transform: translateY(-25%);
+            transform: translateY(-25%);
   }
   50% {
     opacity: 0;
+    -webkit-transform: translateY(-25%);
+            transform: translateY(-25%);
   }
   100% {
     opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
   }
 }
 
