@@ -1005,6 +1005,7 @@ body #page-container #et-main-area #main-content .cwp_et_pb_layout_slider_standa
 
 body #page-container #et-main-area #main-content .cwp_et_pb_layout_slider_standard .swiper-container .as-dots-wrapper .swiper-bullets .swiper-pagination-bullet {
   margin-right: 10px;
+  border-radius: 0 !important;
 }
 
 body #page-container #et-main-area #main-content .cwp_et_pb_layout_slider_standard .swiper-container .as-dots-wrapper .swiper-bullets .swiper-pagination-bullet:last-child {
