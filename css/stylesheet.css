@@ -2450,6 +2450,22 @@ body .et_pb_scroll_top:hover {
   color: #ffffff !important;
 }
 
+.woocommerce-page.woocommerce-cart #page-container #et-main-area #main-content .woocommerce .woocommerce-cart-form .woocommerce-cart-form__contents .quantity .qty {
+  width: 3em;
+  height: 44px;
+  border-radius: 0;
+  padding: 0;
+  line-height: 44px;
+  border: solid 1px #c6c6c6 !important;
+  color: #64646c !important;
+  font-size: 18px !important;
+  background-color: transparent !important;
+}
+
+.woocommerce-page.woocommerce-cart #page-container #et-main-area #main-content .woocommerce .woocommerce-cart-form .woocommerce-cart-form__contents .quantity .qty:focus {
+  color: #000000 !important;
+}
+
 .woocommerce-page.woocommerce-cart #page-container #et-main-area #main-content .woocommerce .woocommerce-cart-form .woocommerce-cart-form__contents .actions .coupon #coupon_code {
   height: 45px;
   line-height: 45px;
@@ -2735,7 +2751,7 @@ body .et_pb_scroll_top:hover {
   font-size: 14px !important;
   color: #64646c !important;
   line-height: 1.8em;
-  padding: 3px 33px 3px 20px;
+  padding: 3px 33px 3px 10px;
   width: 100%;
   max-width: 300px;
   -webkit-box-sizing: border-box;

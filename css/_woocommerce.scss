@@ -552,6 +552,22 @@
                                         }
                                     }
                                 }
+                                .quantity {
+                                    .qty {
+                                        width: 3em;
+                                        height: 44px;
+                                        border-radius: 0;
+                                        padding: 0;
+                                        line-height:44px;
+                                        border: solid 1px $grey!important;
+                                        color: $drk!important;
+                                        font-size: 18px!important;
+                                        background-color: transparent!important;
+                                        &:focus {
+                                            color: $black!important;
+                                        }
+                                    }
+                                }
                                 .actions {
                                     .coupon {
                                         #coupon_code {
@@ -809,7 +825,7 @@
             font-size: 14px!important;
             color: $drk!important;
             line-height: 1.8em;
-            padding: 3px 33px 3px 20px;
+            padding: 3px 33px 3px 10px;
             width: 100%;
             max-width: 300px;
             -webkit-box-sizing: border-box;
