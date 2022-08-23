@@ -63,7 +63,7 @@ body {
             .et_pb_text {
                 &.twoCol {
                     .et_pb_text_inner {
-                        @media (min-width: 768px) {
+                        @media (min-width: 981px) {
                             column-count: 2;
                             column-gap: 5%;
                             column-fill: balance;

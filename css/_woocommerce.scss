@@ -395,7 +395,7 @@
             }   
             // links
             a:not(.button, .et_pb_button, .woocommerce-Button) {
-                text-decoration: none;
+                text-decoration: none!important;
                 position: relative;
                 cursor: pointer;
                 &::before {

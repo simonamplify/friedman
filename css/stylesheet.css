@@ -385,7 +385,7 @@ body #page-container #et-main-area .et_pb_row.fwRow {
   max-width: none !important;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 981px) {
   body #page-container #et-main-area .et_pb_text.twoCol .et_pb_text_inner {
     -webkit-column-count: 2;
             column-count: 2;
@@ -2301,7 +2301,7 @@ body .et_pb_scroll_top:hover {
 }
 
 .woocommerce-page #page-container #et-main-area a {
-  text-decoration: none;
+  text-decoration: none !important;
   position: relative;
   cursor: pointer;
 }
