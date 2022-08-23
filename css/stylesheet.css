@@ -902,20 +902,20 @@ body #page-container #et-main-area #main-content .cwp_et_pb_layout_slider_standa
 }
 
 body #page-container #et-main-area #main-content .cwp_et_pb_layout_slider_standard .swiper-container .swiper-wrapper .swiper-slide.swiper-slide-active .et_pb_section .et_pb_column {
-  -webkit-animation: textAnimate 2s;
-          animation: textAnimate 2s;
+  -webkit-animation: textAnimate 1.5s;
+          animation: textAnimate 1.5s;
 }
 
 @-webkit-keyframes textAnimate {
   0% {
     opacity: 0;
-    -webkit-transform: translateY(-25%);
-            transform: translateY(-25%);
+    -webkit-transform: translateY(15%);
+            transform: translateY(15%);
   }
   50% {
     opacity: 0;
-    -webkit-transform: translateY(-25%);
-            transform: translateY(-25%);
+    -webkit-transform: translateY(15%);
+            transform: translateY(15%);
   }
   100% {
     opacity: 1;
@@ -927,13 +927,13 @@ body #page-container #et-main-area #main-content .cwp_et_pb_layout_slider_standa
 @keyframes textAnimate {
   0% {
     opacity: 0;
-    -webkit-transform: translateY(-25%);
-            transform: translateY(-25%);
+    -webkit-transform: translateY(15%);
+            transform: translateY(15%);
   }
   50% {
     opacity: 0;
-    -webkit-transform: translateY(-25%);
-            transform: translateY(-25%);
+    -webkit-transform: translateY(15%);
+            transform: translateY(15%);
   }
   100% {
     opacity: 1;

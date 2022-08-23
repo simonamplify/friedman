@@ -247,15 +247,15 @@ body {
                                 &.swiper-slide-active {
                                     .et_pb_section {
                                         .et_pb_column {
-                                            animation: textAnimate 2s;
+                                            animation: textAnimate 1.5s;
                                             @keyframes textAnimate {
                                                 0% {
                                                     opacity: 0;
-                                                    transform: translateY(-25%);
+                                                    transform: translateY(15%);
                                                 }
                                                 50% {
                                                     opacity: 0;
-                                                    transform: translateY(-25%);
+                                                    transform: translateY(15%);
                                                 }
                                                 100% {
                                                     opacity: 1;
