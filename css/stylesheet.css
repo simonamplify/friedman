@@ -1593,7 +1593,6 @@ body #page-container #et-main-area #main-content .cards > .card {
   cursor: pointer;
   -webkit-transition: .35s linear;
   transition: .35s linear;
-  overflow: hidden;
 }
 
 body #page-container #et-main-area #main-content .cards > .card img {
@@ -1605,8 +1604,8 @@ body #page-container #et-main-area #main-content .cards > .card img {
      object-fit: cover;
   -webkit-transition: .35s linear;
   transition: .35s linear;
-  -webkit-filter: blur(2px) brightness(70%);
-          filter: blur(2px) brightness(70%);
+  -webkit-filter: blur(0px) brightness(100%);
+          filter: blur(0px) brightness(100%);
 }
 
 body #page-container #et-main-area #main-content .cards .card .btn {
@@ -1622,7 +1621,7 @@ body #page-container #et-main-area #main-content .cards .card .btn {
 
 body #page-container #et-main-area #main-content .cards .card .btn h3 {
   color: #ffffff;
-  font-size: 16px;
+  font-size: 18px;
   padding: .5em 1.5em .3em !important;
   background: rgba(0, 0, 0, 0.3);
   border: solid 2px transparent;
@@ -1633,7 +1632,7 @@ body #page-container #et-main-area #main-content .cards .card .btn h3 {
 body #page-container #et-main-area #main-content .cards .card .btn:hover h3 {
   color: #bea668;
   border-color: #bea668;
-  background: transparent;
+  background: transparent !important;
 }
 
 body #page-container #et-main-area #main-content .cards .card:hover {
@@ -1642,8 +1641,8 @@ body #page-container #et-main-area #main-content .cards .card:hover {
 }
 
 body #page-container #et-main-area #main-content .cards .card:hover img {
-  -webkit-filter: blur(0px) brightness(100%);
-          filter: blur(0px) brightness(100%);
+  -webkit-filter: blur(2px) brightness(30%);
+          filter: blur(2px) brightness(30%);
 }
 
 body #page-container #et-main-area #main-content .cards .card:hover .btn h3 {
