@@ -1590,7 +1590,6 @@ body #page-container #et-main-area #main-content .cards > .card {
   height: 0;
   min-height: 100%;
   min-width: 100%;
-  cursor: none;
   -webkit-transition: .35s linear;
   transition: .35s linear;
   overflow: hidden;
