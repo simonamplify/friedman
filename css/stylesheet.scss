@@ -741,8 +741,8 @@ body {
                 .cards {
                     --n: 1; 
                     --m: 4; 
-                    --g: 4px;  
-                    --f: .8;  
+                    --g: 0px;  
+                    --f: .5;  
                     display: grid;
                     gap: var(--g);
                     width: 100vw;
@@ -754,7 +754,7 @@ body {
                         height: 0;
                         min-height: 100%;
                         min-width: 100%;
-                        cursor: pointer;
+                        cursor: none;
                         transition: .35s linear;
                         overflow: hidden;
                         img {
@@ -786,12 +786,12 @@ body {
                             &:hover {
                                 h3 {
                                     color: $white;
-                                    background: $primary1;
+                                    background: $primary1!important;
                                 }
                             }
                         }
                         &:hover{
-                            width:  calc(100vh*var(--f)/var(--n));
+                            width:  calc(40vh*var(--f)/var(--n));
                             height: calc(100vw*var(--f)/var(--m));
                             img{
                                 filter: brightness(100%);
