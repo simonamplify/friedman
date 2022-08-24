@@ -82,8 +82,9 @@
         if(hoverCard !== null && hoverCard !== '') {
             console.log('card')
             hoverCard.classList.add('expanded');
-            hoverCard.onmouseover=function(){
-                this.classList.remove('expanded');
+            var hoverCards = document.querySelector('.cards');
+            hoverCards.onmouseover=function(){
+                hoverCard.classList.remove('expanded');
             };
         }
 	});
