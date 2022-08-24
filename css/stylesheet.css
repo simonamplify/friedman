@@ -1573,7 +1573,7 @@ body #page-container #et-main-area #main-content #artists .artistOverlay {
 body #page-container #et-main-area #main-content .cards {
   --n: 1;
   --m: 4;
-  --g: 0px;
+  --g: 4px;
   --f: .8;
   display: -ms-grid;
   display: grid;
@@ -1593,6 +1593,7 @@ body #page-container #et-main-area #main-content .cards > .card {
   cursor: pointer;
   -webkit-transition: .35s linear;
   transition: .35s linear;
+  overflow: hidden;
 }
 
 body #page-container #et-main-area #main-content .cards > .card img {
@@ -1604,8 +1605,8 @@ body #page-container #et-main-area #main-content .cards > .card img {
      object-fit: cover;
   -webkit-transition: .35s linear;
   transition: .35s linear;
-  -webkit-filter: blur(2px) brightness(70%);
-          filter: blur(2px) brightness(70%);
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%);
 }
 
 body #page-container #et-main-area #main-content .cards .card .btn {
@@ -1621,18 +1622,16 @@ body #page-container #et-main-area #main-content .cards .card .btn {
 
 body #page-container #et-main-area #main-content .cards .card .btn h3 {
   color: #ffffff;
-  font-size: 16px;
+  font-size: 20px;
   padding: .5em 1.5em .3em !important;
-  background: #bea668;
-  border: solid 2px transparent;
+  background: transparent;
   -webkit-transition: .35s linear;
   transition: .35s linear;
 }
 
 body #page-container #et-main-area #main-content .cards .card .btn:hover h3 {
-  color: #bea668;
-  border-color: #bea668;
-  background: transparent;
+  color: #ffffff;
+  background: #bea668;
 }
 
 body #page-container #et-main-area #main-content .cards .card:hover {
@@ -1641,12 +1640,12 @@ body #page-container #et-main-area #main-content .cards .card:hover {
 }
 
 body #page-container #et-main-area #main-content .cards .card:hover img {
-  -webkit-filter: blur(0px) brightness(100%);
-          filter: blur(0px) brightness(100%);
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
 }
 
 body #page-container #et-main-area #main-content .cards .card:hover .btn h3 {
-  background: #bea668;
+  background: #000000;
 }
 
 body #page-container #et-main-area footer {
