@@ -548,6 +548,10 @@ body #page-container #et-main-area .socialIcons a {
           align-items: center;
 }
 
+body #page-container #et-main-area #main-content {
+  /* CATEGORY CARDS */
+}
+
 @media all and (max-width: 980px) {
   body #page-container #et-main-area #main-content {
     /* wrap row in a flex box */
@@ -1564,6 +1568,70 @@ body #page-container #et-main-area #main-content #artists .artistOverlay {
   width: 100%;
   height: auto;
   z-index: 2;
+}
+
+body #page-container #et-main-area #main-content .cards {
+  --n: 1;
+  /* number of rows*/
+  --m: 5;
+  /* number of columns */
+  --g: 0px;
+  /* control the gap */
+  --f: .8;
+  /* control the scale factor */
+  display: -ms-grid;
+  display: grid;
+  gap: var(--g);
+  width: 100vw;
+  height: 100vh;
+  -ms-grid-columns: (auto)[var];
+      grid-template-columns: repeat(var(--m), auto);
+}
+
+body #page-container #et-main-area #main-content .cards > .card {
+  position: relative;
+  width: 0;
+  height: 0;
+  min-height: 100%;
+  min-width: 100%;
+  cursor: pointer;
+  -webkit-filter: grayscale(80%);
+          filter: grayscale(80%);
+  -webkit-transition: .35s linear;
+  transition: .35s linear;
+}
+
+body #page-container #et-main-area #main-content .cards > .card img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-filter: grayscale(80%);
+          filter: grayscale(80%);
+}
+
+body #page-container #et-main-area #main-content .cards > .card .btn {
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  cursor: pointer;
+  white-space: nowrap;
+  color: #ffffff;
+}
+
+body #page-container #et-main-area #main-content .cards > .card .btn:hover {
+  color: #bea668;
+}
+
+body #page-container #et-main-area #main-content .cards > .card:hover {
+  width: calc(100vh*var(--f)/var(--n));
+  height: calc(100vw*var(--f)/var(--m));
+}
+
+body #page-container #et-main-area #main-content .cards > .card:hover img {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
 }
 
 body #page-container #et-main-area footer {
