@@ -768,53 +768,7 @@ body {
                     height: calc(100vw*var(--f)/var(--m));
                   }
                   
-                .cards {
-                    --n: 1; /* number of rows*/
-                    --m: 5; /* number of columns */
-                    --g: 0px;  /* control the gap */
-                    --f: .8;   /* control the scale factor */
-                    display: grid;
-                    gap: var(--g);
-                    width: 100vw;
-                    height: 100vh;
-                    grid-template-columns: repeat(var(--m),auto);
-                    > .card {
-                        position: relative;
-                        width: 0;
-                        height: 0;
-                        min-height: 100%;
-                        min-width: 100%;
-                        cursor: pointer;
-                        filter: grayscale(80%);
-                        transition: .35s linear;
-                        img {
-                            object-fit: cover;
-                            filter: grayscale(80%);
-                        }
-                    }
-                    .card {
-                        .btn {
-                            position: absolute;
-                            display: block;
-                            top: 50%;
-                            left: 50%;
-                            transform: translate(-50%, -50%);
-                            cursor: pointer;
-                            white-space: nowrap;
-                            color: $white;
-                            &:hover {
-                                color: $primary1;
-                            }
-                        }
-                        &:hover{
-                            width:  calc(100vh*var(--f)/var(--n));
-                            height: calc(100vw*var(--f)/var(--m));
-                            img{
-                                filter: grayscale(0);
-                            }
-                        }
-                    }
-                }   
+                  
             }
             @import 'footer';
         }
