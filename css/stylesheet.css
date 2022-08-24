@@ -1573,7 +1573,7 @@ body #page-container #et-main-area #main-content #artists .artistOverlay {
 body #page-container #et-main-area #main-content .cards {
   --n: 1;
   --m: 4;
-  --g: 4px;
+  --g: 0px;
   --f: .8;
   display: -ms-grid;
   display: grid;
@@ -1582,7 +1582,6 @@ body #page-container #et-main-area #main-content .cards {
   height: 400px;
   -ms-grid-columns: (auto)[var];
       grid-template-columns: repeat(var(--m), auto);
-  border: 4px solid transparent;
 }
 
 body #page-container #et-main-area #main-content .cards > .card {
@@ -1606,8 +1605,8 @@ body #page-container #et-main-area #main-content .cards > .card img {
      object-fit: cover;
   -webkit-transition: .35s linear;
   transition: .35s linear;
-  -webkit-filter: grayscale(80%) blur(2px) brightness(70%);
-          filter: grayscale(80%) blur(2px) brightness(70%);
+  -webkit-filter: blur(2px) brightness(70%);
+          filter: blur(2px) brightness(70%);
 }
 
 body #page-container #et-main-area #main-content .cards .card .btn {
@@ -1623,10 +1622,17 @@ body #page-container #et-main-area #main-content .cards .card .btn {
 
 body #page-container #et-main-area #main-content .cards .card .btn h3 {
   color: #ffffff;
+  padding: 12px 20px 6px 20px;
+  background: rgba(0, 0, 0, 0.3);
+  border: solid 2px transparent;
+  -webkit-transition: .35s linear;
+  transition: .35s linear;
+  padding: 0;
 }
 
 body #page-container #et-main-area #main-content .cards .card .btn:hover h3 {
   color: #bea668;
+  border-color: #bea668;
 }
 
 body #page-container #et-main-area #main-content .cards .card:hover {
@@ -1635,8 +1641,12 @@ body #page-container #et-main-area #main-content .cards .card:hover {
 }
 
 body #page-container #et-main-area #main-content .cards .card:hover img {
-  -webkit-filter: grayscale(0);
-          filter: grayscale(0);
+  -webkit-filter: blur(0px) brightness(100%);
+          filter: blur(0px) brightness(100%);
+}
+
+body #page-container #et-main-area #main-content .cards .card:hover .btn h3 {
+  background: rgba(0, 0, 0, 0.7);
 }
 
 body #page-container #et-main-area footer {

@@ -741,14 +741,13 @@ body {
                 .cards {
                     --n: 1; 
                     --m: 4; 
-                    --g: 4px;  
+                    --g: 0px;  
                     --f: .8;  
                     display: grid;
                     gap: var(--g);
                     width: 100vw;
                     height: 400px;
                     grid-template-columns: repeat(var(--m),auto);
-                    border: 4px solid transparent;
                     & > .card {
                         position: relative;
                         width: 0;
@@ -765,7 +764,7 @@ body {
                             min-width: 100%;
                             object-fit: cover;
                             transition: .35s linear;
-                            filter: grayscale(80%) blur(2px) brightness(70%);
+                            filter: blur(2px) brightness(70%);
                         }
                     }
                     .card {
@@ -779,10 +778,16 @@ body {
                             white-space: nowrap;
                             h3 {
                                 color: $white;
+                                padding: 12px 20px 6px 20px;
+                                background: rgba(0, 0, 0, 0.3);
+                                border: solid 2px transparent;
+                                transition: .35s linear;
+                                padding: 0;
                             }
                             &:hover {
                                 h3 {
                                     color: $primary1;
+                                    border-color: $primary1;
                                 }
                             }
                         }
@@ -790,7 +795,12 @@ body {
                             width:  calc(100vh*var(--f)/var(--n));
                             height: calc(100vw*var(--f)/var(--m));
                             img{
-                                filter: grayscale(0);
+                                filter: blur(0px) brightness(100%);
+                            }
+                            .btn {
+                                h3 {
+                                    background: rgba(0, 0, 0, 0.7);
+                                }
                             }
                         }
                     }
