@@ -1570,7 +1570,7 @@ body #page-container #et-main-area #main-content #artists .artistOverlay {
   z-index: 2;
 }
 
-body #page-container #et-main-area #main-content .gallery {
+body #page-container #et-main-area #main-content .cards {
   --n: 1;
   /* number of rows*/
   --m: 5;
@@ -1588,7 +1588,7 @@ body #page-container #et-main-area #main-content .gallery {
       grid-template-columns: repeat(var(--m), auto);
 }
 
-body #page-container #et-main-area #main-content .gallery > img {
+body #page-container #et-main-area #main-content .cards > .card img {
   width: 0;
   height: 0;
   min-height: 100%;
@@ -1602,16 +1602,11 @@ body #page-container #et-main-area #main-content .gallery > img {
   transition: .35s linear;
 }
 
-body #page-container #et-main-area #main-content .gallery img:hover {
+body #page-container #et-main-area #main-content .cards .card:hover img {
   -webkit-filter: grayscale(0);
           filter: grayscale(0);
   width: calc(100vh*var(--f)/var(--n));
   height: calc(100vw*var(--f)/var(--m));
-}
-
-body #page-container #et-main-area #main-content body {
-  margin: 0;
-  background: #60c4ff;
 }
 
 body #page-container #et-main-area #main-content .cards {

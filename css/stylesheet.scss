@@ -738,7 +738,7 @@ body {
                     }
                 }
                 /* CATEGORY CARDS */
-                .gallery {
+                .cards {
                     --n: 1; /* number of rows*/
                     --m: 5; /* number of columns */
                     --g: 0px;  /* control the gap */
@@ -751,7 +751,7 @@ body {
                     grid-template-columns: repeat(var(--m),auto);
                   }
                   
-                  .gallery > img {
+                  .cards > .card img {
                     width: 0;
                     height: 0;
                     min-height: 100%;
@@ -762,17 +762,12 @@ body {
                     transition: .35s linear;
                   }
                   
-                  .gallery img:hover{
+                  .cards .card:hover img {
                     filter: grayscale(0);
                     width:  calc(100vh*var(--f)/var(--n));
                     height: calc(100vw*var(--f)/var(--m));
                   }
                   
-                  
-                  body {
-                    margin: 0;
-                    background: #60c4ff;
-                  }
                 .cards {
                     --n: 1; /* number of rows*/
                     --m: 5; /* number of columns */
