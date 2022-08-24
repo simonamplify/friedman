@@ -232,66 +232,19 @@ body {
                     .swiper-container {
                         .swiper-wrapper {
                             .swiper-slide {
-                                .et_pb_section {
+                                /*.et_pb_section {
                                     &::before {
                                         transition: transform 0.2s ease;
                                         transform: scale(1.7);
                                     }
-                                }
+                                }*/
                                 .et_pb_button {
                                     padding: 0.5em 1.5em 0.3em 1.5em !important;
                                     &:hover {
                                         padding: 0.5em 1.5em 0.3em 1.5em !important;
                                     }
                                 }
-                                &.swiper-slide-active {
-                                    .et_pb_section {
-                                        .et_pb_column {
-                                            animation: textAnimate 1.5s;
-                                            @keyframes textAnimate {
-                                                0% {
-                                                    opacity: 0;
-                                                    transform: translateY(15%);
-                                                }
-                                                50% {
-                                                    opacity: 0;
-                                                    transform: translateY(15%);
-                                                }
-                                                100% {
-                                                    opacity: 1;
-                                                    transform: translateY(0);
-                                                }
-                                            }
-                                        }
-                                        &::before {
-                                            transform: scale(1.7);
-                                            animation: coneAnimate 1.5s;
-                                            @keyframes coneAnimate {
-                                                0% {
-                                                    transform: scale(0);
-                                                }
-                                                40% {
-                                                    transform: scale(0);
-                                                }
-                                                60% {
-                                                    transform: scale(1.9);
-                                                }
-                                                70% {
-                                                    transform: scale(1.65);
-                                                }
-                                                80% {
-                                                    transform: scale(1.9);
-                                                }
-                                                90% {
-                                                    transform: scale(1.69);
-                                                }
-                                                100% {
-                                                    transform: scale(1.7);
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
+                                
                             }
                         }
                         .as-dots-wrapper {
@@ -320,6 +273,35 @@ body {
                                     top: unset;
                                     bottom: 0;
                                     height: auto;
+                                }
+                            }
+                        }
+                    }
+                    &.fpSlider {
+                        .swiper-container {
+                            .swiper-wrapper {
+                                .swiper-slide {
+                                    &.swiper-slide-active {
+                                        .et_pb_section {
+                                            .et_pb_column {
+                                                animation: textAnimate 1.5s;
+                                                @keyframes textAnimate {
+                                                    0% {
+                                                        opacity: 0;
+                                                        transform: translateY(15%);
+                                                    }
+                                                    50% {
+                                                        opacity: 0;
+                                                        transform: translateY(15%);
+                                                    }
+                                                    100% {
+                                                        opacity: 1;
+                                                        transform: translateY(0);
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
                                 }
                             }
                         }
