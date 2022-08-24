@@ -1608,7 +1608,7 @@ body #page-container #et-main-area #main-content .cards > .card img {
           filter: grayscale(80%);
 }
 
-body #page-container #et-main-area #main-content .cards > .card .btn {
+body #page-container #et-main-area #main-content .cards .card .btn {
   position: absolute;
   display: block;
   top: 50%;
@@ -1620,16 +1620,16 @@ body #page-container #et-main-area #main-content .cards > .card .btn {
   color: #ffffff;
 }
 
-body #page-container #et-main-area #main-content .cards > .card .btn:hover {
+body #page-container #et-main-area #main-content .cards .card .btn:hover {
   color: #bea668;
 }
 
-body #page-container #et-main-area #main-content .cards > .card:hover {
+body #page-container #et-main-area #main-content .cards .card:hover {
   width: calc(100vh*var(--f)/var(--n));
   height: calc(100vw*var(--f)/var(--m));
 }
 
-body #page-container #et-main-area #main-content .cards > .card:hover img {
+body #page-container #et-main-area #main-content .cards .card:hover img {
   -webkit-filter: grayscale(0);
           filter: grayscale(0);
 }
