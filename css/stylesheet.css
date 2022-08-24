@@ -1588,13 +1588,12 @@ body #page-container #et-main-area #main-content .cards {
       grid-template-columns: repeat(var(--m), auto);
 }
 
-body #page-container #et-main-area #main-content .cards > .card img {
+body #page-container #et-main-area #main-content .cards > .card {
+  position: relative;
   width: 0;
   height: 0;
   min-height: 100%;
   min-width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
   cursor: pointer;
   -webkit-filter: grayscale(80%);
           filter: grayscale(80%);
@@ -1602,11 +1601,37 @@ body #page-container #et-main-area #main-content .cards > .card img {
   transition: .35s linear;
 }
 
+body #page-container #et-main-area #main-content .cards > .card img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-filter: grayscale(80%);
+          filter: grayscale(80%);
+}
+
+body #page-container #et-main-area #main-content .cards .card .btn {
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  cursor: pointer;
+  white-space: nowrap;
+  color: #ffffff;
+}
+
+body #page-container #et-main-area #main-content .cards .card .btn:hover {
+  color: #bea668;
+}
+
+body #page-container #et-main-area #main-content .cards .card:hover {
+  width: calc(100vh*var(--f)/var(--n));
+  height: calc(100vw*var(--f)/var(--m));
+}
+
 body #page-container #et-main-area #main-content .cards .card:hover img {
   -webkit-filter: grayscale(0);
           filter: grayscale(0);
-  width: calc(100vh*var(--f)/var(--n));
-  height: calc(100vw*var(--f)/var(--m));
 }
 
 body #page-container #et-main-area footer {
