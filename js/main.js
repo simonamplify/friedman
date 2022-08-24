@@ -78,10 +78,11 @@
 		$('#artists .artist .artistDetails .artistContent a').attr('target', '_blank');
         /* Hover Cards */
         var hoverCard = null;
-        var hoverCard = document.querySelector('.cards .card');
+        var hoverCard = document.querySelector('.card');
         if(hoverCard !== null && hoverCard !== '') {
-            document.hoverCard.classList.add('expanded');
-            document.hoverCard.onmouseover=function(){
+            console.log('card')
+            hoverCard.classList.add('expanded');
+            hoverCard.onmouseover=function(){
                 this.classList.remove('expanded');
             };
         }
