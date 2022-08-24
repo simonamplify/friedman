@@ -789,6 +789,15 @@ body {
                                 }
                             }
                         }
+                        &.expanded {
+                            @media (hover: none) {
+                                width:  calc(100vh*var(--f)/var(--n));
+                                height: calc(100vw*var(--f)/var(--m));
+                                @media (max-width: 980px) {
+                                    width:  calc(40vh*var(--f)/var(--n));
+                                }
+                            }
+                        }
                         &:hover {
                             width:  calc(100vh*var(--f)/var(--n));
                             height: calc(100vw*var(--f)/var(--m));

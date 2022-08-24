@@ -1633,6 +1633,19 @@ body #page-container #et-main-area #main-content .cards .card .btn:hover h3 {
   background: #bea668 !important;
 }
 
+@media (hover: none) {
+  body #page-container #et-main-area #main-content .cards .card.expanded {
+    width: calc(100vh*var(--f)/var(--n));
+    height: calc(100vw*var(--f)/var(--m));
+  }
+}
+
+@media (hover: none) and (max-width: 980px) {
+  body #page-container #et-main-area #main-content .cards .card.expanded {
+    width: calc(40vh*var(--f)/var(--n));
+  }
+}
+
 body #page-container #et-main-area #main-content .cards .card:hover {
   width: calc(100vh*var(--f)/var(--n));
   height: calc(100vw*var(--f)/var(--m));
