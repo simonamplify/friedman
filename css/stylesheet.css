@@ -1572,13 +1572,9 @@ body #page-container #et-main-area #main-content #artists .artistOverlay {
 
 body #page-container #et-main-area #main-content .cards {
   --n: 1;
-  /* number of rows*/
   --m: 5;
-  /* number of columns */
   --g: 0px;
-  /* control the gap */
   --f: .8;
-  /* control the scale factor */
   display: -ms-grid;
   display: grid;
   gap: var(--g);
@@ -1602,10 +1598,13 @@ body #page-container #et-main-area #main-content .cards > .card {
 }
 
 body #page-container #et-main-area #main-content .cards > .card img {
+  min-height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  -webkit-filter: grayscale(80%);
-          filter: grayscale(80%);
+  -webkit-transition: .35s linear;
+  transition: .35s linear;
+  -webkit-filter: grayscale(80%) blur(2px) brightness(70%);
+          filter: grayscale(80%) blur(2px) brightness(70%);
 }
 
 body #page-container #et-main-area #main-content .cards .card .btn {
@@ -1617,10 +1616,13 @@ body #page-container #et-main-area #main-content .cards .card .btn {
           transform: translate(-50%, -50%);
   cursor: pointer;
   white-space: nowrap;
+}
+
+body #page-container #et-main-area #main-content .cards .card .btn h3 {
   color: #ffffff;
 }
 
-body #page-container #et-main-area #main-content .cards .card .btn:hover {
+body #page-container #et-main-area #main-content .cards .card .btn:hover h3 {
   color: #bea668;
 }
 

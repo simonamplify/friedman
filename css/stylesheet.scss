@@ -737,14 +737,12 @@ body {
                         z-index: 2;
                     }
                 }
-                /* CATEGORY CARDS */
-                
-                  
+                /* CATEGORY CARDS */               
                 .cards {
-                    --n: 1; /* number of rows*/
-                    --m: 5; /* number of columns */
-                    --g: 0px;  /* control the gap */
-                    --f: .8;   /* control the scale factor */
+                    --n: 1; 
+                    --m: 5; 
+                    --g: 0px;  
+                    --f: .8;  
                     display: grid;
                     gap: var(--g);
                     width: 100vw;
@@ -760,8 +758,10 @@ body {
                         filter: grayscale(80%);
                         transition: .35s linear;
                         img {
+                            min-height: 100%;
                             object-fit: cover;
-                            filter: grayscale(80%);
+                            transition: .35s linear;
+                            filter: grayscale(80%) blur(2px) brightness(70%);
                         }
                     }
                     .card {
@@ -773,9 +773,13 @@ body {
                             transform: translate(-50%, -50%);
                             cursor: pointer;
                             white-space: nowrap;
-                            color: $white;
+                            h3 {
+                                color: $white;
+                            }
                             &:hover {
-                                color: $primary1;
+                                h3 {
+                                    color: $primary1;
+                                }
                             }
                         }
                         &:hover{
