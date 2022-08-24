@@ -764,7 +764,7 @@ body {
                             min-width: 100%;
                             object-fit: cover;
                             transition: .35s linear;
-                            filter: blur(0px) brightness(100%);
+                            filter: blur(2px) brightness(70%);
                         }
                     }
                     .card {
@@ -778,9 +778,9 @@ body {
                             white-space: nowrap;
                             h3 {
                                 color: $white;
-                                font-size: 18px;
+                                font-size: 16px;
                                 padding: .5em 1.5em .3em !important;
-                                background: rgba(0, 0, 0, 0.3);
+                                background: $primary1;
                                 border: solid 2px transparent;
                                 transition: .35s linear;
                             }
@@ -788,7 +788,7 @@ body {
                                 h3 {
                                     color: $primary1;
                                     border-color: $primary1;
-                                    background: transparent!important;
+                                    background: transparent;
                                 }
                             }
                         }
@@ -796,7 +796,7 @@ body {
                             width:  calc(100vh*var(--f)/var(--n));
                             height: calc(100vw*var(--f)/var(--m));
                             img{
-                                filter: blur(2px) brightness(30%);
+                                filter: blur(0px) brightness(100%);
                             }
                             .btn {
                                 h3 {
