@@ -778,16 +778,17 @@ body {
                             white-space: nowrap;
                             h3 {
                                 color: $white;
-                                padding: 12px 20px 6px 20px;
+                                font-size: 16px;
+                                padding: .5em 1.5em .3em !important;
                                 background: rgba(0, 0, 0, 0.3);
                                 border: solid 2px transparent;
                                 transition: .35s linear;
-                                padding: 0;
                             }
                             &:hover {
                                 h3 {
                                     color: $primary1;
                                     border-color: $primary1;
+                                    background: transparent;
                                 }
                             }
                         }
@@ -799,7 +800,7 @@ body {
                             }
                             .btn {
                                 h3 {
-                                    background: rgba(0, 0, 0, 0.7);
+                                    background: $primary1;
                                 }
                             }
                         }

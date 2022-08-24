@@ -1622,17 +1622,18 @@ body #page-container #et-main-area #main-content .cards .card .btn {
 
 body #page-container #et-main-area #main-content .cards .card .btn h3 {
   color: #ffffff;
-  padding: 12px 20px 6px 20px;
+  font-size: 16px;
+  padding: .5em 1.5em .3em !important;
   background: rgba(0, 0, 0, 0.3);
   border: solid 2px transparent;
   -webkit-transition: .35s linear;
   transition: .35s linear;
-  padding: 0;
 }
 
 body #page-container #et-main-area #main-content .cards .card .btn:hover h3 {
   color: #bea668;
   border-color: #bea668;
+  background: transparent;
 }
 
 body #page-container #et-main-area #main-content .cards .card:hover {
@@ -1646,7 +1647,7 @@ body #page-container #et-main-area #main-content .cards .card:hover img {
 }
 
 body #page-container #et-main-area #main-content .cards .card:hover .btn h3 {
-  background: rgba(0, 0, 0, 0.7);
+  background: #bea668;
 }
 
 body #page-container #et-main-area footer {
