@@ -179,6 +179,8 @@
                         border-color: $grey;
                         color: $black;
                         @include ease2();
+                        letter-spacing: .02rem;
+                        font-weight: 500;
                         &::placeholder {
                             color: $drk;
                         }

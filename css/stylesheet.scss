@@ -849,7 +849,9 @@ body {
                                     width: 100%;
                                     font-weight: 400;
                                     border: 1px solid transparent;
-                                    &::-ms-input-placeholder, ::placeholder {
+                                    letter-spacing: .02rem;
+                                    font-weight: 500;
+                                    &::-ms-input-placeholder, &::placeholder {
                                         color: $drk;
                                         opacity: 1;
                                     }
