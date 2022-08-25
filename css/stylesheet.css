@@ -1597,12 +1597,15 @@ body #page-container #et-main-area #main-content .gform_wrapper .gfield_required
   color: #ffffff;
 }
 
-body #page-container #et-main-area #main-content .gform_wrapper .gform_validation_errors > .gform_submission_error {
-  padding-bottom: 0;
-  font-size: 13px;
-  padding: 0px 10px 0px 10px;
+body #page-container #et-main-area #main-content .gform_wrapper .gform_validation_errors {
   border-color: #c0392b;
   background: #c0392b;
+  color: #ffffff;
+  margin: 0 0 20px 0;
+}
+
+body #page-container #et-main-area #main-content .gform_wrapper .gform_validation_errors > .gform_submission_error {
+  padding-bottom: 0;
   color: #ffffff;
 }
 
@@ -1628,17 +1631,17 @@ body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gfo
 
 body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=email]::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=email]:-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=password]::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=password]:-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=tel]::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=tel]:-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=text]::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=text]:-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield select::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield select:-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield textarea::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield textarea:-ms-input-placeholder {
   color: #64646c;
-  opacity: 1;
+  opacity: 1 !important;
 }
 
 body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=email]::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=email]::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=password]::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=password]::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=tel]::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=tel]::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=text]::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=text]::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield select::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield select::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield textarea::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield textarea::-ms-input-placeholder {
   color: #64646c;
-  opacity: 1;
+  opacity: 1 !important;
 }
 
 body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=email]::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=email]::placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=password]::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=password]::placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=tel]::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=tel]::placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=text]::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=text]::placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield select::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield select::placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield textarea::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield textarea::placeholder {
   color: #64646c;
-  opacity: 1;
+  opacity: 1 !important;
 }
 
 body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=email]:focus, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=password]:focus, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=tel]:focus, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=text]:focus, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield select:focus, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield textarea:focus {

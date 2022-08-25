@@ -820,12 +820,12 @@ body {
                         color: $white;
                     }
                     .gform_validation_errors {
+                        border-color: $red;
+                        background: $red;
+                        color: $white;
+                        margin: 0 0 20px 0;
                         > .gform_submission_error {
                             padding-bottom: 0;
-                            font-size: 13px;
-                            padding: 0px 10px 0px 10px;
-                            border-color: $red;
-                            background: $red;
                             color: $white;
                         }
                         .gform-icon {
@@ -853,7 +853,7 @@ body {
                                     font-weight: 500;
                                     &::-ms-input-placeholder, &::placeholder {
                                         color: $drk;
-                                        opacity: 1;
+                                        opacity: 1!important;
                                     }
                                     &:focus {
                                         color: $black;
