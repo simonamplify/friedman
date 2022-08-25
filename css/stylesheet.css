@@ -1597,12 +1597,30 @@ body #page-container #et-main-area #main-content .gform_wrapper .gfield_required
   color: #ffffff;
 }
 
-body #page-container #et-main-area #main-content .gform_wrapper .gform_validation_errors > h2.hide_summary {
+body #page-container #et-main-area #main-content .gform_wrapper .gform_validation_errors > .gform_submission_error {
   padding-bottom: 0;
+  font-size: 13px;
+  padding: 0px 10px 0px 10px;
+  border-color: #c0392b;
+  background: #c0392b;
+  color: #ffffff;
+}
+
+body #page-container #et-main-area #main-content .gform_wrapper .gform_validation_errors .gform-icon::before {
+  color: #ffffff;
 }
 
 body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=email], body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=password], body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=tel], body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=text], body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield select, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield textarea {
-  color: #000000;
+  border-radius: 0px 0px 0px 0px;
+  overflow: hidden;
+  -webkit-appearance: none;
+  padding: 14px 4% !important;
+  font-size: 16px;
+  color: #64646c;
+  background-color: #ffffff;
+  width: 100%;
+  font-weight: 400;
+  border: 1px solid transparent;
 }
 
 body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=email]::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=email] :-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=password]::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=password] :-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=tel]::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=tel] :-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=text]::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=text] :-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield select::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield select :-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield textarea::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield textarea :-ms-input-placeholder {
@@ -1617,6 +1635,10 @@ body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gfo
   color: #64646c;
 }
 
+body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=email]:focus, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=password]:focus, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=tel]:focus, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=text]:focus, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield select:focus, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield textarea:focus {
+  color: #000000;
+}
+
 body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield select:valid {
   color: #000000;
 }
@@ -1625,7 +1647,16 @@ body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gfo
   color: #64646c !important;
 }
 
+body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield .gfield_description, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield .validation_message, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield .gfield_validation_message {
+  font-size: 13px;
+  padding: 0px 10px 0px 10px;
+  border-color: #c0392b;
+  background: #c0392b;
+  color: #ffffff;
+}
+
 body #page-container #et-main-area #main-content .gform_wrapper input[type=submit] {
+  color: #ffffff;
   padding: .5em 1.5em .3em !important;
   font-size: 16px;
   background-color: #bea668;
@@ -1644,13 +1675,12 @@ body #page-container #et-main-area #main-content .gform_wrapper input[type=submi
   background-size: cover;
   background-position: 50%;
   background-repeat: no-repeat;
-  border: 2px solid;
+  border: 2px solid #bea668;
   -webkit-transition-property: all !important;
   transition-property: all !important;
   margin: 0;
   outline: 0;
   vertical-align: baseline;
-  background: transparent;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   text-align: center;

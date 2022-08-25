@@ -820,17 +820,39 @@ body {
                         color: $white;
                     }
                     .gform_validation_errors {
-                        > h2.hide_summary {
+                        > .gform_submission_error {
                             padding-bottom: 0;
+                            font-size: 13px;
+                            padding: 0px 10px 0px 10px;
+                            border-color: $red;
+                            background: $red;
+                            color: $white;
+                        }
+                        .gform-icon {
+                            &::before {
+                                color: $white;
+                            }
                         }
                     }
                     .gform_body {
                         .gform_fields {
                             .gfield {
                                 input[type=email], input[type=password], input[type=tel], input[type=text], select, textarea {
-                                    color: $black;
+                                    border-radius: 0px 0px 0px 0px;
+                                    overflow: hidden;
+                                    -webkit-appearance: none;
+                                    padding: 14px 4% !important;
+                                    font-size: 16px;
+                                    color: $drk;
+                                    background-color: $white;
+                                    width: 100%;
+                                    font-weight: 400;
+                                    border: 1px solid transparent;
                                     &::-ms-input-placeholder, ::placeholder {
                                         color: $drk;
+                                    }
+                                    &:focus {
+                                        color: $black;
                                     }
                                 }
                                 select {
@@ -841,10 +863,18 @@ body {
                                         color: $drk!important;
                                     }
                                 }
+                                .gfield_description, .validation_message, .gfield_validation_message {
+                                    font-size: 13px;
+                                    padding: 0px 10px 0px 10px;
+                                    border-color: $red;
+                                    background: $red;
+                                    color: $white;
+                                }
                             }
                         }
                     }
                     input[type=submit] {
+                        color: $white;
                         padding: .5em 1.5em .3em !important;
                         font-size: 16px;
                         background-color: $primary1;
@@ -862,12 +892,11 @@ body {
                         background-size: cover;
                         background-position: 50%;
                         background-repeat: no-repeat;
-                        border: 2px solid;
+                        border: 2px solid $primary1;
                         transition-property: all !important;
                         margin: 0;
                         outline: 0;
                         vertical-align: baseline;
-                        background: transparent;
                         box-sizing: border-box;
                         text-align: center;
                         &:hover {
