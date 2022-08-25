@@ -854,7 +854,7 @@ body {
                                     letter-spacing: .02rem;
                                     font-weight: 500;
                                     &::-ms-input-placeholder, &::placeholder {
-                                        color: $drk;
+                                        color: $drk!important;
                                         opacity: 1!important;
                                     }
                                     &:focus {
@@ -862,7 +862,7 @@ body {
                                     }
                                 }
                                 .address_country {
-                                    flex: 0 0 100%;
+                                    flex-grow: 1;
                                 }
                                 select {
                                     background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='UTF-8'?%3e%3csvg id='Layer_1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 23.74 15.3'%3e%3cdefs%3e%3cstyle%3e.cls-1%7bfill:%23c6c6c6;%7d%3c/style%3e%3c/defs%3e%3cpolygon class='cls-1' points='11.87 0 23.74 0 17.81 7.65 11.87 15.3 5.94 7.65 0 0 11.87 0'/%3e%3c/svg%3e");
@@ -879,6 +879,9 @@ body {
                                         color: $drk!important;
                                         opacity: 1;
                                     }
+                                }
+                                .warningTextareaInfo {
+                                    color: $grey;
                                 }
                                 .gfield_description, .validation_message, .gfield_validation_message {
                                     font-size: 13px;
