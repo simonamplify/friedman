@@ -853,7 +853,7 @@ body {
                                     border: 1px solid transparent;
                                     letter-spacing: .02rem;
                                     font-weight: 500;
-                                    &::-ms-input-placeholder, &:-ms-input-placeholder, &::-webkit-input-placeholder, &::-moz-placeholder, &::placeholder {
+                                    &::-ms-input-placeholder, &:-ms-input-placeholder, &::-webkit-input-placeholder, &::-moz-placeholder, &:-moz-placeholder, &::placeholder {
                                         color: $drk!important;
                                         opacity: 1!important;
                                     }
