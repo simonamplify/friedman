@@ -828,6 +828,7 @@ body {
                         > .gform_submission_error {
                             padding-bottom: 0;
                             color: $white;
+                            letter-spacing: .02rem;
                         }
                         .gform-icon {
                             &::before {
@@ -864,12 +865,12 @@ body {
                                     flex: 0 0 100%;
                                 }
                                 select {
-                                    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 68.09 39.24'%3e%3cdefs%3e%3cstyle%3e.cls-1%7bfill:%23c6c6c6;%7d%3c/style%3e%3c/defs%3e%3cpath class='cls-1' d='M55.7,3.47,38.38,20.13a6.25,6.25,0,0,1-8.67,0L12.4,3.47,10.6,1.75A6.25,6.25,0,0,0,6.27,0h0A6.25,6.25,0,0,0,1.93,10.76L12.4,20.83,29.71,37.49a6.25,6.25,0,0,0,8.67,0L55.7,20.83,66.16,10.76A6.25,6.25,0,0,0,61.83,0h0a6.27,6.27,0,0,0-4.34,1.75Z'/%3e%3c/svg%3e");
+                                    background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='UTF-8'?%3e%3csvg id='Layer_1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 23.74 15.3'%3e%3cdefs%3e%3cstyle%3e.cls-1%7bfill:%23c6c6c6;%7d%3c/style%3e%3c/defs%3e%3cpolygon class='cls-1' points='11.87 0 23.74 0 17.81 7.65 11.87 15.3 5.94 7.65 0 0 11.87 0'/%3e%3c/svg%3e");
                                     background-repeat: no-repeat, repeat;
                                     background-position: right 15px top 50%, 0 0;
                                     background-size: .65em auto, 100%;
                                     &:focus {
-                                        background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 68.09 39.24'%3e%3cdefs%3e%3cstyle%3e.cls-1%7bfill:%23c6c6c6;%7d%3c/style%3e%3c/defs%3e%3cpath class='cls-1' d='M12.4,35.77,29.71,19.11a6.25,6.25,0,0,1,8.67,0L55.7,35.77l1.79,1.72a6.27,6.27,0,0,0,4.34,1.75h0a6.25,6.25,0,0,0,4.33-10.76L55.7,18.41,38.38,1.75a6.25,6.25,0,0,0-8.67,0L12.4,18.41,1.93,28.48A6.25,6.25,0,0,0,6.27,39.24h0a6.25,6.25,0,0,0,4.33-1.75Z' transform='translate(0)'/%3e%3c/svg%3e");
+                                        background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='UTF-8'?%3e%3csvg id='Layer_1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 23.74 15.3'%3e%3cdefs%3e%3cstyle%3e.cls-1%7bfill:%23c6c6c6;%7d%3c/style%3e%3c/defs%3e%3cpolygon class='cls-1' points='11.87 15.3 0 15.3 5.94 7.65 11.87 0 17.81 7.65 23.74 15.3 11.87 15.3'/%3e%3c/svg%3e");
                                     }
                                     &:valid {
                                         color: $drk;
@@ -885,6 +886,7 @@ body {
                                     border-color: $red;
                                     background: $red;
                                     color: $white;
+                                    letter-spacing: .02rem;
                                 }
                             }
                         }
