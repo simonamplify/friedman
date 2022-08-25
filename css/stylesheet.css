@@ -1636,17 +1636,14 @@ body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gfo
 }
 
 body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input::-webkit-input-placeholder,
-body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input::-moz-placeholder,
 body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input:-ms-input-placeholder,
 body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input::-ms-input-placeholder,
 body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input::-webkit-input-placeholder,
 body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield textarea::-webkit-input-placeholder,
-body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield textarea::-moz-placeholder,
 body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield textarea:-ms-input-placeholder,
 body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield textarea::-ms-input-placeholder,
 body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield textarea::-webkit-input-placeholder,
 body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield select::-webkit-input-placeholder,
-body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield select::-moz-placeholder,
 body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield select:-ms-input-placeholder,
 body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield select::-ms-input-placeholder,
 body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield select::-webkit-input-placeholder {
@@ -1655,17 +1652,14 @@ body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gfo
 }
 
 body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input::-webkit-input-placeholder,
-body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input::-moz-placeholder,
 body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input:-ms-input-placeholder,
 body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input::-ms-input-placeholder,
 body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input::placeholder,
 body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield textarea::-webkit-input-placeholder,
-body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield textarea::-moz-placeholder,
 body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield textarea:-ms-input-placeholder,
 body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield textarea::-ms-input-placeholder,
 body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield textarea::placeholder,
 body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield select::-webkit-input-placeholder,
-body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield select::-moz-placeholder,
 body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield select:-ms-input-placeholder,
 body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield select::-ms-input-placeholder,
 body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield select::placeholder {
