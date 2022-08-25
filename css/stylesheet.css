@@ -549,7 +549,68 @@ body #page-container #et-main-area .socialIcons a {
 }
 
 body #page-container #et-main-area #main-content {
+  /*.signPosts {
+                    .et_pb_column {
+                        .et_pb_text {
+                            h1{
+                                font-size: 30px;
+                            }
+                        }
+                    }
+                }
+                .imgSignPosts {
+                    .et_pb_column {
+                        .et_pb_text {
+                            opacity: 0.7;
+                            transition: opacity 0.2s ease;
+                            h1, h2, h3 {
+                                padding-bottom: 0;
+                            }
+                        }
+                        &:hover {
+                            .et_pb_text {
+                                opacity: 1;
+                            }
+                        }
+                    }
+                }*/
+  /*.et_pb_contact_form_container {
+                    color: $black;
+                    font-weight: 400;
+                    margin-bottom: 20px;
+                    .et-pb-contact-message {
+                        > ul {
+                            margin-top: 10px; 
+                        }
+                        ul {
+                            font-weight: 300;
+                            color: $drk;
+                        }
+                    }
+                    .et_pb_contact {
+                        .et_pb_contact_form {
+                            .et_pb_contact_field {
+                                .input {
+                                    @include ease2();
+                                    &::placeholder {
+                                        @include ease2();
+                                        color: $drk;
+                                    }
+                                    &:focus {
+                                        border-color: $black;
+                                        &::placeholder {
+                                            border-color: $black;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }*/
   /* CATEGORY CARDS */
+  /* ===========================
+                GRAVITY FORMS
+                =========================== */
 }
 
 @media all and (max-width: 980px) {
@@ -1129,88 +1190,6 @@ body #page-container #et-main-area #main-content .cwp_et_pb_layout_slider_standa
   opacity: 0.8;
 }
 
-body #page-container #et-main-area #main-content .signPosts .et_pb_column .et_pb_text h1 {
-  font-size: 30px;
-}
-
-body #page-container #et-main-area #main-content .imgSignPosts .et_pb_column .et_pb_text {
-  opacity: 0.7;
-  -webkit-transition: opacity 0.2s ease;
-  transition: opacity 0.2s ease;
-}
-
-body #page-container #et-main-area #main-content .imgSignPosts .et_pb_column .et_pb_text h1, body #page-container #et-main-area #main-content .imgSignPosts .et_pb_column .et_pb_text h2, body #page-container #et-main-area #main-content .imgSignPosts .et_pb_column .et_pb_text h3 {
-  padding-bottom: 0;
-}
-
-body #page-container #et-main-area #main-content .imgSignPosts .et_pb_column:hover .et_pb_text {
-  opacity: 1;
-}
-
-body #page-container #et-main-area #main-content .et_pb_contact_form_container {
-  color: #000000;
-  font-weight: 400;
-  margin-bottom: 20px;
-}
-
-body #page-container #et-main-area #main-content .et_pb_contact_form_container .et-pb-contact-message > ul {
-  margin-top: 10px;
-}
-
-body #page-container #et-main-area #main-content .et_pb_contact_form_container .et-pb-contact-message ul {
-  font-weight: 300;
-  color: #64646c;
-}
-
-body #page-container #et-main-area #main-content .et_pb_contact_form_container .et_pb_contact .et_pb_contact_form .et_pb_contact_field .input {
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-}
-
-body #page-container #et-main-area #main-content .et_pb_contact_form_container .et_pb_contact .et_pb_contact_form .et_pb_contact_field .input::-webkit-input-placeholder {
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-  color: #64646c;
-}
-
-body #page-container #et-main-area #main-content .et_pb_contact_form_container .et_pb_contact .et_pb_contact_form .et_pb_contact_field .input:-ms-input-placeholder {
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-  color: #64646c;
-}
-
-body #page-container #et-main-area #main-content .et_pb_contact_form_container .et_pb_contact .et_pb_contact_form .et_pb_contact_field .input::-ms-input-placeholder {
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-  color: #64646c;
-}
-
-body #page-container #et-main-area #main-content .et_pb_contact_form_container .et_pb_contact .et_pb_contact_form .et_pb_contact_field .input::placeholder {
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-  color: #64646c;
-}
-
-body #page-container #et-main-area #main-content .et_pb_contact_form_container .et_pb_contact .et_pb_contact_form .et_pb_contact_field .input:focus {
-  border-color: #000000;
-}
-
-body #page-container #et-main-area #main-content .et_pb_contact_form_container .et_pb_contact .et_pb_contact_form .et_pb_contact_field .input:focus::-webkit-input-placeholder {
-  border-color: #000000;
-}
-
-body #page-container #et-main-area #main-content .et_pb_contact_form_container .et_pb_contact .et_pb_contact_form .et_pb_contact_field .input:focus:-ms-input-placeholder {
-  border-color: #000000;
-}
-
-body #page-container #et-main-area #main-content .et_pb_contact_form_container .et_pb_contact .et_pb_contact_form .et_pb_contact_field .input:focus::-ms-input-placeholder {
-  border-color: #000000;
-}
-
-body #page-container #et-main-area #main-content .et_pb_contact_form_container .et_pb_contact .et_pb_contact_form .et_pb_contact_field .input:focus::placeholder {
-  border-color: #000000;
-}
-
 body #page-container #et-main-area #main-content .et_pb_accordion .et_pb_toggle.et_pb_accordion_item .et_pb_toggle_title::before {
   -webkit-transition: -webkit-transform 0.2s ease;
   transition: -webkit-transform 0.2s ease;
@@ -1612,6 +1591,76 @@ body #page-container #et-main-area #main-content .cards .card:hover img {
 body #page-container #et-main-area #main-content .cards .card:hover .btn h3 {
   background: rgba(0, 0, 0, 0.7);
   opacity: 1;
+}
+
+body #page-container #et-main-area #main-content .gform_wrapper .gfield_required {
+  color: #ffffff;
+}
+
+body #page-container #et-main-area #main-content .gform_wrapper .gform_validation_errors > h2.hide_summary {
+  padding-bottom: 0;
+}
+
+body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=email], body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=password], body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=tel], body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=text], body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield select, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield textarea {
+  color: #000000;
+}
+
+body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=email]::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=email] :-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=password]::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=password] :-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=tel]::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=tel] :-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=text]::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=text] :-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield select::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield select :-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield textarea::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield textarea :-ms-input-placeholder {
+  color: #64646c;
+}
+
+body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=email]::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=email] ::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=password]::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=password] ::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=tel]::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=tel] ::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=text]::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=text] ::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield select::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield select ::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield textarea::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield textarea ::-ms-input-placeholder {
+  color: #64646c;
+}
+
+body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=email]::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=email] ::placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=password]::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=password] ::placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=tel]::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=tel] ::placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=text]::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield input[type=text] ::placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield select::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield select ::placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield textarea::-ms-input-placeholder, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield textarea ::placeholder {
+  color: #64646c;
+}
+
+body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield select:valid {
+  color: #000000;
+}
+
+body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield select:invalid, body #page-container #et-main-area #main-content .gform_wrapper .gform_body .gform_fields .gfield select .gf_placeholder {
+  color: #64646c !important;
+}
+
+body #page-container #et-main-area #main-content .gform_wrapper input[type=submit] {
+  padding: .5em 1.5em .3em !important;
+  font-size: 16px;
+  background-color: #bea668;
+  border-color: #bea668;
+  border-radius: 0px;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: -1px;
+  -webkit-transition: all 300ms ease 0ms;
+  transition: all 300ms ease 0ms;
+  font-family: 'Josefin Sans',Helvetica,Arial,Lucida,sans-serif;
+  position: relative;
+  line-height: 1.7em !important;
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  border: 2px solid;
+  -webkit-transition-property: all !important;
+  transition-property: all !important;
+  margin: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+}
+
+body #page-container #et-main-area #main-content .gform_wrapper input[type=submit]:hover {
+  color: #bea668 !important;
+  background-color: rgba(190, 166, 104, 0);
+  border-color: #bea668 !important;
+  letter-spacing: -1px;
 }
 
 body #page-container #et-main-area footer {

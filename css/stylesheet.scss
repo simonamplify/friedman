@@ -452,7 +452,7 @@ body {
                         }
                     }
                 }
-                .signPosts {
+                /*.signPosts {
                     .et_pb_column {
                         .et_pb_text {
                             h1{
@@ -476,8 +476,8 @@ body {
                             }
                         }
                     }
-                }
-                .et_pb_contact_form_container {
+                }*/
+                /*.et_pb_contact_form_container {
                     color: $black;
                     font-weight: 400;
                     margin-bottom: 20px;
@@ -509,7 +509,7 @@ body {
                             }
                         }
                     }
-                }
+                }*/
                 .et_pb_accordion {
                     .et_pb_toggle.et_pb_accordion_item {
                         .et_pb_toggle_title {
@@ -809,6 +809,72 @@ body {
                                     opacity: 1;
                                 }
                             }
+                        }
+                    }
+                }
+                /* ===========================
+                GRAVITY FORMS
+                =========================== */
+                .gform_wrapper {
+                    .gfield_required {
+                        color: $white;
+                    }
+                    .gform_validation_errors {
+                        > h2.hide_summary {
+                            padding-bottom: 0;
+                        }
+                    }
+                    .gform_body {
+                        .gform_fields {
+                            .gfield {
+                                input[type=email], input[type=password], input[type=tel], input[type=text], select, textarea {
+                                    color: $black;
+                                    &::-ms-input-placeholder, ::placeholder {
+                                        color: $drk;
+                                    }
+                                }
+                                select {
+                                    &:valid {
+                                        color: $black;
+                                    }
+                                    &:invalid, .gf_placeholder {
+                                        color: $drk!important;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    input[type=submit] {
+                        padding: .5em 1.5em .3em !important;
+                        font-size: 16px;
+                        background-color: $primary1;
+                        border-color: $primary1;
+                        border-radius: 0px;
+                        font-weight: bold;
+                        font-style: normal;
+                        text-transform: uppercase;
+                        text-decoration: none;
+                        letter-spacing: -1px;
+                        transition: all 300ms ease 0ms;
+                        font-family: 'Josefin Sans',Helvetica,Arial,Lucida,sans-serif;
+                        position: relative;
+                        line-height: 1.7em !important;
+                        background-size: cover;
+                        background-position: 50%;
+                        background-repeat: no-repeat;
+                        border: 2px solid;
+                        transition-property: all !important;
+                        margin: 0;
+                        outline: 0;
+                        vertical-align: baseline;
+                        background: transparent;
+                        box-sizing: border-box;
+                        text-align: center;
+                        &:hover {
+                            color: $primary1 !important;
+                            background-color: rgba(190,166,104,0);
+                            border-color: $primary1 !important;
+                            letter-spacing: -1px;
                         }
                     }
                 }  
