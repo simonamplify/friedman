@@ -25,7 +25,7 @@ function my_loginURL() {
 }
 add_filter('login_headerurl', 'my_loginURL');
 function my_loginURLtext() {
-    return 'Engl Amps';
+    return 'Friedman Amplification';
 }
 add_filter('login_headertitle', 'my_loginURLtext');
 // Add artists shortcode
