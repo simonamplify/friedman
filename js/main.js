@@ -87,5 +87,14 @@
                 hoverCard.classList.remove('expanded');
             };
         }
+        // Change add to cart button text after click
+        $('.et_pb_shop .ajax_add_to_cart').on('click', function(event) {
+			$(this).text('Added to Cart');
+            var addToCart = $(this);
+            window.setTimeout(function () {
+                $(addToCart).text('Add to Cart');
+            }, 5000);
+		});
+		$('.et_pb_shop .outofstock .button').text('Out of stock');
 	});
 })(jQuery)

@@ -821,6 +821,28 @@
         }
         .products  {
             padding-top: 10px;
+            .product {
+                .button {
+                    font-size: 14px!important;
+                    margin-top: 30px!important;
+                    margin-right: 10px!important;
+                    &::after {
+                        content: none;
+                    }
+                    &:hover {
+                        padding: .3em 1em;
+                        &::after {
+                            content: none;
+                        }
+                    }
+                }
+                &.outofstock {
+                    .button {
+                        pointer-events: none;
+                        opacity: 0.2;
+                    }
+                }
+            }   
         }
         select {
             display: block;
@@ -903,6 +925,29 @@
                     }
                 }
             }
+        }
+    }
+}
+/* SIDE CART */
+.xoo-wsc-modal {
+    .xoo-wsc-container {
+        .xoo-wsc-header {
+            .xoo-wsch-top {
+                .xoo-wsch-text {
+                    font-family: 'Josefin Sans',Helvetica,Arial,Lucida,sans-serif;
+                    font-weight: bold!important;
+					text-transform: uppercase!important;
+                    letter-spacing: -1px;
+                }
+            }
+        }
+        .xoo-wsc-basket {
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+    }
+    &.xoo-wsc-cart-active {
+        .xoo-wsc-opac {
+            opacity: 0.3;
         }
     }
 }
