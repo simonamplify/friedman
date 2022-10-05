@@ -3366,12 +3366,20 @@ body .et_pb_scroll_top:hover {
   margin-right: 10px !important;
 }
 
+.et_pb_shop .woocommerce .products .product .button::before {
+  content: none !important;
+}
+
 .et_pb_shop .woocommerce .products .product .button::after {
   content: none !important;
 }
 
 .et_pb_shop .woocommerce .products .product .button:hover {
   padding: .3em 1em;
+}
+
+.et_pb_shop .woocommerce .products .product .button:hover::before {
+  content: none !important;
 }
 
 .et_pb_shop .woocommerce .products .product .button:hover::after {

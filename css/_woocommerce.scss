@@ -826,11 +826,17 @@
                     font-size: 15px!important;
                     margin-top: 30px!important;
                     margin-right: 10px!important;
+                    &::before {
+                        content: none!important;
+                    }
                     &::after {
                         content: none!important;
                     }
                     &:hover {
                         padding: .3em 1em;
+                        &::before {
+                            content: none!important;
+                        }
                         &::after {
                             content: none!important;
                         }
