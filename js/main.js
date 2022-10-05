@@ -43,7 +43,7 @@
             } else {
                 ms.innerHTML = "search";
             }
-
+            return false;
         });
         /* Artist list filter */
 		var options = {
