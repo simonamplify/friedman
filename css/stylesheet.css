@@ -3315,6 +3315,14 @@ body .et_pb_scroll_top:hover {
   font-weight: 500;
 }
 
+.woocommerce-page .et_pb_widget_area.shopBar .widget_nav_menu .menu-product-category-menu-container #menu-product-category-menu .menu-item a::before {
+  content: none !important;
+}
+
+.woocommerce-page .et_pb_widget_area.shopBar .widget_nav_menu .menu-product-category-menu-container #menu-product-category-menu .menu-item a::after {
+  content: none !important;
+}
+
 .woocommerce-page .et_pb_widget_area.shopBar .widget_nav_menu .menu-product-category-menu-container #menu-product-category-menu .menu-item a:hover {
   background-color: #000000;
   color: #ffffff;

@@ -776,7 +776,13 @@
                                 color: $black;
                                 font-size: 16px;
                                 line-height: 1.8em;
-                                font-weight: 500;                       
+                                font-weight: 500;  
+                                &::before {
+                                    content: none!important;
+                                }
+                                &::after {
+                                    content: none!important;
+                                }                     
                                 &:hover {
                                     background-color: $black;
                                     color: $white;
