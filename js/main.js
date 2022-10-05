@@ -32,7 +32,8 @@
                 return this.text(this.text() == b ? a : b);
             }
         });
-        $('.menuSearchBtn').click(function(){
+        $('.menuSearchBtn').click(function(event){
+            event.preventDefault();
             $('.menuSearch').slideToggle();
             $('.menuSearch').toggleClass('focus');
             $('.menuSearch.focus .dgwt-wcas-search-input').focus();
@@ -42,6 +43,7 @@
             } else {
                 ms.innerHTML = "search";
             }
+
         });
         /* Artist list filter */
 		var options = {
