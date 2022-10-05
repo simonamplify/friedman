@@ -23,10 +23,10 @@
                         transition: color 0.2s ease;
                         white-space: normal;
                         &::before {
-                            content: none;
+                            content: none!important;
                         }
                         &::after {
-                            content: none;
+                            content: none!important;
                         }
                         &:hover {
                             color: $white!important;
@@ -37,10 +37,10 @@
                     a {
                         white-space: normal;
                         &::before {
-                            content: none;
+                            content: none!important;
                         }
                         &::after {
-                            content: none;
+                            content: none!important;
                         }
                     }
                 }
@@ -93,7 +93,7 @@
                     gap: 30px;
                     .productManual {
                         &::before, &::after {
-                            content: none;
+                            content: none!important;
                         }
                         display: flex;
                         flex-direction: row;
@@ -538,7 +538,7 @@
                                 .woocommerce-cart-form__cart-item {
                                     a {
                                         &::before, &::after {
-                                            content: none;
+                                            content: none!important;
                                         }
                                     }
                                     .product-remove {
@@ -675,10 +675,10 @@
                                         font-weight: 600;
                                         @include ease2();
                                         &::before {
-                                            content: none;
+                                            content: none!important;
                                         }
                                         &::after {
-                                            content: none;
+                                            content: none!important;
                                         }
                                         &:hover {
                                             background-color: $primary1;
@@ -827,12 +827,12 @@
                     margin-top: 30px!important;
                     margin-right: 10px!important;
                     &::after {
-                        content: none;
+                        content: none!important;
                     }
                     &:hover {
                         padding: .3em 1em;
                         &::after {
-                            content: none;
+                            content: none!important;
                         }
                     }
                 }

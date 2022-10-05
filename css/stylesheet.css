@@ -2426,11 +2426,11 @@ body .et_pb_scroll_top:hover {
 }
 
 .woocommerce-page #page-container #et-main-area #main-content .et_pb_wc_breadcrumb a::before {
-  content: none;
+  content: none !important;
 }
 
 .woocommerce-page #page-container #et-main-area #main-content .et_pb_wc_breadcrumb a::after {
-  content: none;
+  content: none !important;
 }
 
 .woocommerce-page #page-container #et-main-area #main-content .et_pb_wc_breadcrumb a:hover {
@@ -2442,11 +2442,11 @@ body .et_pb_scroll_top:hover {
 }
 
 .woocommerce-page #page-container #et-main-area #main-content .subHeader a::before {
-  content: none;
+  content: none !important;
 }
 
 .woocommerce-page #page-container #et-main-area #main-content .subHeader a::after {
-  content: none;
+  content: none !important;
 }
 
 .woocommerce-page #page-container #et-main-area #main-content .onsale {
@@ -2534,7 +2534,7 @@ body .et_pb_scroll_top:hover {
 }
 
 .woocommerce-page #page-container #et-main-area #main-content .manuals .productManual::before, .woocommerce-page #page-container #et-main-area #main-content .manuals .productManual::after {
-  content: none;
+  content: none !important;
 }
 
 .woocommerce-page #page-container #et-main-area #main-content .manuals .productManual .material-icons {
@@ -3048,7 +3048,7 @@ body .et_pb_scroll_top:hover {
 }
 
 .woocommerce-page.woocommerce-cart #page-container #et-main-area #main-content .woocommerce .woocommerce-cart-form .woocommerce-cart-form__contents .woocommerce-cart-form__cart-item a::before, .woocommerce-page.woocommerce-cart #page-container #et-main-area #main-content .woocommerce .woocommerce-cart-form .woocommerce-cart-form__contents .woocommerce-cart-form__cart-item a::after {
-  content: none;
+  content: none !important;
 }
 
 .woocommerce-page.woocommerce-cart #page-container #et-main-area #main-content .woocommerce .woocommerce-cart-form .woocommerce-cart-form__contents .woocommerce-cart-form__cart-item .product-remove a.remove {
@@ -3198,11 +3198,11 @@ body .et_pb_scroll_top:hover {
 }
 
 .woocommerce-page.woocommerce-account #page-container #et-main-area #main-content .woocommerce .woocommerce-MyAccount-navigation ul li a::before {
-  content: none;
+  content: none !important;
 }
 
 .woocommerce-page.woocommerce-account #page-container #et-main-area #main-content .woocommerce .woocommerce-MyAccount-navigation ul li a::after {
-  content: none;
+  content: none !important;
 }
 
 .woocommerce-page.woocommerce-account #page-container #et-main-area #main-content .woocommerce .woocommerce-MyAccount-navigation ul li a:hover {
@@ -3367,7 +3367,7 @@ body .et_pb_scroll_top:hover {
 }
 
 .et_pb_shop .woocommerce .products .product .button::after {
-  content: none;
+  content: none !important;
 }
 
 .et_pb_shop .woocommerce .products .product .button:hover {
@@ -3375,7 +3375,7 @@ body .et_pb_scroll_top:hover {
 }
 
 .et_pb_shop .woocommerce .products .product .button:hover::after {
-  content: none;
+  content: none !important;
 }
 
 .et_pb_shop .woocommerce .products .product.outofstock .button {
