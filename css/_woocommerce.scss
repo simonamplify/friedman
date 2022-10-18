@@ -828,6 +828,13 @@
         .products  {
             padding-top: 10px;
             .product {
+                .et_shop_image {
+                    .et_overlay {
+                        &::before {
+                            content: "\35";
+                        }
+                    }
+                }
                 .button {
                     font-size: 15px!important;
                     margin-top: 30px!important;
@@ -858,6 +865,7 @@
         }
         select {
             display: block;
+            text-transform: uppercase;
             font-size: 14px!important;
             color: $drk!important;
             line-height: 1.8em;
@@ -868,6 +876,7 @@
                 box-sizing: border-box;
             margin: 0 auto;
             border: 1px solid $grey;
+            border-radius: 0;
             -webkit-box-shadow: none;
                 box-shadow: none;
             -moz-appearance: none;
