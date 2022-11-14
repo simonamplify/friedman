@@ -827,6 +827,14 @@
         }
         .products  {
             padding-top: 10px;
+            &.columns-4 {
+                .product {
+                    @media (max-width: 767px) {
+                        width: 100%!important;
+                        margin-right: 0!important;
+                    }
+                }
+            }
             .product {
                 @media (max-width: 767px) {
                     width: 100%!important;

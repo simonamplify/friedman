@@ -3369,6 +3369,13 @@ body .et_pb_scroll_top:hover {
 }
 
 @media (max-width: 767px) {
+  .et_pb_shop .woocommerce .products.columns-4 .product {
+    width: 100% !important;
+    margin-right: 0 !important;
+  }
+}
+
+@media (max-width: 767px) {
   .et_pb_shop .woocommerce .products .product {
     width: 100% !important;
     margin-right: 0 !important;
