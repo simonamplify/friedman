@@ -3351,6 +3351,13 @@ body .et_pb_scroll_top:hover {
   }
 }
 
+@media (max-width: 767px) {
+  .et-db #et-boc .et-l .et_pb_shop ul.products.columns-4 li.product {
+    width: 100% !important;
+    margin-right: 0 !important;
+  }
+}
+
 .et_pb_shop .not-found-title {
   font-size: 30px;
   line-height: 1.4em;
@@ -3366,13 +3373,6 @@ body .et_pb_scroll_top:hover {
 
 .et_pb_shop .woocommerce .products {
   padding-top: 10px;
-}
-
-@media (max-width: 767px) {
-  .et_pb_shop .woocommerce .products.columns-4 .product {
-    width: 100% !important;
-    margin-right: 0 !important;
-  }
 }
 
 @media (max-width: 767px) {

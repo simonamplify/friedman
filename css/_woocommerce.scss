@@ -813,6 +813,12 @@
     }
 }
 // Shop archives
+.et-db #et-boc .et-l .et_pb_shop ul.products.columns-4 li.product {
+    @media (max-width: 767px) {
+        width: 100%!important;
+        margin-right: 0!important;
+    } 
+}
 .et_pb_shop {
     .not-found-title {
         font-size: 30px;
@@ -827,14 +833,6 @@
         }
         .products  {
             padding-top: 10px;
-            &.columns-4 {
-                .product {
-                    @media (max-width: 767px) {
-                        width: 100%!important;
-                        margin-right: 0!important;
-                    }
-                }
-            }
             .product {
                 @media (max-width: 767px) {
                     width: 100%!important;
