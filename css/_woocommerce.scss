@@ -828,6 +828,10 @@
         .products  {
             padding-top: 10px;
             .product {
+                @media (max-width: 767px) {
+                    width: 100%!important;
+                    margin-right: 0!important;
+                }
                 .et_shop_image {
                     .et_overlay {
                         &::before {

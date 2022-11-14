@@ -3368,6 +3368,13 @@ body .et_pb_scroll_top:hover {
   padding-top: 10px;
 }
 
+@media (max-width: 767px) {
+  .et_pb_shop .woocommerce .products .product {
+    width: 100% !important;
+    margin-right: 0 !important;
+  }
+}
+
 .et_pb_shop .woocommerce .products .product .et_shop_image .et_overlay::before {
   content: "\35";
 }
