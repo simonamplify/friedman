@@ -396,7 +396,7 @@
                 }
             }   
             // links
-            a:not(.button, .et_pb_button, .woocommerce-Button) {
+            a:not(.button, .et_pb_button, .woocommerce-Button, .et_pb_video_play) {
                 text-decoration: none!important;
                 position: relative;
                 cursor: pointer;
