@@ -844,6 +844,12 @@ body #page-container #et-main-area .et_pb_text.borderedText h4 {
   padding-left: 10px;
   margin-left: -10px;
   padding-right: 10px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+body #page-container #et-main-area .et_pb_text.borderedText h4 + p {
+  padding-top: 10px;
 }
 
 body #page-container #et-main-area .et_pb_text.borderedText p + ul {

@@ -120,7 +120,12 @@ body {
                         background: $black;
                         padding-left: 10px;
                         margin-left: -10px;
-                        padding-right: 10px
+                        padding-right: 10px;
+                        box-decoration-break: clone;
+                        -webkit-box-decoration-break: clone;
+                    }
+                    h4 + p {
+                        padding-top: 10px;
                     }
                     p + ul {
                         padding-top: 1em;
