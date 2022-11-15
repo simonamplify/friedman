@@ -2586,6 +2586,11 @@ body .et_pb_scroll_top:hover {
   margin-right: 5px;
 }
 
+.woocommerce-page #page-container #et-main-area #main-content .manuals .productManual .manualLabel {
+  -webkit-transition: color 0.2s linear;
+  transition: color 0.2s linear;
+}
+
 .woocommerce-page #page-container #et-main-area #main-content .manuals .productManual:hover .manualLabel {
   color: #ffffff;
 }
