@@ -2959,13 +2959,13 @@ body .et_pb_scroll_top:hover {
   color: #000000;
 }
 
-.woocommerce-page #page-container #et-main-area a {
+.woocommerce-page #page-container #et-main-area a:not(.button):not(.et_pb_button):not(.woocommerce-Button):not(.et_pb_video_play) {
   text-decoration: none !important;
   position: relative;
   cursor: pointer;
 }
 
-.woocommerce-page #page-container #et-main-area a::before {
+.woocommerce-page #page-container #et-main-area a:not(.button):not(.et_pb_button):not(.woocommerce-Button):not(.et_pb_video_play)::before {
   content: "";
   position: absolute;
   left: 0;
@@ -2974,7 +2974,7 @@ body .et_pb_scroll_top:hover {
   border-bottom: 1px solid #bea668;
 }
 
-.woocommerce-page #page-container #et-main-area a::after {
+.woocommerce-page #page-container #et-main-area a:not(.button):not(.et_pb_button):not(.woocommerce-Button):not(.et_pb_video_play)::after {
   content: "";
   position: absolute;
   right: 0;
@@ -2989,14 +2989,14 @@ body .et_pb_scroll_top:hover {
           transition-delay: .15s;
 }
 
-.woocommerce-page #page-container #et-main-area a:hover::before {
+.woocommerce-page #page-container #et-main-area a:not(.button):not(.et_pb_button):not(.woocommerce-Button):not(.et_pb_video_play):hover::before {
   content: "";
   right: 0;
   -webkit-transition: right .15s ease-out;
   transition: right .15s ease-out;
 }
 
-.woocommerce-page #page-container #et-main-area a:hover::after {
+.woocommerce-page #page-container #et-main-area a:not(.button):not(.et_pb_button):not(.woocommerce-Button):not(.et_pb_video_play):hover::after {
   content: "";
   left: 0;
 }
