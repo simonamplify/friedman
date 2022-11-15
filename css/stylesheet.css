@@ -839,7 +839,7 @@ body #page-container #et-main-area .et_pb_text.borderedText::before {
 }
 
 body #page-container #et-main-area .et_pb_text.borderedText h4 {
-  display: inline-block;
+  display: inline;
   background: #000000;
   padding-left: 10px;
   margin-left: -10px;
