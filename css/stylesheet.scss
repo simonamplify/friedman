@@ -122,6 +122,12 @@ body {
                         margin-left: -10px;
                         padding-right: 10px
                     }
+                    p + ul {
+                        padding-top: 1em;
+                    }
+                    *:last-child {
+                        padding-bottom: 0;
+                    }
                 }
                 a {
                     text-decoration: none;

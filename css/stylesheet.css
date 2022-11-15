@@ -846,6 +846,14 @@ body #page-container #et-main-area .et_pb_text.borderedText h4 {
   padding-right: 10px;
 }
 
+body #page-container #et-main-area .et_pb_text.borderedText p + ul {
+  padding-top: 1em;
+}
+
+body #page-container #et-main-area .et_pb_text.borderedText *:last-child {
+  padding-bottom: 0;
+}
+
 body #page-container #et-main-area .et_pb_text a {
   text-decoration: none;
   position: relative;
