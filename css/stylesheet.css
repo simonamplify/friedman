@@ -816,6 +816,13 @@ body #page-container #et-main-area .et_pb_row.fwRow {
   }
 }
 
+@media (max-width: 980px) {
+  body #page-container #et-main-area .et_pb_text.borderedText {
+    width: calc(100% - 30px);
+    margin: 0 auto 30px auto;
+  }
+}
+
 body #page-container #et-main-area .et_pb_text.borderedText::before {
   content: "";
   display: block;
