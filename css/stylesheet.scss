@@ -99,6 +99,25 @@ body {
                         }
                     }
                 }
+                &.borderedText {
+                    &::before {
+                        content: "";
+                        display: block;
+                        position: absolute;
+                        top: 12px;
+                        left: -15px;
+                        width: calc(100% + 30px);
+                        height: calc(100% - -5px);
+                        border: solid 1px $drk;
+                    }
+                    h4 {
+                        display: inline-block;
+                        background: $black;
+                        padding-left: 10px;
+                        margin-left: -10px;
+                        padding-right: 10px
+                    }
+                }
                 a {
                     text-decoration: none;
                     position: relative;

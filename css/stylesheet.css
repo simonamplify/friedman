@@ -816,6 +816,25 @@ body #page-container #et-main-area .et_pb_row.fwRow {
   }
 }
 
+body #page-container #et-main-area .et_pb_text.borderedText::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 12px;
+  left: -15px;
+  width: calc(100% + 30px);
+  height: calc(100% - -5px);
+  border: solid 1px #64646c;
+}
+
+body #page-container #et-main-area .et_pb_text.borderedText h4 {
+  display: inline-block;
+  background: #000000;
+  padding-left: 10px;
+  margin-left: -10px;
+  padding-right: 10px;
+}
+
 body #page-container #et-main-area .et_pb_text a {
   text-decoration: none;
   position: relative;
