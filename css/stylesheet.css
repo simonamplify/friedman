@@ -836,7 +836,7 @@ body #page-container #et-main-area .et_pb_text.borderedText::before {
   left: -30px;
   width: calc(100% + 60px);
   height: 100%;
-  border: solid 1px #64646c;
+  border: solid 1px #313131;
 }
 
 body #page-container #et-main-area .et_pb_text.borderedText h4 {
