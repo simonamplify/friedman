@@ -89,6 +89,9 @@ body {
                 width: 100%!important;
                 max-width: none!important;
             }
+            a:where(:not(.wp-element-button)) {
+                text-decoration: none;
+            }
             .et_pb_text {
                 &.twoCol {
                     .et_pb_text_inner {
