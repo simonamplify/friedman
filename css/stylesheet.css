@@ -2736,7 +2736,7 @@ body .et_pb_scroll_top:hover {
   font-size: 16px;
   color: #ffffff;
   background-color: #bea668;
-  border-color: #bea668;
+  border: 2px solid #bea668;
   border-radius: 0px;
   font-weight: bold;
   font-style: normal;
