@@ -349,14 +349,6 @@ body {
                         .swiper-container {
                             .swiper-wrapper {
                                 .swiper-slide {
-                                    a {
-                                        &::before {
-                                            content: none!important;
-                                        }
-                                        &::after {
-                                            content: none!important;
-                                        }
-                                    }
                                     &.swiper-slide-active {
                                         .et_pb_section {
                                             .et_pb_column {
@@ -390,6 +382,14 @@ body {
                             .swiper-wrapper {
                                 //padding: 50px 0;
                                 .swiper-slide {
+                                    a {
+                                        &::before {
+                                            content: none!important;
+                                        }
+                                        &::after {
+                                            content: none!important;
+                                        }
+                                    }
                                     .as_slide_image_wrapper {
                                         align-self: center;
                                     }
