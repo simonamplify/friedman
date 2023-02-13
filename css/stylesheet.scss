@@ -349,6 +349,14 @@ body {
                         .swiper-container {
                             .swiper-wrapper {
                                 .swiper-slide {
+                                    a {
+                                        &::before {
+                                            content: none!important;
+                                        }
+                                        &::after {
+                                            content: none!important;
+                                        }
+                                    }
                                     &.swiper-slide-active {
                                         .et_pb_section {
                                             .et_pb_column {
