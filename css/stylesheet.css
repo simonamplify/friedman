@@ -1536,6 +1536,13 @@ body #page-container #et-main-area #main-content .cards {
   height: 400px;
   grid-template-columns: repeat(var(--m), auto);
 }
+@media (max-width: 767px) {
+  body #page-container #et-main-area #main-content .cards {
+    min-height: 800px;
+    height: 100vh;
+    grid-template-columns: 100%;
+  }
+}
 body #page-container #et-main-area #main-content .cards > .card {
   position: relative;
   width: 0;
@@ -1562,6 +1569,7 @@ body #page-container #et-main-area #main-content .cards .card .btn {
   left: 50%;
   transform: translate(-50%, -50%);
   cursor: pointer;
+  z-index: 3;
 }
 body #page-container #et-main-area #main-content .cards .card .btn h3 {
   color: #ffffff;
