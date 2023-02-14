@@ -401,6 +401,9 @@ body .et_pb_button_module_wrapper .et_pb_button:hover, body .et_pb_button_module
 body #page-container {
   animation: bodyFadeIn 1.5s;
 }
+body #page-container header .et_pb_menu.faMenu .et-menu-nav ul.et-menu li.menu-item a:where(:not(.wp-element-button)) {
+  text-decoration: none;
+}
 body #page-container header .et_pb_menu.faMenu .et-menu-nav ul.et-menu li.menu-item a {
   position: relative;
   transition: all 0.2s ease-in-out;
