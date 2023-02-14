@@ -2773,3 +2773,8 @@ body .et_pb_scroll_top:hover {
 .xoo-wsc-modal.xoo-wsc-cart-active .xoo-wsc-opac {
   opacity: 0.3;
 }
+
+.page-id-91 .xoo-wsc-modal {
+  display: none !important;
+  pointer-events: none;
+}
