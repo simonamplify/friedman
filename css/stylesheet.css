@@ -511,6 +511,9 @@ body #page-container header .et_pb_menu.faMenu .et_mobile_nav_menu .mobile_nav u
 body #page-container header .et_pb_menu.faMenu .et_mobile_nav_menu .mobile_nav ul.et_mobile_menu li.menu-item {
   text-align: left;
 }
+body #page-container header .et_pb_menu.faMenu .et_mobile_nav_menu .mobile_nav ul.et_mobile_menu li.menu-item a:where(:not(.wp-element-button)) {
+  text-decoration: none;
+}
 body #page-container header .et_pb_menu.faMenu .et_mobile_nav_menu .mobile_nav ul.et_mobile_menu li.menu-item a {
   border: none;
   padding: 0;
