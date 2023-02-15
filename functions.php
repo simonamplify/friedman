@@ -83,4 +83,9 @@ function change_sale_text() {
 }
 // Add cart button to shop archive pages
 add_action('woocommerce_after_shop_loop_item_title', 'woocommerce_template_loop_add_to_cart', 10);
+// Change related products header
+add_filter('woocommerce_product_related_products_heading', 'custom_related_products_heading');
+function custom_related_products_heading() {
+    return 'Related Products';
+}
 ?>
