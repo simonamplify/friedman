@@ -69,7 +69,7 @@ body {
     }
     .et_pb_button_module_wrapper .et_pb_button, .et_pb_button_module_wrapper .et_button_no_icon.et_button_icon_visible.et_button_left .et_pb_button, .et_button_no_icon .et_pb_button {
         padding: 0.5em 1.5em 0.3em 1.5em !important;
-        &:hover {
+        &:hover, &:active {
             padding: 0.5em 1.5em 0.3em 1.5em !important;
         }
     }
