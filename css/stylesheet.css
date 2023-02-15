@@ -473,7 +473,7 @@ body #page-container header .et_pb_menu.faMenu .et-menu-nav ul.et-menu li.menu-i
   left: 20%;
   top: 100%;
 }
-body #page-container header .et_pb_menu.faMenu .et-menu-nav ul.et-menu li.menu-item .sub-menu.current-menu-item > a, body #page-container header .et_pb_menu.faMenu .et-menu-nav ul.et-menu li.menu-item .sub-menu.current-menu-ancestor > a, body #page-container header .et_pb_menu.faMenu .et-menu-nav ul.et-menu li.menu-item .sub-menu.current-menu-parent > a {
+body #page-container header .et_pb_menu.faMenu .et-menu-nav ul.et-menu li.menu-item .sub-menu li.menu-item.current-menu-item > a, body #page-container header .et_pb_menu.faMenu .et-menu-nav ul.et-menu li.menu-item .sub-menu li.menu-item.current-menu-ancestor > a, body #page-container header .et_pb_menu.faMenu .et-menu-nav ul.et-menu li.menu-item .sub-menu li.menu-item.current-menu-parent > a {
   color: #bea668 !important;
 }
 body #page-container header .et_pb_menu.faMenu .et-menu-nav ul.et-menu li.menu-item.current-menu-item > a, body #page-container header .et_pb_menu.faMenu .et-menu-nav ul.et-menu li.menu-item.current-menu-ancestor > a, body #page-container header .et_pb_menu.faMenu .et-menu-nav ul.et-menu li.menu-item.current-menu-parent > a {
