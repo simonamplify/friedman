@@ -134,7 +134,7 @@
                     }
                 }
                 // Notifications
-                .woocommerce-message, .woocommerce-info {
+                .woocommerce-message, .woocommerce-info, .woocommerce-error {
                     padding-left: 30px!important;
                     padding-right: 30px!important;
                     .button  {
@@ -152,6 +152,13 @@
                             opacity: 1;
                             border: solid 2px $white!important;
                             background-color: transparent!important;
+                        }
+                    }
+                    a:not(.button) {
+                        color: $white;
+                        font-weight: bold;
+                        &::before, &::after {
+                            border-bottom: 1px solid $white;
                         }
                     }
                     .showcoupon {
