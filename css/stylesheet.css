@@ -581,7 +581,7 @@ body #page-container header .et_pb_menu.faMenu .et_mobile_nav_menu .mobile_nav u
   display: inline-block;
 }
 body #page-container header .et_pb_menu.faMenu .et_mobile_nav_menu .mobile_nav ul.et_mobile_menu li.menu-item.current-menu-item > a, body #page-container header .et_pb_menu.faMenu .et_mobile_nav_menu .mobile_nav ul.et_mobile_menu li.menu-item.current-menu-ancestor > a, body #page-container header .et_pb_menu.faMenu .et_mobile_nav_menu .mobile_nav ul.et_mobile_menu li.menu-item.current-menu-parent > a {
-  color: #ffffff !important;
+  color: #bea668 !important;
 }
 body #page-container header .menuSearch {
   display: none;
