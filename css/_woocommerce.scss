@@ -13,7 +13,9 @@
                 // Buttons
                 input[type=submit], .button, .et_pb_button, .button.disabled, .button:disabled[disabled] {
                     padding: 0.5em 1.5em 0.3em 1.5em !important;
+                    font-size: 17px!important;
                     &:hover, &:active {
+                        font-size: 17px!important;
                         padding: 0.5em 1.5em 0.3em 1.5em !important;
                         //background: $black!important;
                     }
@@ -134,7 +136,7 @@
                     }
                 }
                 // Notifications
-                .woocommerce-message, .woocommerce-info, .woocommerce-error {
+                .woocommerce-message, .woocommerce-info,  {
                     padding-left: 30px!important;
                     padding-right: 30px!important;
                     .button  {
@@ -154,13 +156,6 @@
                             background-color: transparent!important;
                         }
                     }
-                    a:not(.button) {
-                        color: $white;
-                        font-weight: bold;
-                        &::before, &::after {
-                            border-bottom: 1px solid $white;
-                        }
-                    }
                     .showcoupon {
                         text-decoration: underline;
                         transition: text-decoration 0.4s linear;
@@ -177,6 +172,15 @@
                     @media (max-width:767px) {
                         flex-direction: column;
                         flex-wrap: nowrap;
+                    }
+                }
+                .woocommerce-error {
+                    a {
+                        color: $white;
+                        font-weight: bold;
+                        &::before, &::after {
+                            border-bottom: 1px solid $white;
+                        }
                     }
                 }
                 // Forms

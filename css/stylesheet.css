@@ -1924,8 +1924,10 @@ body .et_pb_scroll_top:hover {
 }
 .woocommerce-page #page-container #et-main-area #main-content input[type=submit], .woocommerce-page #page-container #et-main-area #main-content .button, .woocommerce-page #page-container #et-main-area #main-content .et_pb_button, .woocommerce-page #page-container #et-main-area #main-content .button.disabled, .woocommerce-page #page-container #et-main-area #main-content .button:disabled[disabled] {
   padding: 0.5em 1.5em 0.3em 1.5em !important;
+  font-size: 17px !important;
 }
 .woocommerce-page #page-container #et-main-area #main-content input[type=submit]:hover, .woocommerce-page #page-container #et-main-area #main-content input[type=submit]:active, .woocommerce-page #page-container #et-main-area #main-content .button:hover, .woocommerce-page #page-container #et-main-area #main-content .button:active, .woocommerce-page #page-container #et-main-area #main-content .et_pb_button:hover, .woocommerce-page #page-container #et-main-area #main-content .et_pb_button:active, .woocommerce-page #page-container #et-main-area #main-content .button.disabled:hover, .woocommerce-page #page-container #et-main-area #main-content .button.disabled:active, .woocommerce-page #page-container #et-main-area #main-content .button:disabled[disabled]:hover, .woocommerce-page #page-container #et-main-area #main-content .button:disabled[disabled]:active {
+  font-size: 17px !important;
   padding: 0.5em 1.5em 0.3em 1.5em !important;
 }
 .woocommerce-page #page-container #et-main-area #main-content .et_pb_wc_breadcrumb a {
@@ -2025,11 +2027,11 @@ body .et_pb_scroll_top:hover {
 .woocommerce-page #page-container #et-main-area #main-content #respond form .input.text::placeholder, .woocommerce-page #page-container #et-main-area #main-content #respond form input.title::placeholder, .woocommerce-page #page-container #et-main-area #main-content #respond form input[type=email]::placeholder, .woocommerce-page #page-container #et-main-area #main-content #respond form input[type=password]::placeholder, .woocommerce-page #page-container #et-main-area #main-content #respond form input[type=tel]::placeholder, .woocommerce-page #page-container #et-main-area #main-content #respond form input[type=text]::placeholder, .woocommerce-page #page-container #et-main-area #main-content #respond form select::placeholder, .woocommerce-page #page-container #et-main-area #main-content #respond form textarea::placeholder {
   color: #64646c !important;
 }
-.woocommerce-page #page-container #et-main-area #main-content .woocommerce-message, .woocommerce-page #page-container #et-main-area #main-content .woocommerce-info, .woocommerce-page #page-container #et-main-area #main-content .woocommerce-error {
+.woocommerce-page #page-container #et-main-area #main-content .woocommerce-message, .woocommerce-page #page-container #et-main-area #main-content .woocommerce-info {
   padding-left: 30px !important;
   padding-right: 30px !important;
 }
-.woocommerce-page #page-container #et-main-area #main-content .woocommerce-message .button, .woocommerce-page #page-container #et-main-area #main-content .woocommerce-info .button, .woocommerce-page #page-container #et-main-area #main-content .woocommerce-error .button {
+.woocommerce-page #page-container #et-main-area #main-content .woocommerce-message .button, .woocommerce-page #page-container #et-main-area #main-content .woocommerce-info .button {
   order: 2;
   padding: 0.5em 1.5em 0.3em 1.5em !important;
   border: solid 2px #ffffff;
@@ -2037,32 +2039,25 @@ body .et_pb_scroll_top:hover {
   color: #bea668;
 }
 @media (max-width: 767px) {
-  .woocommerce-page #page-container #et-main-area #main-content .woocommerce-message .button, .woocommerce-page #page-container #et-main-area #main-content .woocommerce-info .button, .woocommerce-page #page-container #et-main-area #main-content .woocommerce-error .button {
+  .woocommerce-page #page-container #et-main-area #main-content .woocommerce-message .button, .woocommerce-page #page-container #et-main-area #main-content .woocommerce-info .button {
     margin-top: 15px;
   }
 }
-.woocommerce-page #page-container #et-main-area #main-content .woocommerce-message .button:hover, .woocommerce-page #page-container #et-main-area #main-content .woocommerce-info .button:hover, .woocommerce-page #page-container #et-main-area #main-content .woocommerce-error .button:hover {
+.woocommerce-page #page-container #et-main-area #main-content .woocommerce-message .button:hover, .woocommerce-page #page-container #et-main-area #main-content .woocommerce-info .button:hover {
   padding: 0.5em 1.5em 0.3em 1.5em !important;
   color: #ffffff !important;
   opacity: 1;
   border: solid 2px #ffffff !important;
   background-color: transparent !important;
 }
-.woocommerce-page #page-container #et-main-area #main-content .woocommerce-message a:not(.button), .woocommerce-page #page-container #et-main-area #main-content .woocommerce-info a:not(.button), .woocommerce-page #page-container #et-main-area #main-content .woocommerce-error a:not(.button) {
-  color: #ffffff;
-  font-weight: bold;
-}
-.woocommerce-page #page-container #et-main-area #main-content .woocommerce-message a:not(.button)::before, .woocommerce-page #page-container #et-main-area #main-content .woocommerce-message a:not(.button)::after, .woocommerce-page #page-container #et-main-area #main-content .woocommerce-info a:not(.button)::before, .woocommerce-page #page-container #et-main-area #main-content .woocommerce-info a:not(.button)::after, .woocommerce-page #page-container #et-main-area #main-content .woocommerce-error a:not(.button)::before, .woocommerce-page #page-container #et-main-area #main-content .woocommerce-error a:not(.button)::after {
-  border-bottom: 1px solid #ffffff;
-}
-.woocommerce-page #page-container #et-main-area #main-content .woocommerce-message .showcoupon, .woocommerce-page #page-container #et-main-area #main-content .woocommerce-info .showcoupon, .woocommerce-page #page-container #et-main-area #main-content .woocommerce-error .showcoupon {
+.woocommerce-page #page-container #et-main-area #main-content .woocommerce-message .showcoupon, .woocommerce-page #page-container #et-main-area #main-content .woocommerce-info .showcoupon {
   text-decoration: underline;
   transition: -webkit-text-decoration 0.4s linear;
   transition: text-decoration 0.4s linear;
   transition: text-decoration 0.4s linear, -webkit-text-decoration 0.4s linear;
   cursor: pointer;
 }
-.woocommerce-page #page-container #et-main-area #main-content .woocommerce-message .showcoupon:hover, .woocommerce-page #page-container #et-main-area #main-content .woocommerce-info .showcoupon:hover, .woocommerce-page #page-container #et-main-area #main-content .woocommerce-error .showcoupon:hover {
+.woocommerce-page #page-container #et-main-area #main-content .woocommerce-message .showcoupon:hover, .woocommerce-page #page-container #et-main-area #main-content .woocommerce-info .showcoupon:hover {
   text-decoration: none;
 }
 .woocommerce-page #page-container #et-main-area #main-content .woocommerce-message {
@@ -2075,6 +2070,13 @@ body .et_pb_scroll_top:hover {
     flex-direction: column;
     flex-wrap: nowrap;
   }
+}
+.woocommerce-page #page-container #et-main-area #main-content .woocommerce-error a {
+  color: #ffffff;
+  font-weight: bold;
+}
+.woocommerce-page #page-container #et-main-area #main-content .woocommerce-error a::before, .woocommerce-page #page-container #et-main-area #main-content .woocommerce-error a::after {
+  border-bottom: 1px solid #ffffff;
 }
 .woocommerce-page #page-container #et-main-area #main-content form label {
   font-size: 16px;
