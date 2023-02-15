@@ -89,6 +89,11 @@ header {
                                     top: 100%;
                                 }
                             }
+                            &.current-menu-item, &.current-menu-ancestor, &.current-menu-parent {
+                                > a {
+                                    color: $primary1!important;
+                                }
+                            }
                         }
                         &.current-menu-item, &.current-menu-ancestor, &.current-menu-parent {
                             > a {
