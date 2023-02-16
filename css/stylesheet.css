@@ -1922,12 +1922,12 @@ body .et_pb_scroll_top:hover {
 .woocommerce-page #page-container #et-main-area #main-content > .container {
   width: 90%;
 }
-.woocommerce-page #page-container #et-main-area #main-content input[type=submit], .woocommerce-page #page-container #et-main-area #main-content .button, .woocommerce-page #page-container #et-main-area #main-content .et_pb_button, .woocommerce-page #page-container #et-main-area #main-content .button.disabled, .woocommerce-page #page-container #et-main-area #main-content .button:disabled[disabled] {
+.woocommerce-page #page-container #et-main-area #main-content input[type=submit], .woocommerce-page #page-container #et-main-area #main-content .button, .woocommerce-page #page-container #et-main-area #main-content .et_pb_button, .woocommerce-page #page-container #et-main-area #main-content .button.disabled, .woocommerce-page #page-container #et-main-area #main-content .button:disabled, .woocommerce-page #page-container #et-main-area #main-content .button:disabled[disabled] {
   padding: 0.5em 1.5em 0.3em 1.5em !important;
-  font-size: 17px !important;
+  font-size: 16px !important;
   border-radius: 0;
 }
-.woocommerce-page #page-container #et-main-area #main-content input[type=submit]:hover, .woocommerce-page #page-container #et-main-area #main-content input[type=submit]:active, .woocommerce-page #page-container #et-main-area #main-content .button:hover, .woocommerce-page #page-container #et-main-area #main-content .button:active, .woocommerce-page #page-container #et-main-area #main-content .et_pb_button:hover, .woocommerce-page #page-container #et-main-area #main-content .et_pb_button:active, .woocommerce-page #page-container #et-main-area #main-content .button.disabled:hover, .woocommerce-page #page-container #et-main-area #main-content .button.disabled:active, .woocommerce-page #page-container #et-main-area #main-content .button:disabled[disabled]:hover, .woocommerce-page #page-container #et-main-area #main-content .button:disabled[disabled]:active {
+.woocommerce-page #page-container #et-main-area #main-content input[type=submit]:hover, .woocommerce-page #page-container #et-main-area #main-content input[type=submit]:active, .woocommerce-page #page-container #et-main-area #main-content .button:hover, .woocommerce-page #page-container #et-main-area #main-content .button:active, .woocommerce-page #page-container #et-main-area #main-content .et_pb_button:hover, .woocommerce-page #page-container #et-main-area #main-content .et_pb_button:active, .woocommerce-page #page-container #et-main-area #main-content .button.disabled:hover, .woocommerce-page #page-container #et-main-area #main-content .button.disabled:active, .woocommerce-page #page-container #et-main-area #main-content .button:disabled:hover, .woocommerce-page #page-container #et-main-area #main-content .button:disabled:active, .woocommerce-page #page-container #et-main-area #main-content .button:disabled[disabled]:hover, .woocommerce-page #page-container #et-main-area #main-content .button:disabled[disabled]:active {
   font-size: 17px !important;
   padding: 0.5em 1.5em 0.3em 1.5em !important;
   border-radius: 0;

@@ -11,9 +11,9 @@
                     width: 90%;
                 }
                 // Buttons
-                input[type=submit], .button, .et_pb_button, .button.disabled, .button:disabled[disabled] {
+                input[type=submit], .button, .et_pb_button, .button.disabled, .button:disabled, .button:disabled[disabled] {
                     padding: 0.5em 1.5em 0.3em 1.5em !important;
-                    font-size: 17px!important;
+                    font-size: 16px!important;
                     border-radius: 0;
                     &:hover, &:active {
                         font-size: 17px!important;
