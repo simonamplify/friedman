@@ -183,15 +183,6 @@
                         flex-wrap: nowrap;
                     }
                 }
-                .woocommerce-error {
-                    a {
-                        color: $white!important;
-                        font-weight: bold;
-                        &::before, &::after {
-                            border-bottom: 1px solid $white;
-                        }
-                    }
-                }
                 // Forms
                 form {
                     label {
@@ -423,7 +414,7 @@
                 }
             }   
             // links
-            a:not(.button):not(.et_pb_button):not(.woocommerce-Button):not(.et_pb_video_play):not(.amplify a) {
+            a:not(.button):not(.et_pb_button):not(.woocommerce-Button):not(.et_pb_video_play):not(.amplify a):not(.woocommerce-product-gallery__trigger) {
                 text-decoration: none!important;
                 position: relative;
                 cursor: pointer;
@@ -746,8 +737,59 @@
             #et-main-area {
                 #main-content {
                     .woocommerce-product-gallery {
+                        .woocommerce-product-gallery__image {
+                            img {
+                                background: $black;
+                            }
+                        }
                         .flex-viewport, .flex-control-thumbs li {
                             border: solid 1px #f2f2f2;
+                        }
+                        .flex-control-nav {
+                            width: 10% !important;
+                            float: left;
+                            position: absolute;
+                            top: 3px;
+                            left: 3px;
+                            margin: 0;
+                            li {
+                                width: 100%;
+                                float: none;
+                                border: solid 1px $lgrey;
+                            }
+                        }
+                        .woocommerce-product-gallery__trigger {
+                            background: rgba(255,255,255,0.1);
+                            &::before {
+                                border-color: $drk;
+                                @include ease2();
+                            }
+                            &::after {
+                                background: $drk;
+                                @include ease2();
+                            }
+                            &:hover {
+                                &::before {
+                                    border-color: $white;
+                                }
+                                &::after {
+                                    background: $white;
+                                }
+                            }
+                        }
+                    }
+                    @import 'select-dark';
+                    .et_pb_wc_add_to_cart {
+                        .variations_form {
+                            .variations {
+                                .value {
+                                    span {
+                                        &::after {
+                                            content: none;
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
                     .et_pb_text { 
