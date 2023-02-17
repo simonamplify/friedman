@@ -2640,6 +2640,9 @@ body .et_pb_scroll_top:hover {
 .woocommerce-page.single-product #page-container #et-main-area #main-content .et_pb_wc_add_to_cart .variations_form .variations .value span::after {
   content: none;
 }
+.woocommerce-page.single-product #page-container #et-main-area #main-content .et_pb_wc_add_to_cart .added_to_cart {
+  padding-left: 0.5em;
+}
 .woocommerce-page.single-product #page-container #et-main-area #main-content .et_pb_text.et_pb_bg_layout_dark strong {
   color: #ffffff;
 }
