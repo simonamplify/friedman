@@ -15,10 +15,6 @@ function my_logincustomCSSfile() {
     wp_enqueue_style('login-styles', get_stylesheet_directory_uri() . '/css/login_stylesheet.css');
 }
 add_action('login_enqueue_scripts', 'my_logincustomCSSfile');
-// Automatically Update Wordpress
-add_filter( 'auto_update_core', '__return_true' );
-// Automatically Update Theme
-add_filter( 'auto_update_theme', '__return_true' );
 // Change login logo url and title text
 function my_loginURL() {
     return '/';
