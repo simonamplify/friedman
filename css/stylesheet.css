@@ -2741,6 +2741,10 @@ body .et_pb_scroll_top:hover {
 .et_pb_shop .woocommerce .products {
   padding-top: 10px;
 }
+.et_pb_shop .woocommerce .products .product {
+  border: solid 1px #f0f0f0;
+  padding: 15px;
+}
 @media (max-width: 767px) {
   .et_pb_shop .woocommerce .products .product {
     width: 100% !important;
