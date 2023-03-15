@@ -406,6 +406,7 @@ body .et_pb_button_module_wrapper .et_pb_button, body .et_pb_button_module_wrapp
   z-index: 0;
   overflow: hidden;
   font-weight: bold;
+  color: #ffffff;
   font-style: normal;
   text-transform: uppercase;
   text-decoration: none;
@@ -437,6 +438,7 @@ body .et_pb_button_module_wrapper .et_pb_button:hover, body .et_pb_button_module
   border: 1px solid;
   border-image-slice: 1 !important;
   border-width: 1px;
+  color: #bea668;
   border-image-source: linear-gradient(45deg, #87744a, #bea668, #ddbf7a) !important;
 }
 body .et_pb_button_module_wrapper .et_pb_button:hover::after, body .et_pb_button_module_wrapper .et_button_no_icon.et_button_icon_visible.et_button_left .et_pb_button:hover::after, body .et_button_no_icon .et_pb_button:hover::after {
@@ -2393,6 +2395,7 @@ body .et_pb_scroll_top:hover {
   z-index: 0;
   overflow: hidden;
   font-weight: bold;
+  color: #ffffff;
   font-style: normal;
   text-transform: uppercase;
   text-decoration: none;
@@ -2424,6 +2427,7 @@ body .et_pb_scroll_top:hover {
   border: 1px solid;
   border-image-slice: 1 !important;
   border-width: 1px;
+  color: #bea668;
   border-image-source: linear-gradient(45deg, #87744a, #bea668, #ddbf7a) !important;
 }
 .woocommerce-page.woocommerce-checkout #page-container #et-main-area #main-content .woocommerce .button:hover::after {
@@ -2468,6 +2472,7 @@ body .et_pb_scroll_top:hover {
   z-index: 0;
   overflow: hidden;
   font-weight: bold;
+  color: #ffffff;
   font-style: normal;
   text-transform: uppercase;
   text-decoration: none;
@@ -2500,6 +2505,7 @@ body .et_pb_scroll_top:hover {
   border: 1px solid;
   border-image-slice: 1 !important;
   border-width: 1px;
+  color: #bea668;
   border-image-source: linear-gradient(45deg, #87744a, #bea668, #ddbf7a) !important;
 }
 .woocommerce-page.woocommerce-checkout #page-container #et-main-area #main-content .woocommerce .woocommerce-form-coupon .button:hover::after {
@@ -2577,6 +2583,7 @@ body .et_pb_scroll_top:hover {
   z-index: 0;
   overflow: hidden;
   font-weight: bold;
+  color: #ffffff;
   font-style: normal;
   text-transform: uppercase;
   text-decoration: none;
@@ -2608,6 +2615,7 @@ body .et_pb_scroll_top:hover {
   border: 1px solid;
   border-image-slice: 1 !important;
   border-width: 1px;
+  color: #bea668;
   border-image-source: linear-gradient(45deg, #87744a, #bea668, #ddbf7a) !important;
 }
 .woocommerce-page.woocommerce-cart #page-container #et-main-area #main-content .woocommerce .button:hover::after {
@@ -2871,6 +2879,7 @@ body .et_pb_scroll_top:hover {
   z-index: 0;
   overflow: hidden;
   font-weight: bold;
+  color: #ffffff;
   font-style: normal;
   text-transform: uppercase;
   text-decoration: none;
@@ -2902,6 +2911,7 @@ body .et_pb_scroll_top:hover {
   border: 1px solid;
   border-image-slice: 1 !important;
   border-width: 1px;
+  color: #bea668;
   border-image-source: linear-gradient(45deg, #87744a, #bea668, #ddbf7a) !important;
 }
 .woocommerce-page.single-product #page-container #et-main-area #main-content .et_pb_wc_add_to_cart .button:hover::after {
@@ -3052,6 +3062,7 @@ body .et_pb_scroll_top:hover {
   z-index: 0;
   overflow: hidden;
   font-weight: bold;
+  color: #ffffff;
   font-style: normal;
   text-transform: uppercase;
   text-decoration: none;
@@ -3086,6 +3097,7 @@ body .et_pb_scroll_top:hover {
   border: 1px solid;
   border-image-slice: 1 !important;
   border-width: 1px;
+  color: #bea668;
   border-image-source: linear-gradient(45deg, #87744a, #bea668, #ddbf7a) !important;
 }
 .et_pb_shop .woocommerce .products .product .button:hover::after {
@@ -3232,6 +3244,7 @@ body .et_pb_scroll_top:hover {
   z-index: 0;
   overflow: hidden;
   font-weight: bold;
+  color: #ffffff;
   font-style: normal;
   text-transform: uppercase;
   text-decoration: none;
@@ -3264,6 +3277,7 @@ body .et_pb_scroll_top:hover {
   border: 1px solid;
   border-image-slice: 1 !important;
   border-width: 1px;
+  color: #bea668;
   border-image-source: linear-gradient(45deg, #87744a, #bea668, #ddbf7a) !important;
 }
 .xoo-wsc-modal .xoo-wsc-container .button.btn:hover::after {
@@ -3290,6 +3304,7 @@ body .et_pb_scroll_top:hover {
   z-index: 0;
   overflow: hidden;
   font-weight: bold;
+  color: #ffffff;
   font-style: normal;
   text-transform: uppercase;
   text-decoration: none;
@@ -3322,6 +3337,7 @@ body .et_pb_scroll_top:hover {
   border: 1px solid;
   border-image-slice: 1 !important;
   border-width: 1px;
+  color: #bea668;
   border-image-source: linear-gradient(45deg, #87744a, #bea668, #ddbf7a) !important;
 }
 .xoo-wsc-modal .xoo-wsc-container .button.btn:not(.xoo-wsc-ft-btn-checkout):hover::after {
