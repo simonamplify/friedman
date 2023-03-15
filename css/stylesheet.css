@@ -3113,26 +3113,6 @@ body .et_pb_scroll_top:hover {
 .et_pb_shop .woocommerce .products .product .button.added {
   margin-right: 10px;
 }
-.et_pb_shop .woocommerce .products .product .button {
-  font-size: 15px !important;
-  margin-top: 30px !important;
-  margin-right: 10px !important;
-}
-.et_pb_shop .woocommerce .products .product .button::before {
-  content: none !important;
-}
-.et_pb_shop .woocommerce .products .product .button::after {
-  content: none !important;
-}
-.et_pb_shop .woocommerce .products .product .button:hover {
-  padding: 0.3em 1em;
-}
-.et_pb_shop .woocommerce .products .product .button:hover::before {
-  content: none !important;
-}
-.et_pb_shop .woocommerce .products .product .button:hover::after {
-  content: none !important;
-}
 .et_pb_shop .woocommerce .products .product.outofstock .button {
   pointer-events: none;
   opacity: 0.2;
