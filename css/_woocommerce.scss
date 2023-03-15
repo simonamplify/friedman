@@ -461,6 +461,9 @@
             #et-main-area {
                 #main-content {
                     .woocommerce {
+                        .button {
+                            @include button(); // NEW
+                        }
                         .woocommerce-form-coupon {
                             border-radius: 0;
                             border: none;
@@ -477,6 +480,7 @@
                                 }
                             }
                             .button {
+                                @include button(); // NEW
                                 margin-top: 0;
                             }
                         }
@@ -551,6 +555,9 @@
             #et-main-area {
                 #main-content {
                     .woocommerce {
+                        .button { // NEW
+                            @include button();
+                        }
                         .woocommerce-cart-form {
                             .woocommerce-cart-form__contents {
                                 .woocommerce-cart-form__cart-item {
@@ -780,6 +787,12 @@
                     }
                     @import 'select-dark';
                     .et_pb_wc_add_to_cart {
+                        .button { // NEW
+                            @include button();
+                            &.added {
+                                margin-right: 10px;
+                            }
+                        }
                         .variations_form {
                             .variations {
                                 .value {
@@ -908,6 +921,10 @@
             .product {
                 border: solid 1px $lgrey;
                 padding: 15px;
+                display: flex; // NEW
+                flex-direction: column; // NEW
+                flex-wrap: nowrap; // NEW
+                align-items: flex-start; // NEW
                 @media (max-width: 767px) {
                     width: 100%!important;
                     margin-right: 0!important;
@@ -917,6 +934,15 @@
                         &::before {
                             content: "\35";
                         }
+                    }
+                }
+                .button { // NEW
+                    @include button(); 
+                    font-size: 15px!important;
+                    margin-top: 30px!important;
+                    margin-right: 10px!important;
+                    &.added {
+                        margin-right: 10px;
                     }
                 }
                 .button {
@@ -1052,38 +1078,11 @@
         .xoo-wsc-basket {
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
-        .button.btn {
-            font-family: 'Josefin Sans',sans-serif;
-            padding: 0.5em 1.5em 0.3em 1.5em !important;
+        .button.btn { // NEW
+            @include button();
             font-size: 16px;
-            color: $white;
-            background-color: $primary1;
-            border: 2px solid $primary1;
-            border-radius: 0px;
-            font-weight: bold;
-            font-style: normal;
-            text-transform: uppercase;
-            text-decoration: none;
-            letter-spacing: -1px;
-            line-height: 1.7em !important;
-            transition: all 300ms ease 0ms;
-            outline: 0;
-            margin: 0;
-            display: block;
-            position: relative;
-            &:hover {
-                padding: 0.5em 1.5em 0.3em 1.5em !important;
-                color: $primary1 !important;
-                background-color: rgba(190,166,104,0);
-                letter-spacing: -1px;
-            }
             &:not(.xoo-wsc-ft-btn-checkout) {
-                color: $primary1 !important;
-                background-color: rgba(190,166,104,0);
-                &:hover {
-                    color: $primary1 !important;
-                    background-color: $primary1;
-                }
+                @include button-inverse();
             }
         }
     }

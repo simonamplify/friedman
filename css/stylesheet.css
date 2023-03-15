@@ -393,10 +393,61 @@ body .subHeader h2 {
   padding-bottom: 0;
 }
 body .et_pb_button_module_wrapper .et_pb_button, body .et_pb_button_module_wrapper .et_button_no_icon.et_button_icon_visible.et_button_left .et_pb_button, body .et_button_no_icon .et_pb_button {
+  font-family: "Josefin Sans", sans-serif;
   padding: 0.5em 1.5em 0.3em 1.5em !important;
+  background-color: transparent;
+  border: 1px solid;
+  border-image-slice: 1 !important;
+  border-width: 1px;
+  border-radius: 0;
+  border-image-source: linear-gradient(45deg, #87744a, #bea668, #ddbf7a) !important;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: -1px;
+  line-height: 1.7em !important;
 }
-body .et_pb_button_module_wrapper .et_pb_button:hover, body .et_pb_button_module_wrapper .et_pb_button:active, body .et_pb_button_module_wrapper .et_button_no_icon.et_button_icon_visible.et_button_left .et_pb_button:hover, body .et_pb_button_module_wrapper .et_button_no_icon.et_button_icon_visible.et_button_left .et_pb_button:active, body .et_button_no_icon .et_pb_button:hover, body .et_button_no_icon .et_pb_button:active {
+body .et_pb_button_module_wrapper .et_pb_button::before, body .et_pb_button_module_wrapper .et_button_no_icon.et_button_icon_visible.et_button_left .et_pb_button::before, body .et_button_no_icon .et_pb_button::before {
+  content: none;
+}
+body .et_pb_button_module_wrapper .et_pb_button::after, body .et_pb_button_module_wrapper .et_button_no_icon.et_button_icon_visible.et_button_left .et_pb_button::after, body .et_button_no_icon .et_pb_button::after {
+  content: "" !important;
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: #87744a;
+  background: linear-gradient(45deg, #87744a 0%, #bea668 50%, #ddbf7a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#87744a", endColorstr="#ddbf7a",GradientType=1 );
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+  margin: 0 !important;
+  padding: 0;
+}
+body .et_pb_button_module_wrapper .et_pb_button:hover, body .et_pb_button_module_wrapper .et_button_no_icon.et_button_icon_visible.et_button_left .et_pb_button:hover, body .et_button_no_icon .et_pb_button:hover {
   padding: 0.5em 1.5em 0.3em 1.5em !important;
+  border: 1px solid;
+  border-image-slice: 1 !important;
+  border-width: 1px;
+  border-image-source: linear-gradient(45deg, #87744a, #bea668, #ddbf7a) !important;
+}
+body .et_pb_button_module_wrapper .et_pb_button:hover::after, body .et_pb_button_module_wrapper .et_button_no_icon.et_button_icon_visible.et_button_left .et_pb_button:hover::after, body .et_button_no_icon .et_pb_button:hover::after {
+  opacity: 0 !important;
+  margin: 0 !important;
+}
+body .et_pb_button_module_wrapper .et_pb_button:hover::before, body .et_pb_button_module_wrapper .et_button_no_icon.et_button_icon_visible.et_button_left .et_pb_button:hover::before, body .et_button_no_icon .et_pb_button:hover::before {
+  content: none;
+}
+body .et_pb_button_module_wrapper .et_pb_button.loading::after, body .et_pb_button_module_wrapper .et_button_no_icon.et_button_icon_visible.et_button_left .et_pb_button.loading::after, body .et_button_no_icon .et_pb_button.loading::after {
+  animation: none !important;
 }
 body #page-container {
   animation: bodyFadeIn 1.5s;
@@ -2328,6 +2379,63 @@ body .et_pb_scroll_top:hover {
   content: "";
   left: 0;
 }
+.woocommerce-page.woocommerce-checkout #page-container #et-main-area #main-content .woocommerce .button {
+  font-family: "Josefin Sans", sans-serif;
+  padding: 0.5em 1.5em 0.3em 1.5em !important;
+  background-color: transparent;
+  border: 1px solid;
+  border-image-slice: 1 !important;
+  border-width: 1px;
+  border-radius: 0;
+  border-image-source: linear-gradient(45deg, #87744a, #bea668, #ddbf7a) !important;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: -1px;
+  line-height: 1.7em !important;
+}
+.woocommerce-page.woocommerce-checkout #page-container #et-main-area #main-content .woocommerce .button::before {
+  content: none;
+}
+.woocommerce-page.woocommerce-checkout #page-container #et-main-area #main-content .woocommerce .button::after {
+  content: "" !important;
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: #87744a;
+  background: linear-gradient(45deg, #87744a 0%, #bea668 50%, #ddbf7a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#87744a", endColorstr="#ddbf7a",GradientType=1 );
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+  margin: 0 !important;
+  padding: 0;
+}
+.woocommerce-page.woocommerce-checkout #page-container #et-main-area #main-content .woocommerce .button:hover {
+  padding: 0.5em 1.5em 0.3em 1.5em !important;
+  border: 1px solid;
+  border-image-slice: 1 !important;
+  border-width: 1px;
+  border-image-source: linear-gradient(45deg, #87744a, #bea668, #ddbf7a) !important;
+}
+.woocommerce-page.woocommerce-checkout #page-container #et-main-area #main-content .woocommerce .button:hover::after {
+  opacity: 0 !important;
+  margin: 0 !important;
+}
+.woocommerce-page.woocommerce-checkout #page-container #et-main-area #main-content .woocommerce .button:hover::before {
+  content: none;
+}
+.woocommerce-page.woocommerce-checkout #page-container #et-main-area #main-content .woocommerce .button.loading::after {
+  animation: none !important;
+}
 .woocommerce-page.woocommerce-checkout #page-container #et-main-area #main-content .woocommerce .woocommerce-form-coupon {
   border-radius: 0;
   border: none;
@@ -2347,7 +2455,62 @@ body .et_pb_scroll_top:hover {
   }
 }
 .woocommerce-page.woocommerce-checkout #page-container #et-main-area #main-content .woocommerce .woocommerce-form-coupon .button {
+  font-family: "Josefin Sans", sans-serif;
+  padding: 0.5em 1.5em 0.3em 1.5em !important;
+  background-color: transparent;
+  border: 1px solid;
+  border-image-slice: 1 !important;
+  border-width: 1px;
+  border-radius: 0;
+  border-image-source: linear-gradient(45deg, #87744a, #bea668, #ddbf7a) !important;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: -1px;
+  line-height: 1.7em !important;
   margin-top: 0;
+}
+.woocommerce-page.woocommerce-checkout #page-container #et-main-area #main-content .woocommerce .woocommerce-form-coupon .button::before {
+  content: none;
+}
+.woocommerce-page.woocommerce-checkout #page-container #et-main-area #main-content .woocommerce .woocommerce-form-coupon .button::after {
+  content: "" !important;
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: #87744a;
+  background: linear-gradient(45deg, #87744a 0%, #bea668 50%, #ddbf7a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#87744a", endColorstr="#ddbf7a",GradientType=1 );
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+  margin: 0 !important;
+  padding: 0;
+}
+.woocommerce-page.woocommerce-checkout #page-container #et-main-area #main-content .woocommerce .woocommerce-form-coupon .button:hover {
+  padding: 0.5em 1.5em 0.3em 1.5em !important;
+  border: 1px solid;
+  border-image-slice: 1 !important;
+  border-width: 1px;
+  border-image-source: linear-gradient(45deg, #87744a, #bea668, #ddbf7a) !important;
+}
+.woocommerce-page.woocommerce-checkout #page-container #et-main-area #main-content .woocommerce .woocommerce-form-coupon .button:hover::after {
+  opacity: 0 !important;
+  margin: 0 !important;
+}
+.woocommerce-page.woocommerce-checkout #page-container #et-main-area #main-content .woocommerce .woocommerce-form-coupon .button:hover::before {
+  content: none;
+}
+.woocommerce-page.woocommerce-checkout #page-container #et-main-area #main-content .woocommerce .woocommerce-form-coupon .button.loading::after {
+  animation: none !important;
 }
 .woocommerce-page.woocommerce-checkout #page-container #et-main-area #main-content .woocommerce .woocommerce-checkout #customer_details {
   margin-bottom: 30px;
@@ -2399,6 +2562,63 @@ body .et_pb_scroll_top:hover {
 }
 .woocommerce-page.woocommerce-checkout #page-container #et-main-area #main-content .woocommerce .woocommerce-checkout .woocommerce-checkout-payment .button {
   margin-top: 20px;
+}
+.woocommerce-page.woocommerce-cart #page-container #et-main-area #main-content .woocommerce .button {
+  font-family: "Josefin Sans", sans-serif;
+  padding: 0.5em 1.5em 0.3em 1.5em !important;
+  background-color: transparent;
+  border: 1px solid;
+  border-image-slice: 1 !important;
+  border-width: 1px;
+  border-radius: 0;
+  border-image-source: linear-gradient(45deg, #87744a, #bea668, #ddbf7a) !important;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: -1px;
+  line-height: 1.7em !important;
+}
+.woocommerce-page.woocommerce-cart #page-container #et-main-area #main-content .woocommerce .button::before {
+  content: none;
+}
+.woocommerce-page.woocommerce-cart #page-container #et-main-area #main-content .woocommerce .button::after {
+  content: "" !important;
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: #87744a;
+  background: linear-gradient(45deg, #87744a 0%, #bea668 50%, #ddbf7a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#87744a", endColorstr="#ddbf7a",GradientType=1 );
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+  margin: 0 !important;
+  padding: 0;
+}
+.woocommerce-page.woocommerce-cart #page-container #et-main-area #main-content .woocommerce .button:hover {
+  padding: 0.5em 1.5em 0.3em 1.5em !important;
+  border: 1px solid;
+  border-image-slice: 1 !important;
+  border-width: 1px;
+  border-image-source: linear-gradient(45deg, #87744a, #bea668, #ddbf7a) !important;
+}
+.woocommerce-page.woocommerce-cart #page-container #et-main-area #main-content .woocommerce .button:hover::after {
+  opacity: 0 !important;
+  margin: 0 !important;
+}
+.woocommerce-page.woocommerce-cart #page-container #et-main-area #main-content .woocommerce .button:hover::before {
+  content: none;
+}
+.woocommerce-page.woocommerce-cart #page-container #et-main-area #main-content .woocommerce .button.loading::after {
+  animation: none !important;
 }
 .woocommerce-page.woocommerce-cart #page-container #et-main-area #main-content .woocommerce .woocommerce-cart-form .woocommerce-cart-form__contents .woocommerce-cart-form__cart-item a::before, .woocommerce-page.woocommerce-cart #page-container #et-main-area #main-content .woocommerce .woocommerce-cart-form .woocommerce-cart-form__contents .woocommerce-cart-form__cart-item a::after {
   content: none !important;
@@ -2637,6 +2857,66 @@ body .et_pb_scroll_top:hover {
   background-position: left 15px top 50%, 0 0;
   padding: 10px 20px 10px 33px;
 }
+.woocommerce-page.single-product #page-container #et-main-area #main-content .et_pb_wc_add_to_cart .button {
+  font-family: "Josefin Sans", sans-serif;
+  padding: 0.5em 1.5em 0.3em 1.5em !important;
+  background-color: transparent;
+  border: 1px solid;
+  border-image-slice: 1 !important;
+  border-width: 1px;
+  border-radius: 0;
+  border-image-source: linear-gradient(45deg, #87744a, #bea668, #ddbf7a) !important;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: -1px;
+  line-height: 1.7em !important;
+}
+.woocommerce-page.single-product #page-container #et-main-area #main-content .et_pb_wc_add_to_cart .button::before {
+  content: none;
+}
+.woocommerce-page.single-product #page-container #et-main-area #main-content .et_pb_wc_add_to_cart .button::after {
+  content: "" !important;
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: #87744a;
+  background: linear-gradient(45deg, #87744a 0%, #bea668 50%, #ddbf7a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#87744a", endColorstr="#ddbf7a",GradientType=1 );
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+  margin: 0 !important;
+  padding: 0;
+}
+.woocommerce-page.single-product #page-container #et-main-area #main-content .et_pb_wc_add_to_cart .button:hover {
+  padding: 0.5em 1.5em 0.3em 1.5em !important;
+  border: 1px solid;
+  border-image-slice: 1 !important;
+  border-width: 1px;
+  border-image-source: linear-gradient(45deg, #87744a, #bea668, #ddbf7a) !important;
+}
+.woocommerce-page.single-product #page-container #et-main-area #main-content .et_pb_wc_add_to_cart .button:hover::after {
+  opacity: 0 !important;
+  margin: 0 !important;
+}
+.woocommerce-page.single-product #page-container #et-main-area #main-content .et_pb_wc_add_to_cart .button:hover::before {
+  content: none;
+}
+.woocommerce-page.single-product #page-container #et-main-area #main-content .et_pb_wc_add_to_cart .button.loading::after {
+  animation: none !important;
+}
+.woocommerce-page.single-product #page-container #et-main-area #main-content .et_pb_wc_add_to_cart .button.added {
+  margin-right: 10px;
+}
 .woocommerce-page.single-product #page-container #et-main-area #main-content .et_pb_wc_add_to_cart .variations_form .variations .value span::after {
   content: none;
 }
@@ -2744,6 +3024,10 @@ body .et_pb_scroll_top:hover {
 .et_pb_shop .woocommerce .products .product {
   border: solid 1px #f0f0f0;
   padding: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: flex-start;
 }
 @media (max-width: 767px) {
   .et_pb_shop .woocommerce .products .product {
@@ -2753,6 +3037,69 @@ body .et_pb_scroll_top:hover {
 }
 .et_pb_shop .woocommerce .products .product .et_shop_image .et_overlay::before {
   content: "5";
+}
+.et_pb_shop .woocommerce .products .product .button {
+  font-family: "Josefin Sans", sans-serif;
+  padding: 0.5em 1.5em 0.3em 1.5em !important;
+  background-color: transparent;
+  border: 1px solid;
+  border-image-slice: 1 !important;
+  border-width: 1px;
+  border-radius: 0;
+  border-image-source: linear-gradient(45deg, #87744a, #bea668, #ddbf7a) !important;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: -1px;
+  line-height: 1.7em !important;
+  font-size: 15px !important;
+  margin-top: 30px !important;
+  margin-right: 10px !important;
+}
+.et_pb_shop .woocommerce .products .product .button::before {
+  content: none;
+}
+.et_pb_shop .woocommerce .products .product .button::after {
+  content: "" !important;
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: #87744a;
+  background: linear-gradient(45deg, #87744a 0%, #bea668 50%, #ddbf7a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#87744a", endColorstr="#ddbf7a",GradientType=1 );
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+  margin: 0 !important;
+  padding: 0;
+}
+.et_pb_shop .woocommerce .products .product .button:hover {
+  padding: 0.5em 1.5em 0.3em 1.5em !important;
+  border: 1px solid;
+  border-image-slice: 1 !important;
+  border-width: 1px;
+  border-image-source: linear-gradient(45deg, #87744a, #bea668, #ddbf7a) !important;
+}
+.et_pb_shop .woocommerce .products .product .button:hover::after {
+  opacity: 0 !important;
+  margin: 0 !important;
+}
+.et_pb_shop .woocommerce .products .product .button:hover::before {
+  content: none;
+}
+.et_pb_shop .woocommerce .products .product .button.loading::after {
+  animation: none !important;
+}
+.et_pb_shop .woocommerce .products .product .button.added {
+  margin-right: 10px;
 }
 .et_pb_shop .woocommerce .products .product .button {
   font-size: 15px !important;
@@ -2874,36 +3221,127 @@ body .et_pb_scroll_top:hover {
 .xoo-wsc-modal .xoo-wsc-container .button.btn {
   font-family: "Josefin Sans", sans-serif;
   padding: 0.5em 1.5em 0.3em 1.5em !important;
-  font-size: 16px;
-  color: #ffffff;
-  background-color: #bea668;
-  border: 2px solid #bea668;
-  border-radius: 0px;
+  background-color: transparent;
+  border: 1px solid;
+  border-image-slice: 1 !important;
+  border-width: 1px;
+  border-radius: 0;
+  border-image-source: linear-gradient(45deg, #87744a, #bea668, #ddbf7a) !important;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
   font-weight: bold;
   font-style: normal;
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: -1px;
   line-height: 1.7em !important;
-  transition: all 300ms ease 0ms;
-  outline: 0;
-  margin: 0;
+  font-size: 16px;
+}
+.xoo-wsc-modal .xoo-wsc-container .button.btn::before {
+  content: none;
+}
+.xoo-wsc-modal .xoo-wsc-container .button.btn::after {
+  content: "" !important;
+  position: absolute;
   display: block;
-  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: #87744a;
+  background: linear-gradient(45deg, #87744a 0%, #bea668 50%, #ddbf7a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#87744a", endColorstr="#ddbf7a",GradientType=1 );
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+  margin: 0 !important;
+  padding: 0;
 }
 .xoo-wsc-modal .xoo-wsc-container .button.btn:hover {
   padding: 0.5em 1.5em 0.3em 1.5em !important;
-  color: #bea668 !important;
-  background-color: rgba(190, 166, 104, 0);
-  letter-spacing: -1px;
+  border: 1px solid;
+  border-image-slice: 1 !important;
+  border-width: 1px;
+  border-image-source: linear-gradient(45deg, #87744a, #bea668, #ddbf7a) !important;
+}
+.xoo-wsc-modal .xoo-wsc-container .button.btn:hover::after {
+  opacity: 0 !important;
+  margin: 0 !important;
+}
+.xoo-wsc-modal .xoo-wsc-container .button.btn:hover::before {
+  content: none;
+}
+.xoo-wsc-modal .xoo-wsc-container .button.btn.loading::after {
+  animation: none !important;
 }
 .xoo-wsc-modal .xoo-wsc-container .button.btn:not(.xoo-wsc-ft-btn-checkout) {
-  color: #bea668 !important;
-  background-color: rgba(190, 166, 104, 0);
+  font-family: "Josefin Sans", sans-serif;
+  padding: 0.5em 1.5em 0.3em 1.5em !important;
+  background-color: transparent;
+  border: 1px solid;
+  border-image-slice: 1 !important;
+  border-width: 1px;
+  border-radius: 0;
+  border-image-source: linear-gradient(45deg, #87744a, #bea668, #ddbf7a) !important;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: -1px;
+  line-height: 1.7em !important;
+  color: #bea668;
+}
+.xoo-wsc-modal .xoo-wsc-container .button.btn:not(.xoo-wsc-ft-btn-checkout)::before {
+  content: none;
+}
+.xoo-wsc-modal .xoo-wsc-container .button.btn:not(.xoo-wsc-ft-btn-checkout)::after {
+  content: "" !important;
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: #87744a;
+  background: linear-gradient(45deg, #87744a 0%, #bea668 50%, #ddbf7a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#87744a", endColorstr="#ddbf7a",GradientType=1 );
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+  margin: 0 !important;
+  padding: 0;
 }
 .xoo-wsc-modal .xoo-wsc-container .button.btn:not(.xoo-wsc-ft-btn-checkout):hover {
-  color: #bea668 !important;
-  background-color: #bea668;
+  padding: 0.5em 1.5em 0.3em 1.5em !important;
+  border: 1px solid;
+  border-image-slice: 1 !important;
+  border-width: 1px;
+  border-image-source: linear-gradient(45deg, #87744a, #bea668, #ddbf7a) !important;
+}
+.xoo-wsc-modal .xoo-wsc-container .button.btn:not(.xoo-wsc-ft-btn-checkout):hover::after {
+  opacity: 0 !important;
+  margin: 0 !important;
+}
+.xoo-wsc-modal .xoo-wsc-container .button.btn:not(.xoo-wsc-ft-btn-checkout):hover::before {
+  content: none;
+}
+.xoo-wsc-modal .xoo-wsc-container .button.btn:not(.xoo-wsc-ft-btn-checkout).loading::after {
+  animation: none !important;
+}
+.xoo-wsc-modal .xoo-wsc-container .button.btn:not(.xoo-wsc-ft-btn-checkout)::after {
+  opacity: 0;
+}
+.xoo-wsc-modal .xoo-wsc-container .button.btn:not(.xoo-wsc-ft-btn-checkout):hover {
+  color: #ffffff !important;
+}
+.xoo-wsc-modal .xoo-wsc-container .button.btn:not(.xoo-wsc-ft-btn-checkout):hover::after {
+  opacity: 1 !important;
 }
 .xoo-wsc-modal.xoo-wsc-cart-active .xoo-wsc-opac {
   opacity: 0.3;
