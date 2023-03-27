@@ -2348,12 +2348,12 @@ body .et_pb_scroll_top:hover {
 .woocommerce-page #page-container #et-main-area #main-content .order-total {
   color: #000000;
 }
-.woocommerce-page #page-container #et-main-area a:not(.button):not(.et_pb_button):not(.woocommerce-Button):not(.et_pb_video_play):not(.amplify a):not(.woocommerce-product-gallery__trigger) {
+.woocommerce-page #page-container #et-main-area a:not(.button):not(.et_pb_button):not(.woocommerce-Button):not(.et_pb_video_play):not(.amplify a):not(.woocommerce-product-gallery__trigger):not(.woocommerce-LoopProduct-link) {
   text-decoration: none !important;
   position: relative;
   cursor: pointer;
 }
-.woocommerce-page #page-container #et-main-area a:not(.button):not(.et_pb_button):not(.woocommerce-Button):not(.et_pb_video_play):not(.amplify a):not(.woocommerce-product-gallery__trigger)::before {
+.woocommerce-page #page-container #et-main-area a:not(.button):not(.et_pb_button):not(.woocommerce-Button):not(.et_pb_video_play):not(.amplify a):not(.woocommerce-product-gallery__trigger):not(.woocommerce-LoopProduct-link)::before {
   content: "";
   position: absolute;
   left: 0;
@@ -2361,7 +2361,7 @@ body .et_pb_scroll_top:hover {
   right: 100%;
   border-bottom: 1px solid #bea668;
 }
-.woocommerce-page #page-container #et-main-area a:not(.button):not(.et_pb_button):not(.woocommerce-Button):not(.et_pb_video_play):not(.amplify a):not(.woocommerce-product-gallery__trigger)::after {
+.woocommerce-page #page-container #et-main-area a:not(.button):not(.et_pb_button):not(.woocommerce-Button):not(.et_pb_video_play):not(.amplify a):not(.woocommerce-product-gallery__trigger):not(.woocommerce-LoopProduct-link)::after {
   content: "";
   position: absolute;
   right: 0;
@@ -2372,12 +2372,12 @@ body .et_pb_scroll_top:hover {
   transition-delay: 0s;
   transition-delay: 0.15s;
 }
-.woocommerce-page #page-container #et-main-area a:not(.button):not(.et_pb_button):not(.woocommerce-Button):not(.et_pb_video_play):not(.amplify a):not(.woocommerce-product-gallery__trigger):hover::before {
+.woocommerce-page #page-container #et-main-area a:not(.button):not(.et_pb_button):not(.woocommerce-Button):not(.et_pb_video_play):not(.amplify a):not(.woocommerce-product-gallery__trigger):not(.woocommerce-LoopProduct-link):hover::before {
   content: "";
   right: 0;
   transition: right 0.15s ease-out;
 }
-.woocommerce-page #page-container #et-main-area a:not(.button):not(.et_pb_button):not(.woocommerce-Button):not(.et_pb_video_play):not(.amplify a):not(.woocommerce-product-gallery__trigger):hover::after {
+.woocommerce-page #page-container #et-main-area a:not(.button):not(.et_pb_button):not(.woocommerce-Button):not(.et_pb_video_play):not(.amplify a):not(.woocommerce-product-gallery__trigger):not(.woocommerce-LoopProduct-link):hover::after {
   content: "";
   left: 0;
 }

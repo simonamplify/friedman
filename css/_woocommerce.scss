@@ -414,7 +414,7 @@
                 }
             }   
             // links
-            a:not(.button):not(.et_pb_button):not(.woocommerce-Button):not(.et_pb_video_play):not(.amplify a):not(.woocommerce-product-gallery__trigger) {
+            a:not(.button):not(.et_pb_button):not(.woocommerce-Button):not(.et_pb_video_play):not(.amplify a):not(.woocommerce-product-gallery__trigger):not(.woocommerce-LoopProduct-link) {
                 text-decoration: none!important;
                 position: relative;
                 cursor: pointer;
