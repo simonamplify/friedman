@@ -454,7 +454,7 @@ body .et_pb_button_module_wrapper .et_pb_button.loading::after, body .et_pb_butt
 body #cookie-notice {
   font-family: "Raleway", sans-serif;
 }
-body #cookie-notice .cn-button, body #cookie-notice .cn-button:not(.cn-button-custom) {
+body #cookie-notice .cookie-notice-container .cn-button, body #cookie-notice .cookie-notice-container .cn-button:not(.cn-button-custom) {
   background: #87744a;
   background: linear-gradient(45deg, #87744a 0%, #bea668 50%, #ddbf7a 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#87744a", endColorstr="#ddbf7a",GradientType=1 );
@@ -467,18 +467,21 @@ body #cookie-notice .cn-button, body #cookie-notice .cn-button:not(.cn-button-cu
   letter-spacing: -1px;
   transition: opacity 0.4s;
 }
-body #cookie-notice .cn-button:hover, body #cookie-notice .cn-button:not(.cn-button-custom):hover {
+body #cookie-notice .cookie-notice-container .cn-button:hover, body #cookie-notice .cookie-notice-container .cn-button:not(.cn-button-custom):hover {
   opacity: 0.9;
 }
-body #cookie-notice #cn-close-notice {
+body #cookie-notice .cookie-notice-container #cn-close-notice {
   transition: opacity 0.4s;
   opacity: 0.6;
 }
-body #cookie-notice #cn-close-notice::after, body #cookie-notice #cn-close-notice::before {
+body #cookie-notice .cookie-notice-container #cn-close-notice::after, body #cookie-notice .cookie-notice-container #cn-close-notice::before {
   background-color: #ffffff;
 }
-body #cookie-notice #cn-close-notice:hover {
+body #cookie-notice .cookie-notice-container #cn-close-notice:hover {
   opacity: 1;
+}
+body #cookie-notice .cookie-notice-container #cn-notice-text a {
+  text-decoration: none !important;
 }
 body #page-container {
   animation: bodyFadeIn 1.5s;
