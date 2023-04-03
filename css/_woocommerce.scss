@@ -543,6 +543,20 @@
                                     margin-top: 20px;
                                 }
                             }
+                            #order_notice {
+                                background-color: $lgrey;
+                                padding: 10px;
+                                margin-bottom: 30px;
+                                font-size: 14px;
+                                line-height: 1.6em;
+                                strong {
+                                    color: $black;
+                                }
+                                p {
+                                    margin: 0;
+                                    padding: 0;
+                                }
+                            }
                         }
                     }
                 }

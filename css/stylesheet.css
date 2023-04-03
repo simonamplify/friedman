@@ -451,6 +451,35 @@ body .et_pb_button_module_wrapper .et_pb_button:hover::before, body .et_pb_butto
 body .et_pb_button_module_wrapper .et_pb_button.loading::after, body .et_pb_button_module_wrapper .et_button_no_icon.et_button_icon_visible.et_button_left .et_pb_button.loading::after, body .et_button_no_icon .et_pb_button.loading::after {
   animation: none !important;
 }
+body #cookie-notice {
+  font-family: "Raleway", sans-serif;
+}
+body #cookie-notice .cn-button, body #cookie-notice .cn-button:not(.cn-button-custom) {
+  background: #87744a;
+  background: linear-gradient(45deg, #87744a 0%, #bea668 50%, #ddbf7a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#87744a", endColorstr="#ddbf7a",GradientType=1 );
+  border-radius: 0;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: -1px;
+  transition: opacity 0.4s;
+}
+body #cookie-notice .cn-button:hover, body #cookie-notice .cn-button:not(.cn-button-custom):hover {
+  opacity: 0.9;
+}
+body #cookie-notice #cn-close-notice {
+  transition: opacity 0.4s;
+  opacity: 0.6;
+}
+body #cookie-notice #cn-close-notice::after, body #cookie-notice #cn-close-notice::before {
+  background-color: #ffffff;
+}
+body #cookie-notice #cn-close-notice:hover {
+  opacity: 1;
+}
 body #page-container {
   animation: bodyFadeIn 1.5s;
 }
@@ -2568,6 +2597,20 @@ body .et_pb_scroll_top:hover {
 }
 .woocommerce-page.woocommerce-checkout #page-container #et-main-area #main-content .woocommerce .woocommerce-checkout .woocommerce-checkout-payment .button {
   margin-top: 20px;
+}
+.woocommerce-page.woocommerce-checkout #page-container #et-main-area #main-content .woocommerce .woocommerce-checkout #order_notice {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin-bottom: 30px;
+  font-size: 14px;
+  line-height: 1.6em;
+}
+.woocommerce-page.woocommerce-checkout #page-container #et-main-area #main-content .woocommerce .woocommerce-checkout #order_notice strong {
+  color: #000000;
+}
+.woocommerce-page.woocommerce-checkout #page-container #et-main-area #main-content .woocommerce .woocommerce-checkout #order_notice p {
+  margin: 0;
+  padding: 0;
 }
 .woocommerce-page.woocommerce-cart #page-container #et-main-area #main-content .woocommerce .button {
   font-family: "Josefin Sans", sans-serif;

@@ -84,4 +84,9 @@ add_filter('woocommerce_product_upsells_products_heading', 'custom_related_produ
 function custom_related_products_heading() {
     return 'Related Products';
 }
+// BEFORE CHECKOUT PAYMENT
+add_action( 'woocommerce_review_order_before_payment', 'order_notice' );
+function order_notice() {
+    get_template_part( 'order_notice' );
+}
 ?>
