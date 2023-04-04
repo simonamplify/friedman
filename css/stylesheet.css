@@ -457,6 +457,7 @@ body #cookie-notice {
   left: 10px;
   min-width: unset;
   max-width: 400px;
+  border: solid 1px #64646c;
 }
 @media (max-width: 767px) {
   body #cookie-notice {

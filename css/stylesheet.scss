@@ -76,6 +76,7 @@ body {
         left: 10px;
         min-width: unset;
         max-width: 400px;
+        border: solid 1px $drk;
         @media (max-width:767px) {
             max-width: 80%;
         }
