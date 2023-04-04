@@ -453,6 +453,15 @@ body .et_pb_button_module_wrapper .et_pb_button.loading::after, body .et_pb_butt
 }
 body #cookie-notice {
   font-family: "Raleway", sans-serif;
+  bottom: 10px;
+  left: 10px;
+  min-width: unset;
+  max-width: 400px;
+}
+@media (max-width: 767px) {
+  body #cookie-notice {
+    max-width: 80%;
+  }
 }
 body #cookie-notice .cookie-notice-container .cn-button, body #cookie-notice .cookie-notice-container .cn-button:not(.cn-button-custom) {
   background: #87744a;
@@ -471,6 +480,9 @@ body #cookie-notice .cookie-notice-container .cn-button:hover, body #cookie-noti
   opacity: 0.9;
 }
 body #cookie-notice .cookie-notice-container #cn-close-notice {
+  margin-top: 0;
+  right: 5px;
+  top: 5px;
   transition: opacity 0.4s;
   opacity: 0.6;
 }

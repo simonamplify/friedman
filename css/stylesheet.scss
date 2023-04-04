@@ -72,6 +72,13 @@ body {
     }
     #cookie-notice {
         font-family: 'Raleway',sans-serif;
+        bottom: 10px;
+        left: 10px;
+        min-width: unset;
+        max-width: 400px;
+        @media (max-width:767px) {
+            max-width: 80%;
+        }
         .cookie-notice-container {
             .cn-button, .cn-button:not(.cn-button-custom) {
                 @include colourGrad();
@@ -88,6 +95,9 @@ body {
                 }
             }
             #cn-close-notice {
+                margin-top: 0;
+                right: 5px;
+                top: 5px;
                 transition: opacity .4s;
                 opacity: .6;
                 &::after, &::before {
