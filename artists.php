@@ -13,7 +13,7 @@ $artist_query = new WP_Query( $args );
 if($artist_query->have_posts() ) : while ( $artist_query->have_posts() ) : $artist_query->the_post();
 
     echo '<div class="artistModal artist-'; the_ID(); echo '">'; 
-        echo '<div class="modalImg">'; the_post_thumbnail(); echo '</div>';
+        echo '<!--<div class="modalImg">'; the_post_thumbnail(); echo '</div>-->';
         the_title('<h4>', '</h4>');
         echo '<div class="excerpt">'; the_excerpt(); echo '</div>';
         if( get_field('website_url') || get_field('facebook_url') || get_field('twitter_url') || get_field('instagram_url') ):
@@ -48,9 +48,9 @@ echo '<ul class="list artists">';
 if($artist_query->have_posts() ) : while ( $artist_query->have_posts() ) : $artist_query->the_post();
 
 echo '<li class="artist">';
-    echo '<a href="#artist-'; the_ID(); echo '" class="bioBtn">';
+    echo '<!--<a href="#artist-'; the_ID(); echo '" class="bioBtn">';
     echo '<div class="artistImg">'; the_post_thumbnail(); echo '</div>';
-    echo '</a>'; 
+    echo '</a>-->'; 
     echo '<div class="artistDetails"><h4 class="artistName">'; echo '<a href="#artist-'; the_ID(); echo '" class="bioBtn">'; the_title(); echo '</a>'; echo '</h4>'; echo '<div class="artistContent">'; the_excerpt(); echo '</div>'; echo '</div>'; 
 echo '</li>';
 

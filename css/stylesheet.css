@@ -1509,8 +1509,11 @@ body #page-container #et-main-area #main-content #artists ul.artists li.artist {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: flex-start;
-  align-items: center;
-  margin-bottom: 10px;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  /*> *:first-child {
+          flex-shrink: 0;
+      }*/
 }
 @media (max-width: 980px) {
   body #page-container #et-main-area #main-content #artists ul.artists li.artist {
@@ -1521,9 +1524,6 @@ body #page-container #et-main-area #main-content #artists ul.artists li.artist {
   body #page-container #et-main-area #main-content #artists ul.artists li.artist {
     width: 100%;
   }
-}
-body #page-container #et-main-area #main-content #artists ul.artists li.artist > *:first-child {
-  flex-shrink: 0;
 }
 body #page-container #et-main-area #main-content #artists ul.artists li.artist .artistImg img {
   margin-right: 25px;
@@ -1537,6 +1537,12 @@ body #page-container #et-main-area #main-content #artists ul.artists li.artist .
 body #page-container #et-main-area #main-content #artists ul.artists li.artist .artistDetails .artistName {
   font-size: 20px;
   padding-bottom: 5px;
+}
+body #page-container #et-main-area #main-content #artists ul.artists li.artist .artistDetails .artistName a {
+  transition: color 0.2s linear;
+}
+body #page-container #et-main-area #main-content #artists ul.artists li.artist .artistDetails .artistName a:hover {
+  color: #bea668;
 }
 body #page-container #et-main-area #main-content #artists ul.artists li.artist .artistDetails .artistContent {
   color: #64646c;
