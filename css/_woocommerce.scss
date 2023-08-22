@@ -757,6 +757,13 @@
         #page-container {
             #et-main-area {
                 #main-content {
+                    ul {
+                        li {
+                            &::marker {
+                                color: $primary1;
+                            }
+                        }
+                    }
                     .woocommerce-product-gallery {
                         .woocommerce-product-gallery__image {
                             img {

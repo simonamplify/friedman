@@ -2839,6 +2839,9 @@ body .et_pb_scroll_top:hover {
 .woocommerce-page.woocommerce-account #page-container #et-main-area #main-content .woocommerce #customer_login a:hover {
   text-decoration: none;
 }
+.woocommerce-page.single-product #page-container #et-main-area #main-content ul li::marker {
+  color: #bea668;
+}
 .woocommerce-page.single-product #page-container #et-main-area #main-content .woocommerce-product-gallery .woocommerce-product-gallery__image img {
   background: #000000;
 }
