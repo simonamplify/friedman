@@ -796,6 +796,12 @@ body #page-container #et-main-area .et_pb_text.borderedText p + ul {
 body #page-container #et-main-area .et_pb_text.borderedText *:last-child {
   padding-bottom: 0;
 }
+body #page-container #et-main-area .et_pb_text.borderedText.goldPanel::before {
+  border-radius: 10px;
+}
+body #page-container #et-main-area .et_pb_text.borderedText.goldPanel h4 {
+  background: #DDBF7A;
+}
 body #page-container #et-main-area .et_pb_text a {
   text-decoration: none;
   position: relative;

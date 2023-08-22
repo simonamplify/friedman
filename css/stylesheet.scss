@@ -180,6 +180,14 @@ body {
                     *:last-child {
                         padding-bottom: 0;
                     }
+                    &.goldPanel {
+                        &::before {
+                            border-radius: 10px;
+                        }
+                        h4 {
+                            background: #DDBF7A;
+                        }
+                    }
                 }
                 a {
                     text-decoration: none;
