@@ -187,6 +187,9 @@ body {
                         h4 {
                             background: #DDBF7A;
                         }
+                        @media (max-width: 980px) {
+                            margin: 0 auto 0 auto;
+                        }
                     }
                 }
                 a {

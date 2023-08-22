@@ -802,6 +802,11 @@ body #page-container #et-main-area .et_pb_text.borderedText.goldPanel::before {
 body #page-container #et-main-area .et_pb_text.borderedText.goldPanel h4 {
   background: #DDBF7A;
 }
+@media (max-width: 980px) {
+  body #page-container #et-main-area .et_pb_text.borderedText.goldPanel {
+    margin: 0 auto 0 auto;
+  }
+}
 body #page-container #et-main-area .et_pb_text a {
   text-decoration: none;
   position: relative;
