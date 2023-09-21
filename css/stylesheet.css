@@ -889,6 +889,12 @@ body #page-container #et-main-area .et_pb_text ol li ul li::before {
 body #page-container #et-main-area .et_pb_text.et_pb_bg_layout_dark strong {
   color: #ffffff;
 }
+body #page-container #et-main-area .et_pb_image > a::before {
+  content: none !important;
+}
+body #page-container #et-main-area .et_pb_image > a::after {
+  content: none !important;
+}
 body #page-container #et-main-area .et_pb_button_module_wrapper .et_pb_button, body #page-container #et-main-area .et_pb_button_module_wrapper .et_button_no_icon.et_button_icon_visible.et_button_left .et_pb_button, body #page-container #et-main-area .et_button_no_icon .et_pb_button, body #page-container #et-main-area .et_pb_contact_submit {
   padding: 0.5em 1.5em 0.3em 1.5em !important;
 }
