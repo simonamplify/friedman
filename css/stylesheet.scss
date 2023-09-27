@@ -592,6 +592,83 @@ body {
                         }
                     }
                 }
+                .et_pb_video_slider {
+                    &.faVidSlider {
+                        .et_pb_slider {
+                            .et_pb_slides {
+                                .et_pb_slide {
+                                    .et_pb_video_wrap {
+                                        .et_pb_video_overlay {
+                                            .et_pb_video_overlay_hover {
+                                                .et_pb_video_play {
+                                                    &::before {
+                                                        content: "\45";
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .et_pb_carousel {
+                            .et_pb_carousel_items {
+                                .et-carousel-group {
+                                    .et_pb_carousel_item {
+                                        .et_pb_video_overlay {
+                                            .et_pb_video_overlay_hover {
+                                                .et_pb_video_play {
+                                                    &::before {
+                                                        content: "\45";
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        @media (min-width:768px) {
+                            .et_pb_slider {
+                                width: 85%;
+                                float: left;
+                            }
+                            .et_pb_carousel {
+                                width: 15%;
+                                float: right;
+                                margin: 0;
+                                padding: 0 0 0 10px;
+                                .et_pb_carousel_items {
+                                    height: auto!important;
+                                    .et-carousel-group {
+                                        display: flex;
+                                        flex-direction: column;
+                                        flex-wrap: nowrap;
+                                        align-content: flex-start;
+                                        justify-content: flex-start;
+                                        align-items: flex-start;
+                                        .et_pb_carousel_item {
+                                            width: 100%;
+                                            margin: 0 0 8px 0;
+                                            &:last-child {
+                                                margin: 0;
+                                            }
+                                            .et_pb_video_overlay {
+                                                .et_pb_video_overlay_hover {
+                                                    .et_pb_video_play {
+                                                        font-size: 1.5rem;
+                                                        @include absCenter();
+                                                        margin: 0;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
                 /*.signPosts {
                     .et_pb_column {
                         .et_pb_text {

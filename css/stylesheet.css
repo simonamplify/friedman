@@ -1429,6 +1429,50 @@ body #page-container #et-main-area #main-content .cwp_et_pb_layout_slider_standa
 body #page-container #et-main-area #main-content .cwp_et_pb_layout_slider_standard.productCarousel.links .swiper-container .swiper-wrapper .swiper-slide:hover .as_slide_image_wrapper .et_pb_image_wrap img {
   opacity: 0.8;
 }
+body #page-container #et-main-area #main-content .et_pb_video_slider.faVidSlider .et_pb_slider .et_pb_slides .et_pb_slide .et_pb_video_wrap .et_pb_video_overlay .et_pb_video_overlay_hover .et_pb_video_play::before {
+  content: "E";
+}
+body #page-container #et-main-area #main-content .et_pb_video_slider.faVidSlider .et_pb_carousel .et_pb_carousel_items .et-carousel-group .et_pb_carousel_item .et_pb_video_overlay .et_pb_video_overlay_hover .et_pb_video_play::before {
+  content: "E";
+}
+@media (min-width: 768px) {
+  body #page-container #et-main-area #main-content .et_pb_video_slider.faVidSlider .et_pb_slider {
+    width: 85%;
+    float: left;
+  }
+  body #page-container #et-main-area #main-content .et_pb_video_slider.faVidSlider .et_pb_carousel {
+    width: 15%;
+    float: right;
+    margin: 0;
+    padding: 0 0 0 10px;
+  }
+  body #page-container #et-main-area #main-content .et_pb_video_slider.faVidSlider .et_pb_carousel .et_pb_carousel_items {
+    height: auto !important;
+  }
+  body #page-container #et-main-area #main-content .et_pb_video_slider.faVidSlider .et_pb_carousel .et_pb_carousel_items .et-carousel-group {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  body #page-container #et-main-area #main-content .et_pb_video_slider.faVidSlider .et_pb_carousel .et_pb_carousel_items .et-carousel-group .et_pb_carousel_item {
+    width: 100%;
+    margin: 0 0 8px 0;
+  }
+  body #page-container #et-main-area #main-content .et_pb_video_slider.faVidSlider .et_pb_carousel .et_pb_carousel_items .et-carousel-group .et_pb_carousel_item:last-child {
+    margin: 0;
+  }
+  body #page-container #et-main-area #main-content .et_pb_video_slider.faVidSlider .et_pb_carousel .et_pb_carousel_items .et-carousel-group .et_pb_carousel_item .et_pb_video_overlay .et_pb_video_overlay_hover .et_pb_video_play {
+    font-size: 1.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+  }
+}
 body #page-container #et-main-area #main-content .et_pb_accordion .et_pb_toggle.et_pb_accordion_item .et_pb_toggle_title::before {
   transition: transform 0.2s ease;
 }
