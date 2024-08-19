@@ -1,13 +1,1 @@
-/* ===========================
-LOGIN PAGE
-=========================== */
-.login #login h1 a {
-  background-image: url("/wp-content/uploads/2022/08/friedman-logo-black.svg") !important;
-  background-size: contain;
-  height: 75px;
-  width: auto;
-}
-
-.grecaptcha-badge {
-  visibility: hidden !important;
-}
+.login #login h1 a{background-image:url("/wp-content/uploads/2022/08/friedman-logo-black.svg") !important;background-size:contain;height:75px;width:auto}.grecaptcha-badge{visibility:hidden !important}

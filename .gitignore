@@ -8,6 +8,6 @@
 ehthumbs.db
 Thumbs.db
 
-# Directories #
+# Directories & Files #
 ######################
-.vscode
+.vscode/sftp.json
