@@ -89,4 +89,9 @@ add_action( 'woocommerce_review_order_before_payment', 'order_notice' );
 function order_notice() {
     get_template_part( 'order_notice' );
 }
+// Lead time notice shortcode
+function lead_time_notice() {
+    return '<p><strong>Please note - due to high demand there is currently a 3-10 day lead time for this product.</strong></p>';
+}
+add_shortcode('lead_time_notice', 'lead_time_notice');
 ?>
