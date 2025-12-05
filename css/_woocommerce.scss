@@ -1,6 +1,10 @@
 ////////////////////////////////////////////
 // Woocommerce
 ////////////////////////////////////////////
+@use 'typography' as *;
+@use 'variables' as *;
+@use 'mixins' as *;
+@use 'select-dark' as *;
 .woocommerce-page {
     #page-container {
         #et-main-area {
@@ -293,6 +297,7 @@
                 input[type='radio'] {
                     -webkit-appearance: none;
                     -moz-appearance: none;
+                    appearance: none;
                     height: 34px;
                     outline: none;
                     display: inline-block;
@@ -344,7 +349,7 @@
                         border-color: $black;
                     }
                     &:not(.switch) {
-                        width: 34px;
+                        width: 34px !important;
                         &::after {
                             opacity: 0;
                         }
@@ -531,8 +536,6 @@
                         .woocommerce-checkout {
                             #customer_details {
                                 margin-bottom: 30px;
-                            }
-                            .woocommerce-checkout-review-order-table {
                             }
                             .woocommerce-checkout-payment {
                                 border: none;
@@ -854,7 +857,7 @@
                             }
                         }
                     }
-                    @import 'select-dark';
+                    @include select-dark;
                     .et_pb_wc_add_to_cart {
                         .button {
                             // NEW

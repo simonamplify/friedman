@@ -1,20 +1,35 @@
 <?php
+// Enqueue parent and child theme styles and scripts
 function custom_theme_scripts() {
-    $parent_style = 'Divi';
-    wp_enqueue_style( $parent_style, get_template_directory_uri() . '/style.css' );
-    wp_enqueue_style( 'child-style',
-        get_stylesheet_directory_uri() . '/style.css',
-        array( $parent_style )
+    $parent_handle = 'Divi';
+    wp_enqueue_style(
+        'child-style',
+        get_stylesheet_directory_uri() . '/css/stylesheet.css',
+        array( $parent_handle ),
+        filemtime( get_stylesheet_directory() . '/css/stylesheet.css' )
     );
-    wp_enqueue_script( 'list-js', get_bloginfo( 'stylesheet_directory' ) . '/js/list.js', null, null, true);
-    wp_enqueue_script( 'main-js', get_bloginfo( 'stylesheet_directory' ) . '/js/main.js', array('list-js'), null, true);
+    wp_enqueue_script(
+        'list',
+        get_stylesheet_directory_uri() . '/js/list.js',
+        null,
+        null,
+        true
+    );
+    wp_enqueue_script(
+        'main',
+        get_stylesheet_directory_uri() . '/js/main.min.js',
+        array('list'),
+        filemtime( get_stylesheet_directory() . '/js/main.min.js' ),
+        true
+    );
 }
-add_action( 'wp_enqueue_scripts', 'custom_theme_scripts' );
+add_action( 'wp_enqueue_scripts', 'custom_theme_scripts', 11 ); // 11 to ensure it runs after the parent theme's scripts
 // Enqueue login styles
 function my_logincustomCSSfile() {
     wp_enqueue_style('login-styles', get_stylesheet_directory_uri() . '/css/login_stylesheet.css');
 }
 add_action('login_enqueue_scripts', 'my_logincustomCSSfile');
+
 // Change login logo url and title text
 function my_loginURL() {
     return '/';
