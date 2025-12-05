@@ -1161,3 +1161,7 @@
         pointer-events: none;
     }
 }
+// PayPal fixes
+#ppcp-recaptcha-v2-container {
+    display: none !important;
+}
