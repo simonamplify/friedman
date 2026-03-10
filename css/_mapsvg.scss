@@ -3,7 +3,7 @@
 #page-container {
     #et-main-area {
         #main-content {
-            #mapsvg-map-1 {
+            .mapsvg-wrap-all {
                 .mapsvg-header {
                     .mapsvg-filters-wrap {
                         margin-bottom: 20px;
@@ -104,9 +104,9 @@
                                 .mapsvg-controller-view-wrap {
                                     .mapsvg-controller-view-content {
                                         .mapsvg-directory-item {
-                                            font-family: 'Josefin Sans',
-                                                Helvetica, Arial, Lucida,
-                                                sans-serif;
+                                            font-family:
+                                                'Josefin Sans', Helvetica,
+                                                Arial, Lucida, sans-serif;
                                             text-transform: uppercase;
                                             font-size: 16px;
                                             letter-spacing: -1px;
