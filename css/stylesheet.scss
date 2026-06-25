@@ -8,6 +8,7 @@
 @use 'footer';
 @use 'woocommerce';
 @use 'mapsvg';
+@use 'wbte-ewb';
 
 /* ===========================
 STYLES
@@ -1150,8 +1151,12 @@ h6 {
                             select {
                                 background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='UTF-8'?%3e%3csvg id='Layer_1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 23.74 15.3'%3e%3cdefs%3e%3cstyle%3e.cls-1%7bfill:%23c6c6c6;%7d%3c/style%3e%3c/defs%3e%3cpolygon class='cls-1' points='11.87 0 23.74 0 17.81 7.65 11.87 15.3 5.94 7.65 0 0 11.87 0'/%3e%3c/svg%3e");
                                 background-repeat: no-repeat, repeat;
-                                background-position: right 15px top 50%, 0 0;
-                                background-size: 0.65em auto, 100%;
+                                background-position:
+                                    right 15px top 50%,
+                                    0 0;
+                                background-size:
+                                    0.65em auto,
+                                    100%;
                                 &:focus {
                                     background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='UTF-8'?%3e%3csvg id='Layer_1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 23.74 15.3'%3e%3cdefs%3e%3cstyle%3e.cls-1%7bfill:%23c6c6c6;%7d%3c/style%3e%3c/defs%3e%3cpolygon class='cls-1' points='11.87 15.3 0 15.3 5.94 7.65 11.87 0 17.81 7.65 23.74 15.3 11.87 15.3'/%3e%3c/svg%3e");
                                 }
@@ -1193,8 +1198,8 @@ h6 {
                     text-decoration: none;
                     letter-spacing: -1px;
                     transition: all 300ms ease 0ms;
-                    font-family: 'Josefin Sans', Helvetica, Arial, Lucida,
-                        sans-serif;
+                    font-family:
+                        'Josefin Sans', Helvetica, Arial, Lucida, sans-serif;
                     position: relative;
                     line-height: 1.7em !important;
                     background-size: cover;
