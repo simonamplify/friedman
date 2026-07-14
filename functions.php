@@ -131,4 +131,12 @@ function lead_time_notice() {
     return '<p><strong>Please note - due to high demand there is currently a 3-10 day lead time for this product.</strong></p>';
 }
 add_shortcode('lead_time_notice', 'lead_time_notice');
+
+// TAXJAR INCLUDE
+$taxjar_file = get_theme_file_path( '/includes/taxjar.php' );
+if ( file_exists( $taxjar_file ) ) {
+    require_once $taxjar_file;
+} else {
+    error_log( 'Missing file: ' . $taxjar_file );
+}
 ?>

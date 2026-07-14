@@ -59,7 +59,7 @@
             box-shadow 0.3s ease;
 
         @media (hover: hover) {
-            &:has(.meta-link:hover) {
+            &:has(.manual-link:hover) {
                 border-color: $primary1;
             }
 
