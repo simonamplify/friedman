@@ -1,0 +1,119 @@
+////////////////////////////////////////////
+// MANUALS
+////////////////////////////////////////////
+@use 'typography' as *;
+@use 'variables' as *;
+@use 'mixins' as *;
+
+.manuals-directory {
+    display: grid;
+    gap: 3rem;
+}
+
+.manuals-group {
+    h2 {
+        padding-bottom: 1.5rem;
+    }
+    &:not(:last-child) {
+        border-bottom: solid 1px $lgrey;
+        padding-bottom: 3rem;
+    }
+}
+
+.manuals-list {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); // Mobile
+    gap: 1rem;
+    align-items: stretch;
+    list-style: none !important;
+    padding: 0 !important;
+    line-height: inherit !important;
+
+    @media (min-width: 768px) {
+        grid-template-columns: repeat(2, 1fr); // Tablet
+    }
+
+    @media (min-width: 1024px) {
+        grid-template-columns: repeat(4, 1fr); // Laptop
+        gap: 1.5rem;
+    }
+
+    @media (min-width: 1280px) {
+        gap: 2rem;
+    }
+}
+
+.manuals-item {
+    .manual-card {
+        display: grid;
+        height: 100%;
+        grid-template-rows: auto 1fr;
+        gap: 0.8rem;
+        background-color: color-mix(in srgb, $lgrey 20%, white);
+        border-radius: 0;
+        padding: 1rem;
+        margin: 0;
+        border: solid 1px $lgrey;
+        transition:
+            border-color 0.3s ease,
+            box-shadow 0.3s ease;
+
+        @media (hover: hover) {
+            &:has(.meta-link:hover) {
+                border-color: $primary1;
+            }
+
+            &:hover {
+                box-shadow: 0 clamp(1.8rem, 2vw, 2rem) clamp(1.8rem, 2vw, 2rem)
+                    clamp(-1.4rem, -2vw, -1.6rem) rgba(0, 0, 0, 0.1);
+            }
+        }
+
+        .manual-header {
+            h3 {
+                font-size: 1.1rem;
+                line-height: 1.5em;
+                padding: 0;
+            }
+        }
+
+        .manual-footer {
+            margin-top: 0.2rem;
+            padding-top: 0.8rem;
+            border-top: solid 1px $lgrey;
+            display: grid;
+            grid-template-columns: 1fr auto;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .manual-meta {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.9rem;
+            line-height: 0.7em;
+        }
+
+        .manual-link {
+            font-size: 1rem;
+            font-weight: 600;
+            width: fit-content;
+            display: inline-flex;
+            gap: 0.3rem;
+            padding: 0;
+            line-height: 1;
+            white-space: nowrap;
+            align-items: center;
+            justify-self: end;
+            transition: color 0.2s ease;
+
+            @media (hover: hover) {
+                &:hover {
+                    color: color-mix(in srgb, $primary1 80%, black);
+                }
+            }
+        }
+    }
+}
