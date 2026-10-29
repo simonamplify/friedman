@@ -139,4 +139,12 @@ if ( file_exists( $taxjar_file ) ) {
 } else {
     error_log( 'Missing file: ' . $taxjar_file );
 }
+
+// SYNERGY SOFTWARE INCLUDE
+$syn_software_file = get_theme_file_path( '/includes/synergy-software-download.php' );
+if ( file_exists( $syn_software_file ) ) {
+    require_once $syn_software_file;
+} else {
+    error_log( 'Missing file: ' . $syn_software_file );
+}
 ?>
