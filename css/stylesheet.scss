@@ -1222,6 +1222,10 @@ h6 {
                 }
             }
         }
+        /* Image cover utility class */
+        .imgCover {
+            @include imgCover();
+        }
     }
     .et_pb_login {
         .et_pb_button {

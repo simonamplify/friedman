@@ -188,7 +188,7 @@ function syn_es_version_number_shortcode( $atts ) {
     // Block 1: Parse shortcode attributes (defaults to windows with "Synergy Editor Software " prefix)
     $atts = shortcode_atts( array(
         'os'     => 'windows',                  // 'windows', 'win', 'mac', or 'macos'
-        'prefix' => 'Synergy Editor Software ', // Text prepended before the version number
+        'prefix' => 'Synergy Editor App ', // Text prepended before the version number
         'class'  => '',                         // Optional additional CSS class(es)
     ), $atts, 'syn_es_v' );
 

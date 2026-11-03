@@ -157,3 +157,20 @@
         }
     }
 }
+@mixin imgCover {
+    height: 100% !important;
+    width: 100% !important;
+    position: absolute !important;
+    inset: 0;
+    margin: auto;
+    * {
+        height: 100% !important;
+        width: 100% !important;
+        position: absolute !important;
+        inset: 0;
+        margin: auto;
+        object-fit: cover;
+        transform-origin: center;
+        object-position: center;
+    }
+}
