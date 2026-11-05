@@ -248,9 +248,9 @@ function syn_es_os_compatibility_shortcode( $atts ) {
 
     // Block 3: Return the matching compatibility requirement text
     if ( in_array( $os, array( 'mac', 'macos', 'osx' ), true ) ) {
-        $text = 'Apple MacOS 10.15 or higher';
+        $text = 'Apple MacOS 12 (Monterey) or higher';
     } elseif ( in_array( $os, array( 'windows', 'win' ), true ) ) {
-        $text = 'Windows 7 64-Bit or higher';
+        $text = 'Windows 10 or higher';
     } else {
         return '';
     }
